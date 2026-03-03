@@ -1,0 +1,21 @@
+how-to-guides/troubleshoot/troubleshoot-launch-start-issues.md:274: [redirected with Found] https://askubuntu.com/a/4404 to https://askubuntu.com/questions/4396/how-do-i-mount-a-qcow2-disk-image/4404#4404
+how-to-guides/customise-multipass/integrate-with-windows-terminal.md:4: [redirected permanently] https://aka.ms/terminal to https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=IE
+how-to-guides/customise-multipass/build-multipass-images-with-packer.md:8: [redirected with Found] https://cloudinit.readthedocs.io/en/latest/ to https://docs.cloud-init.io/en/latest/
+how-to-guides/customise-multipass/build-multipass-images-with-packer.md:59: [redirected with Found] https://cloudinit.readthedocs.io/en/latest/reference/modules.html to https://docs.cloud-init.io/en/latest/reference/modules.html
+how-to-guides/troubleshoot/troubleshoot-networking.md:270: [redirected with Found] https://cloudinit.readthedocs.io/en/latest/reference/yaml_examples/resolv_conf.html to https://docs.cloud-init.io/en/latest/reference/yaml_examples/resolv_conf.html
+how-to-guides/troubleshoot/troubleshoot-launch-start-issues.md:171: [redirected permanently] https://developer.apple.com/bug-reporting/ to https://developer.apple.com/feedback-assistant/
+reference/command-line-interface/launch.md:25: [redirected with Found] https://cloudinit.readthedocs.io/en/latest/topics/examples.html to https://docs.cloud-init.io/en/latest/reference/examples.html
+how-to-guides/manage-instances/create-an-instance.md:118: [redirected with Found] https://cloudinit.readthedocs.io/en/latest/topics/network-config-format-v2.html to https://docs.cloud-init.io/en/latest/reference/network-config-format-v2.html
+reference/release-notes/1.16.0.md:61: [redirected permanently] https://discourse.ubuntu.com/c/project/multipass to https://discourse.ubuntu.com/c/project/multipass/21
+how-to-guides/customise-multipass/set-up-a-graphical-interface.md:18: [redirected permanently] https://discourse.ubuntu.com/t/20439 to https://discourse.ubuntu.com/t/a-simple-gui-shell-for-a-multipass-vm/20439
+contribute-to-multipass-docs.md:55: [redirected permanently] https://discourse.ubuntu.com/t/documentation-office-hours/42771 to https://discourse.ubuntu.com/t/documentation-community-hour/42771
+how-to-guides/customise-multipass/set-up-the-driver.md:142: [redirected permanently] https://docs.microsoft.com/en-us/sysinternals/downloads/psexec to https://learn.microsoft.com/en-us/sysinternals/downloads/psexec
+how-to-guides/troubleshoot/troubleshoot-networking.md:277: [redirected permanently] https://metallb.universe.tf/ to https://metallb.io/
+how-to-guides/manage-instances/run-a-docker-container-in-multipass.md:203: [redirected with Found] https://microk8s.io/ to https://canonical.com/microk8s
+contribute-to-multipass-docs.md:37: [redirected permanently] https://meta.discourse.org/t/supported-formatting-in-posts-markdown-bbcode-and-html/239348 to https://meta.discourse.org/t/formatting-posts-using-markdown-bbcode-and-html/239348
+index.md:101: [redirected with Found] https://ubuntu.com/community/code-of-conduct to https://ubuntu.com/community/docs/ethos/code-of-conduct
+explanation/image.md:18: [redirected with Found] https://ubuntu.com/core/docs/system-requirements to https://documentation.ubuntu.com/core/system-requirements/
+how-to-guides/install-multipass.md:40: [redirected permanently] https://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html to https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html
+reference/command-line-interface/find.md:27: [redirected with See Other] https://launchpad.net/ubuntu/devel to https://launchpad.net/ubuntu/resolute
+contribute-to-multipass-docs.md:55: [redirected with Found] https://www.youtube.com/@UbuntuOnAir to https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2F%40UbuntuOnAir%3Fcbrd%3D1&gl=IE&m=0&pc=yt&cm=2&hl=en-GB&src=1
+how-to-guides/install-multipass.md:20: [broken] https://docs.snapcraft.io/core/install: 404 Client Error: Not Found for url: https://snapcraft.io/docs/core/install/

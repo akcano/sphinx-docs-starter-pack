@@ -1,0 +1,3346 @@
+{
+  "total": 590,
+  "successful": 39,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 0,
+  "redirects": 23,
+  "excludes": 79,
+  "errors": 449,
+  "cached": 3,
+  "success_map": {},
+  "error_map": {
+    "docs/how-to-guides/customise-multipass/migrate-from-hyperkit-to-qemu-on-macos.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/explanation-driver",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/reference-settings-local-driver",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/how-to-guides-customise-multipass-set-up-the-driver",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/reference-command-line-interface-set",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/mount.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/share-data-with-an-instance\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/share-data-with-an-instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/mount\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/mount\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/umount\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/umount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/id-mapping\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/id-mapping' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/share-data-with-an-instance\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/share-data-with-an-instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/explanation/mount.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/share-data-with-an-instance\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/share-data-with-an-instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/mount\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/list.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/info\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/info' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/snapshot\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/snapshot' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/info\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/info' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/explanation/multipass-exec-and-shells.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/exec\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/exec' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/settings/local-passphrase.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/authenticate\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/authenticate' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/authenticate\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/authenticate' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/umount.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/share-data-with-an-instance\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/share-data-with-an-instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/mount\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/mount\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/troubleshoot/mount-an-encrypted-home-folder.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/mount\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/snapshot.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/delete\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/delete' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/restore\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/restore' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/instance-name-format\" (Attribute: Some(\"href\")): Cannot convert path '/reference/instance-name-format' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/list\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/list' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/info\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/info' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/explanation/id-mapping.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/mount\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/share-data-with-an-instance\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/share-data-with-an-instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/mount\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/launch-customized-instances-with-multipass-and-cloud-init.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-use-instance-command-aliases",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/purge.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/recover\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/recover' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/delete\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/delete' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/explanation/settings-keys-values.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/add-a-network-to-an-existing-instance.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-settings-local-instance-name-bridged",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-start",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-set",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-get",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-networks",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-stop",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/share-data-with-an-instance.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-umount",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-transfer",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-mount",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-launch",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/explanation-id-mapping",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/networks.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/list\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/list' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/driver\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/driver' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/customise-multipass/set-up-the-driver\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/customise-multipass/set-up-the-driver' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/use-instance-command-aliases.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/explanation-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-unalias",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-aliases",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-alias",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-prefer",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/explanation-alias",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/index.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/service\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/service' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/settings/client-primary-name.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/launch.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/instance-name-format\" (Attribute: Some(\"href\")): Cannot convert path '/reference/instance-name-format' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/find\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/find' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/prefer.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/alias\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/alias' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/unalias\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/unalias' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/alias\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/alias' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/use-instance-command-aliases\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/use-instance-command-aliases' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/suspend.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/start\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/start' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/settings/index.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-memory",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-passphrase",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-disk",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-cpus",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/client-apps-windows-terminal-profiles",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/gui-client\" (Attribute: Some(\"href\")): Cannot convert path '/reference/gui-client' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/gui-client\" (Attribute: Some(\"href\")): Cannot convert path '/reference/gui-client' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-snapshot-name-comment",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-snapshot-name-name",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/client-primary-name",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-privileged-mounts",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-bridged",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-bridged-network",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-driver",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/settings-keys-values\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/settings-keys-values' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/customise-multipass/integrate-with-windows-terminal.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/reference-settings-client-apps-windows-terminal-profiles",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/explanation/driver.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/mount\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-driver\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-driver' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-driver\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-driver' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/customise-multipass/set-up-the-driver\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/customise-multipass/set-up-the-driver' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/customise-multipass/migrate-from-hyperkit-to-qemu-on-macos\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/customise-multipass/migrate-from-hyperkit-to-qemu-on-macos' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/platform\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/platform' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/settings/local-instance-name-memory.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/settings/local-instance-name-disk.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/release-notes/1.16.0.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/release-notes/explanation-blueprint",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/settings/client-apps-windows-terminal-profiles.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/customise-multipass/integrate-with-windows-terminal\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/customise-multipass/integrate-with-windows-terminal' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/explanation/image.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/find\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/find' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/configure-static-ips.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/explanation-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/explanation/snapshot.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/delete\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/delete' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/restore\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/restore' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/list\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/list' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/info\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/info' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/snapshot\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/snapshot' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/troubleshoot/access-logs.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/customise-multipass/configure-multipass-default-logging-level\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/customise-multipass/configure-multipass-default-logging-level' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/logging-levels\" (Attribute: Some(\"href\")): Cannot convert path '/reference/logging-levels' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/gui-client\" (Attribute: Some(\"href\")): Cannot convert path '/reference/gui-client' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/settings/local-instance-name-cpus.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/index.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-customise-multipass-configure-multipass-default-logging-level",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-platform",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-customise-multipass-set-up-the-driver",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-troubleshoot-troubleshoot-networking",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-snapshot",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-customise-multipass-use-a-different-terminal-from-the-system-icon",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-authentication",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-manage-instances-add-a-network-to-an-existing-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-mount",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-service",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-customise-multipass-build-multipass-images-with-packer",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-manage-instances-create-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-customise-multipass-configure-where-multipass-stores-external-data",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-manage-instances-launch-customized-instances-with-multipass-and-cloud-init",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-manage-instances-use-the-primary-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-manage-instances-modify-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference-instance-name-format",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-customise-multipass-integrate-with-windows-terminal",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference-settings-index",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-manage-instances-use-instance-command-aliases",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference-logging-levels",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-image",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference-instance-states",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-manage-instances-configure-static-ips",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-troubleshoot-troubleshoot-launch-start-issues",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-driver",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference-command-line-interface-index",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-manage-instances-share-data-with-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-reference-architecture",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-troubleshoot-mount-an-encrypted-home-folder",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-install-multipass",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/tutorial-index",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-customise-multipass-migrate-from-hyperkit-to-qemu-on-macos",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-customise-multipass-set-up-a-graphical-interface",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-id-mapping",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-about-performance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-host",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-troubleshoot-access-logs",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-customise-multipass-authenticate-users-with-the-multipass-service",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-alias",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference-gui-client",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-settings-keys-values",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-manage-instances-remove-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-multipass-exec-and-shells",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-manage-instances-use-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation-about-security",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides-manage-instances-run-a-docker-container-in-multipass",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/settings/local-instance-name-snapshot-name-name.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/instance-name-format\" (Attribute: Some(\"href\")): Cannot convert path '/reference/instance-name-format' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/snapshot\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/snapshot' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/settings/local-bridged-network.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-instance-name-bridged\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-instance-name-bridged' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/networks\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/networks' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/networks\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/networks' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/add-a-network-to-an-existing-instance\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/add-a-network-to-an-existing-instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/unalias.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/use-instance-command-aliases\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/use-instance-command-aliases' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/alias\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/alias' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/alias\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/alias' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/index.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-use-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-add-a-network-to-an-existing-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-run-a-docker-container-in-multipass",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-remove-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-use-the-primary-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-create-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-use-instance-command-aliases",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-configure-static-ips",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-launch-customized-instances-with-multipass-and-cloud-init",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-share-data-with-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-modify-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/how-to-guides/customise-multipass/use-a-different-terminal-from-the-system-icon.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/reference-command-line-interface-shell",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/how-to-guides-install-multipass",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/index.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/index",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/gui-client",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/instance-states",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/logging-levels",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/instance-name-format",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/start.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/suspend\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/suspend' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/stop\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/stop' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/restart\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/restart' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/explanation/index.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-mount",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-about-performance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-authentication",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-blueprint",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-host",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-alias",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-settings-keys-values",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-snapshot",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-image",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-reference-architecture",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-service",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-id-mapping",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-driver",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-about-security",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-multipass-exec-and-shells",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/explanation-platform",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/explanation/platform.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/host\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/host' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-driver\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-driver' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/client-apps-windows-terminal-profiles\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/client-apps-windows-terminal-profiles' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-privileged-mounts\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-privileged-mounts' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/driver\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/driver' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/mount\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/install-multipass\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/install-multipass' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/networks\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/networks' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/umount\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/umount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/explanation/alias.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/use-instance-command-aliases\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/use-instance-command-aliases' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/alias\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/alias' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/logging-levels.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/troubleshoot/access-logs\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/troubleshoot/access-logs' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/customise-multipass/configure-multipass-default-logging-level\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/customise-multipass/configure-multipass-default-logging-level' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/troubleshoot/troubleshoot-launch-start-issues.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/snapshot\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/snapshot' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/troubleshoot/troubleshoot-networking\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/troubleshoot/troubleshoot-networking' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/tutorial/index.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/install-multipass\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/install-multipass' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/index\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/index\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/get.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/help.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/find.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/explanation/service.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/gui-client\" (Attribute: Some(\"href\")): Cannot convert path '/reference/gui-client' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/gui-client\" (Attribute: Some(\"href\")): Cannot convert path '/reference/gui-client' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/exec.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/use-instance-command-aliases\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/use-instance-command-aliases' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/multipass-exec-and-shells\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/multipass-exec-and-shells' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/recover.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/purge\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/purge' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/delete\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/delete' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/use-a-blueprint.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-launch",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-find",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/wait-ready.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/reference-command-line-interface-start",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/reference-command-line-interface-launch",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/settings/local-instance-name-bridged.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-bridged-network\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-bridged-network' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-bridged-network\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-bridged-network' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/add-a-network-to-an-existing-instance\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/add-a-network-to-an-existing-instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/use-an-instance.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-shell",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-exec",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-suspend",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/explanation-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-start",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-stop",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/gui-client.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/troubleshoot/access-logs\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/troubleshoot/access-logs' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/service\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/service' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/clone.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/instance-name-format\" (Attribute: Some(\"href\")): Cannot convert path '/reference/instance-name-format' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/settings/client-gui-autostart.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/gui-client\" (Attribute: Some(\"href\")): Cannot convert path '/reference/gui-client' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/create-an-instance.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/explanation-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-launch",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-networks",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-find",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-info",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-manage-instances-use-the-primary-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/settings/local-privileged-mounts.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/mount\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/mount\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/mount\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/explanation/instance.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/start\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/start' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/suspend\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/suspend' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/restart\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/restart' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/instance-states\" (Attribute: Some(\"href\")): Cannot convert path '/reference/instance-states' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/client-primary-name\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/client-primary-name' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/mount\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/shell\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/shell' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/index\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/instance-name-format\" (Attribute: Some(\"href\")): Cannot convert path '/reference/instance-name-format' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/stop\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/stop' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/customise-multipass/configure-multipass-default-logging-level.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/reference-logging-levels",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/run-a-docker-container-in-multipass.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/how-to-guides-install-multipass",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/how-to-guides/troubleshoot/index.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/access-logs",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/troubleshoot-networking",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/troubleshoot-launch-start-issues",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/mount-an-encrypted-home-folder",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/how-to-guides/customise-multipass/index.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/how-to-guides-customise-multipass-use-a-different-terminal-from-the-system-icon",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/how-to-guides-customise-multipass-build-multipass-images-with-packer",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/how-to-guides-customise-multipass-configure-multipass-default-logging-level",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/how-to-guides-customise-multipass-configure-where-multipass-stores-external-data",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/how-to-guides-customise-multipass-integrate-with-windows-terminal",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/how-to-guides-customise-multipass-set-up-a-graphical-interface",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/how-to-guides-customise-multipass-migrate-from-hyperkit-to-qemu-on-macos",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/how-to-guides-customise-multipass-set-up-the-driver",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/how-to-guides-customise-multipass-authenticate-users-with-the-multipass-service",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/explanation/blueprint.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/use-a-blueprint\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/use-a-blueprint' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/find\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/find' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/settings/local-instance-name-snapshot-name-comment.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/snapshot\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/snapshot' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/instance-states.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/index.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/how-to-guides-customise-multipass-authenticate-users-with-the-multipass-service",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/use-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/mount-an-encrypted-home-folder",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/set-up-a-graphical-interface",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/launch-customized-instances-with-multipass-and-cloud-init",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/access-logs",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/build-multipass-images-with-packer",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/configure-multipass-default-logging-level",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/use-a-blueprint",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/migrate-from-hyperkit-to-qemu-on-macos",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/modify-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/install-multipass",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/use-a-different-terminal-from-the-system-icon",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/troubleshoot-launch-start-issues",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/integrate-with-windows-terminal",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/configure-where-multipass-stores-external-data",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/use-the-primary-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/configure-static-ips",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/run-a-docker-container-in-multipass",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/create-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/add-a-network-to-an-existing-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/troubleshoot-networking",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/use-instance-command-aliases",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/share-data-with-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/set-up-the-driver",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/remove-an-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/settings/client-gui-hotkey.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/gui-client\" (Attribute: Some(\"href\")): Cannot convert path '/reference/gui-client' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/delete.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/recover\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/recover' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/purge\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/purge' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/purge\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/purge' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/authenticate.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-passphrase\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-passphrase' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/authentication\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/authentication' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/how-to-guides-customise-multipass-authenticate-users-with-the-multipass-service",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/use-the-primary-instance.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-shell",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-start",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-settings-client-primary-name",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-launch",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-mount",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/explanation-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/modify-an-instance.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-settings-index",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-launch",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-settings-local-instance-name-disk",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-settings-client-primary-name",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-set",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-settings-local-instance-name-memory",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/explanation-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-settings-local-instance-name-cpus",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/instance-name-format.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/instance-states\" (Attribute: Some(\"href\")): Cannot convert path '/reference/instance-states' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/restore.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/snapshot\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/snapshot' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/list\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/list' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/info\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/info' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/snapshot\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/snapshot' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/delete\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/delete' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/settings/local-driver.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/driver\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/driver' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/customise-multipass/set-up-the-driver\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/customise-multipass/set-up-the-driver' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/explanation/authentication.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/how-to-guides-customise-multipass-authenticate-users-with-the-multipass-service",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/explanation/about-performance.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/instance\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/instance' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/host\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/host' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/alias.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/use-instance-command-aliases\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/use-instance-command-aliases' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/alias\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/alias' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/customise-multipass/authenticate-users-with-the-multipass-service.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/reference-settings-local-passphrase",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/explanation-service",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/reference-command-line-interface-authenticate",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/set.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/get\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/get' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/index\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/index' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/explanation/about-security.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-passphrase\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-passphrase' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/how-to-guides-customise-multipass-authenticate-users-with-the-multipass-service",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/authenticate\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/authenticate' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/authentication\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/authentication' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/authenticate\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/authenticate' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-passphrase\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-passphrase' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/manage-instances/remove-an-instance.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-delete",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-purge",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/explanation-instance",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/reference-command-line-interface-recover",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/stop.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/start\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/start' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/info.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-instance-name-snapshot-name-name\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-instance-name-snapshot-name-name' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-instance-name-cpus\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-instance-name-cpus' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-instance-name-cpus\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-instance-name-cpus' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-instance-name-disk\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-instance-name-disk' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/mount\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/snapshot\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/snapshot' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-instance-name-disk\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-instance-name-disk' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/instance-states\" (Attribute: Some(\"href\")): Cannot convert path '/reference/instance-states' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-instance-name-memory\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-instance-name-memory' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/mount\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/mount' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/snapshot\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/snapshot' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/set\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/set' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-instance-name-snapshot-name-comment\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-instance-name-snapshot-name-comment' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/command-line-interface/launch\" (Attribute: Some(\"href\")): Cannot convert path '/reference/command-line-interface/launch' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/reference/settings/local-instance-name-memory\" (Attribute: Some(\"href\")): Cannot convert path '/reference/settings/local-instance-name-memory' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/reference/release-notes/index.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/release-notes/1.16.1",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      },
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/release-notes/1.16.0",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/reference/command-line-interface/aliases.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/explanation/alias\" (Attribute: Some(\"href\")): Cannot convert path '/explanation/alias' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/manage-instances/use-instance-command-aliases\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/manage-instances/use-instance-command-aliases' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ],
+    "docs/how-to-guides/troubleshoot/troubleshoot-networking.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/how-to-guides/troubleshoot/troubleshoot-launch-start-issues\" (Attribute: Some(\"href\")): Cannot convert path '/how-to-guides/troubleshoot/troubleshoot-launch-start-issues' to a URI",
+          "details": "To resolve root-relative links in local files, provide a root dir"
+        }
+      }
+    ]
+  },
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {},
+  "duration_secs": 6,
+  "detailed_stats": false
+}

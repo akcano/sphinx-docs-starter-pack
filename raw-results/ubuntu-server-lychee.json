@@ -1,0 +1,336 @@
+{
+  "total": 881,
+  "successful": 754,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 3,
+  "redirects": 29,
+  "excludes": 58,
+  "errors": 37,
+  "cached": 105,
+  "success_map": {},
+  "error_map": {
+    "docs/how-to/virtualisation/intel-tdx.md": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/developer/tools/trust-domain-extensions/overview.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://cc-enabling.trustedservices.intel.com/intel-tdx-enabling-guide/04/hardware_setup/#deploy-specific-intel-tdx-module-version",
+        "status": {
+          "text": "Timeout"
+        }
+      }
+    ],
+    "docs/how-to/storage/iscsi-initiator-or-client.md": [
+      {
+        "url": "https://en.wikipedia.org/wiki/SCSI_CDB",
+        "status": {
+          "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+          "code": 404
+        }
+      }
+    ],
+    "docs/explanation/networking/configuring-networks.md": [
+      {
+        "url": "https://netplan.io/faq/",
+        "status": {
+          "text": "Rejected status code: 500 Internal Server Error (configurable with \"accept\" option)",
+          "code": 500
+        }
+      }
+    ],
+    "docs/explanation/crypto/openssl.md": [
+      {
+        "url": "https://git.launchpad.net/ubuntu/+source/openssl/tree/debian/rules?h=ubuntu/jammy-devel#n15",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable (configurable with \"accept\" option)",
+          "code": 503
+        }
+      }
+    ],
+    "docs/explanation/crypto/gnutls.md": [
+      {
+        "url": "https://git.launchpad.net/ubuntu/+source/gnutls28/tree/debian/rules?h=ubuntu/jammy-devel#n38",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable (configurable with \"accept\" option)",
+          "code": 503
+        }
+      }
+    ],
+    "docs/explanation/security/openvpn-client-implementations.md": [
+      {
+        "url": "https://community.openvpn.net/openvpn/wiki/Easy_Windows_Guide",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      }
+    ],
+    "docs/explanation/intro-to/databases.md": [
+      {
+        "url": "https://www.mysql.com/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      }
+    ],
+    "docs/explanation/crypto/network-security-services-nss.md": [
+      {
+        "url": "https://git.launchpad.net/ubuntu/+source/nss/tree/nss/tests/policy",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable (configurable with \"accept\" option)",
+          "code": 503
+        }
+      },
+      {
+        "url": "https://git.launchpad.net/ubuntu/+source/nss/tree/nss/tests/ssl/sslpolicy.txt",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable (configurable with \"accept\" option)",
+          "code": 503
+        }
+      },
+      {
+        "url": "https://git.launchpad.net/ubuntu/+source/nss/tree/nss/lib/pk11wrap/pk11pars.c#n144",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable (configurable with \"accept\" option)",
+          "code": 503
+        }
+      }
+    ],
+    "docs/how-to/software/automatic-updates.md": [
+      {
+        "url": "https://www.freedesktop.org/software/polkit/docs/latest/polkit.8.html",
+        "status": {
+          "text": "Rejected status code: 418 I'm a teapot (configurable with \"accept\" option)",
+          "code": 418
+        }
+      }
+    ],
+    "docs/explanation/crypto/java-cryptography-configuration.md": [
+      {
+        "url": "https://www.java.com/en/configure_crypto.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://git.launchpad.net/ubuntu/+source/openjdk-lts/tree/src/java.base/share/conf/security/java.security/#n520",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable (configurable with \"accept\" option)",
+          "code": 503
+        }
+      },
+      {
+        "url": "https://git.launchpad.net/ubuntu/+source/openjdk-lts/tree/src/java.base/share/conf/security/java.security?h=applied/ubuntu/jammy-devel#n520",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable (configurable with \"accept\" option)",
+          "code": 503
+        }
+      }
+    ],
+    "docs/how-to/containers/run-rocks-on-your-server.md": [
+      {
+        "url": "http://localhost:3000/",
+        "status": {
+          "text": "Network error: Connection refused - server may be down or port blocked (error sending request for url (http://localhost:3000/))",
+          "details": "Connection refused - server may be down or port blocked"
+        }
+      },
+      {
+        "url": "http://prometheus:9090/",
+        "status": {
+          "text": "Timeout"
+        }
+      }
+    ],
+    "docs/how-to/databases/install-mysql.md": [
+      {
+        "url": "https://dev.mysql.com/doc/mysql-secure-deployment-guide/8.0/en/secure-deployment-user-accounts.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://dev.mysql.com/doc/refman/8.4/en/glossary.html#glos_logical_backup",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-utilities-load-dump.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://dev.mysql.com/doc/mysql-shell/8.4/en/mysql-shell-utilities-dump-instance-schema.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://dev.mysql.com/doc/refman/8.0/en/myisam-storage-engine.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://www.mysql.com/",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://dev.mysql.com/doc/refman/8.4/en/glossary.html#glos_physical_backup",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://dev.mysql.com/doc/mysql-secure-deployment-guide/8.0/en/secure-deployment-configure-authentication.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://dev.mysql.com/doc/refman/8.4/en/mysqldump.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://www.mysql.com/products/enterprise/backup.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://dev.mysql.com/doc/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      }
+    ],
+    "docs/how-to/security/apparmor.md": [
+      {
+        "url": "https://en.opensuse.org/SDB:AppArmor_geeks",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      }
+    ],
+    "docs/explanation/crypto/openssh-crypto-configuration.md": [
+      {
+        "url": "https://git.launchpad.net/ubuntu/+source/openssh/tree/debian/patches/gssapi.patch",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable (configurable with \"accept\" option)",
+          "code": 503
+        }
+      }
+    ],
+    "docs/how-to/kerberos/kerberos-with-openldap-backend.md": [
+      {
+        "url": "https://krbdev.mit.edu/rt/Ticket/Display.html?id=7754#",
+        "status": {
+          "text": "Network error: SSL certificate not trusted. Use --insecure if site is trusted (error sending request for url (https://krbdev.mit.edu/rt/Ticket/Display.html?id=7754#))",
+          "details": "SSL certificate not trusted. Use --insecure if site is trusted"
+        }
+      }
+    ],
+    "docs/explanation/multipath/configuring-multipath.md": [
+      {
+        "url": "file:///home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/multipath/introduction-to-multipath",
+        "status": {
+          "text": "Cannot find file",
+          "details": "File not found. Check if file exists and path is correct"
+        }
+      }
+    ],
+    "docs/how-to/wireguard-vpn/vpn-as-the-default-gateway.md": [
+      {
+        "url": "https://dnsleaktest.com/",
+        "status": {
+          "text": "Timeout"
+        }
+      }
+    ],
+    "docs/how-to/networking/serve-ntp-with-chrony.md": [
+      {
+        "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.service.html",
+        "status": {
+          "text": "Rejected status code: 418 I'm a teapot (configurable with \"accept\" option)",
+          "code": 418
+        }
+      },
+      {
+        "url": "https://www.freedesktop.org/software/systemd/man/latest/timedatectl.html",
+        "status": {
+          "text": "Rejected status code: 418 I'm a teapot (configurable with \"accept\" option)",
+          "code": 418
+        }
+      }
+    ],
+    "docs/explanation/intro-to/crypto-libraries.md": [
+      {
+        "url": "https://git.launchpad.net/ubuntu/+source/rclone/tree/debian/control?h=ubuntu/jammy-devel#n7",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable (configurable with \"accept\" option)",
+          "code": 503
+        }
+      }
+    ],
+    "docs/how-to/security/install-openvpn.md": [
+      {
+        "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.unit.html",
+        "status": {
+          "text": "Rejected status code: 418 I'm a teapot (configurable with \"accept\" option)",
+          "code": 418
+        }
+      },
+      {
+        "url": "https://git.launchpad.net/ubuntu/+source/openvpn/tree/sample/sample-config-files/server.conf",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable (configurable with \"accept\" option)",
+          "code": 503
+        }
+      },
+      {
+        "url": "https://git.launchpad.net/ubuntu/+source/openvpn/tree/sample/sample-config-files/client.conf",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable (configurable with \"accept\" option)",
+          "code": 503
+        }
+      }
+    ]
+  },
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {},
+  "duration_secs": 83,
+  "detailed_stats": false
+}

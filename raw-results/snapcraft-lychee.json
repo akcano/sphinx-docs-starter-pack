@@ -1,0 +1,81 @@
+{
+  "total": 528,
+  "successful": 147,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 1,
+  "redirects": 50,
+  "excludes": 324,
+  "errors": 6,
+  "cached": 23,
+  "success_map": {},
+  "error_map": {
+    "docs/how-to/crafting/reuse-packages-between-builds.rst": [
+      {
+        "url": "http://package-cache.lxd:3128/",
+        "status": {
+          "text": "Timeout"
+        }
+      }
+    ],
+    "docs/how-to/integrations/craft-a-pre-built-app.rst": [
+      {
+        "url": "http://cdn.geekbench.com/Geekbench-$SNAPCRAFT_PROJECT_VERSION-Linux.tar.gz",
+        "status": {
+          "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+          "code": 404
+        }
+      }
+    ],
+    "docs/how-to/crafting/specify-a-base.rst": [
+      {
+        "url": "https://snapcraft.io/docs/snapcraft-esm",
+        "status": {
+          "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+          "code": 404
+        }
+      }
+    ],
+    "docs/reference/external-package-information.rst": [
+      {
+        "url": "http://github.com/example/sampleapp.git",
+        "status": {
+          "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+          "code": 404
+        }
+      }
+    ],
+    "docs/release-notes/snapcraft-8-7.rst": [
+      {
+        "url": "https://www.freedesktop.org/wiki/Software/pkg-config/",
+        "status": {
+          "text": "Rejected status code: 418 I'm a teapot (configurable with \"accept\" option)",
+          "code": 418
+        }
+      }
+    ],
+    "docs/reference/bases.rst": [
+      {
+        "url": "https://snapcraft.io/docs/snapcraft-esm",
+        "status": {
+          "text": "Error (cached)",
+          "code": 404
+        }
+      }
+    ],
+    "docs/how-to/integrations/craft-an-electron-app.rst": [
+      {
+        "url": "https://dl.discordapp.net/apps/linux/$%7BSNAPCRAFT_PROJECT_VERSION%7D/discord-$%7BSNAPCRAFT_PROJECT_VERSION%7D.deb",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden (configurable with \"accept\" option)",
+          "code": 403
+        }
+      }
+    ]
+  },
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {},
+  "duration_secs": 52,
+  "detailed_stats": false
+}

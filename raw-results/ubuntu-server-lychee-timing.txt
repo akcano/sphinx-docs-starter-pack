@@ -1,0 +1,6 @@
+   [ERROR] failed to verify TLS certificate: invalid peer certificate: UnknownIssuer
+    [WARN] lychee detected 29 redirects. You might want to consider replacing redirecting URLs with the resolved URLs. Run lychee in verbose mode (-v/--verbose) to see details about the redirections.
+
+real	1m33.262s
+user	0m0.426s
+sys	0m0.324s

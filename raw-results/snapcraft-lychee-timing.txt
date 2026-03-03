@@ -1,0 +1,6 @@
+    [WARN] There were issues with GitHub URLs. You could try setting a GitHub token and running lychee again.
+    [WARN] lychee detected 50 redirects. You might want to consider replacing redirecting URLs with the resolved URLs. Run lychee in verbose mode (-v/--verbose) to see details about the redirections.
+
+real	1m2.798s
+user	0m0.182s
+sys	0m0.091s

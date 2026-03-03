@@ -1,0 +1,34 @@
+# lychee.toml — Lychee link checker configuration
+# Baseline config for Canonical Starter Pack evaluation
+# Version: lychee v0.23.0 (snap stable)
+
+# Runtime (CONF-04: max_concurrency=8 prevents thundering-herd rate limiting)
+max_retries = 3
+max_concurrency = 8
+timeout = 20
+
+# Request (CONF-03: browser-like user-agent reduces bot-blocking false positives)
+user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+
+# Accept 429 as non-broken so rate-limited URLs are distinguished from dead links (CONF-05)
+accept = ["100..=103", "200..=299", "429"]
+
+# File extensions — rst is NOT in lychee defaults (CONF-06)
+extensions = ["md", "rst"]
+
+# GitHub token: lychee auto-reads GITHUB_TOKEN env var (CONF-02)
+# Do NOT put a literal token value here — rely on the environment variable
+
+# Exclude patterns translated from docs/conf.py linkcheck_ignore (CONF-01)
+# Python regex → Rust regex; anchored with ^ for clarity; dots escaped
+exclude = [
+    "^http://127\\.0\\.0\\.1",
+    "^http://localhost",
+    "^https://github\\.com",
+    "^https://matrix\\.to/",
+    "^https://example\\.com",
+    "^https://.*\\.sourceforge\\.(net|io)/",
+    # git.launchpad.net returns 503 for all automated requests (access throttling, not server failure)
+    # Confirmed false-positive across ubuntu-server-documentation evaluation (9 occurrences)
+    "^https://git\\.launchpad\\.net/",
+]

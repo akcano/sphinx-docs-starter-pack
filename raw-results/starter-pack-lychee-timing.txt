@@ -1,0 +1,5 @@
+    [WARN] lychee detected 8 redirects. You might want to consider replacing redirecting URLs with the resolved URLs. Run lychee in verbose mode (-v/--verbose) to see details about the redirections.
+
+real	0m2.656s
+user	0m0.111s
+sys	0m0.044s

@@ -21,6 +21,7 @@ VALE_CONFIG      ?= $(SPHINX_DIR)/vale.ini
 PA11Y_CMD        ?= $(SPHINX_DIR)/node_modules/pa11y/bin/pa11y.js --config $(SPHINX_DIR)/pa11y.json
 CONFIRM_SUDO     ?= N
 CHECK_PATH       ?= *
+LYCHEE_CONFIG    ?= ../lychee.toml
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -32,6 +33,7 @@ help:
 	@echo "* clean built doc files:                     make clean-doc"
 	@echo "* clean full environment:                    make clean"
 	@echo "* check links:                               make linkcheck"
+	@echo "* check links with lychee:                   make linkcheck LYCHEE=1"
 	@echo "* check markdown:                            make lint-md"
 	@echo "* check spelling:                            make spelling"
 	@echo "* check spelling (without building again):   make spellcheck"
@@ -46,7 +48,7 @@ help:
 .PHONY: help full-help html epub pdf linkcheck spelling spellcheck woke \
         vale pa11y run serve install pa11y-install   \
         vale-install pdf-prep pdf-prep-force clean clean-doc \
-        update lint-md
+        update lint-md lychee-install
 
 full-help: $(DOCS_VENVDIR)
 	@. $(DOCS_VENV); $(SPHINX_BUILD) -M help "$(DOCS_SOURCEDIR)" "$(DOCS_BUILDDIR)" $(SPHINX_OPTS) $(O)
@@ -70,6 +72,47 @@ pa11y-install:
 			echo "Installing \"pa11y\" from npm..."; echo; \
 			mkdir -p $(SPHINX_DIR)/node_modules/ ; \
 			npm install --prefix $(SPHINX_DIR) pa11y; \
+		}
+
+lychee-install:
+	@command -v lychee >/dev/null 2>&1 && { \
+			echo "lychee already installed: $$(lychee --version)"; \
+		} || { \
+			OS=$$(uname -s); \
+			if [ "$$OS" = "Linux" ]; then \
+				echo "Installing lychee via snap..."; \
+				sudo snap install lychee || { \
+					echo "snap failed, trying wget binary fallback..."; \
+					ARCH=$$(uname -m); \
+					TARBALL="lychee-$$ARCH-unknown-linux-gnu.tar.gz"; \
+					wget -q "https://github.com/lycheeverse/lychee/releases/latest/download/$$TARBALL" -O /tmp/$$TARBALL || { \
+						echo "ERROR: Failed to download lychee binary."; \
+						echo "Please install manually from https://github.com/lycheeverse/lychee/releases"; \
+						exit 1; \
+					}; \
+					tar -xzf /tmp/$$TARBALL -C /tmp; \
+					sudo mv /tmp/lychee /usr/local/bin/lychee; \
+					rm -f /tmp/$$TARBALL; \
+					echo "lychee installed via wget binary fallback."; \
+				}; \
+			elif [ "$$OS" = "Darwin" ]; then \
+				echo "Installing lychee via brew..."; \
+				brew install lychee || { \
+					echo "ERROR: brew install failed."; \
+					echo "Please install manually from https://github.com/lycheeverse/lychee/releases"; \
+					exit 1; \
+				}; \
+			else \
+				echo "ERROR: Unsupported OS: $$OS"; \
+				echo "Please install lychee manually from https://github.com/lycheeverse/lychee/releases"; \
+				exit 1; \
+			fi; \
+			BASELINE="0.23.0"; \
+			INSTALLED=$$(lychee --version 2>/dev/null | awk '{print $$2}'); \
+			OLDER=$$(printf '%s\n' "$$BASELINE" "$$INSTALLED" | sort -V | head -1); \
+			if [ "$$OLDER" = "$$INSTALLED" ] && [ "$$INSTALLED" != "$$BASELINE" ]; then \
+				echo "WARNING: Installed lychee $$INSTALLED is older than baseline $$BASELINE — results may differ"; \
+			fi; \
 		}
 
 pymarkdownlnt-install: install
@@ -101,9 +144,20 @@ clean-doc:
 	git clean -fx "$(DOCS_BUILDDIR)"
 	rm -rf $(SPHINX_DIR)/.doctrees
 
-linkcheck: install
+linkcheck: lychee-install
+ifdef LYCHEE
+	@echo "Running lychee link checker..."
+	@mkdir -p $(DOCS_BUILDDIR)
+	@lychee --config $(LYCHEE_CONFIG) $(DOCS_SOURCEDIR) > /tmp/lychee_out.txt 2>&1; \
+		RC=$$?; \
+		cat /tmp/lychee_out.txt | tee $(DOCS_BUILDDIR)/lychee-output.txt; \
+		rm -f /tmp/lychee_out.txt; \
+		exit $$RC
+else
+	$(MAKE) install
 	. $(DOCS_VENV) ; $(SPHINX_BUILD) -b linkcheck -q "$(DOCS_SOURCEDIR)" "$(DOCS_BUILDDIR)" $(SPHINX_OPTS) || { grep --color -F "[broken]" "$(DOCS_BUILDDIR)/output.txt"; exit 1; }
 	exit 0
+endif
 
 pa11y: pa11y-install html
 	find $(DOCS_BUILDDIR) -name *.html -print0 | xargs -n 1 -0 $(PA11Y_CMD)

@@ -1,0 +1,1392 @@
+. .sphinx/venv/bin/activate ; .sphinx/venv/bin/sphinx-build -b linkcheck "." "_build" -c . -d .sphinx/.doctrees -j auto || { grep --color -F "[broken]" "_build/output.txt"; exit 1; }
+Running Sphinx v7.4.7
+loading translations [en]... done
+sphinx_design found.
+sphinx_design is now configured.
+sphinx_tabs.tabs not found.
+sphinx_tabs.tabs will not be configured.
+sphinx_reredirects found.
+sphinx_reredirects is now configured.
+canonical.youtube-links not found.
+canonical.youtube-links will not be configured.
+canonical.related-links not found.
+canonical.related-links will not be configured.
+canonical.custom-rst-roles not found.
+canonical.custom-rst-roles will not be configured.
+canonical.terminal-output not found.
+canonical.terminal-output will not be configured.
+canonical.contributor-listing not found.
+canonical.contributor-listing will not be configured.
+sphinx_copybutton found.
+sphinx_copybutton is now configured.
+sphinxext.opengraph found.
+sphinxext.opengraph is now configured.
+sphinxcontrib.jquery found.
+sphinxcontrib.jquery is now configured.
+notfound.extension found.
+notfound.extension is now configured.
+sphinxcontrib.cairosvgconverter found.
+sphinxcontrib.cairosvgconverter is now configured.
+sphinx_last_updated_by_git found.
+sphinx_last_updated_by_git is now configured.
+matplotlib is not installed, social cards will not be generated
+making output directory... done
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/.sphinx/venv/lib/python3.12/site-packages/sphinx/builders/linkcheck.py:86: RemovedInSphinx80Warning: The default value for 'linkcheck_report_timeouts_as_broken' will change to False in Sphinx 8, meaning that request timeouts will be reported with a new 'timeout' status, instead of as 'broken'. This is intended to provide more detail as to the failure mode. See https://github.com/sphinx-doc/sphinx/issues/11868 for details.
+  warnings.warn(deprecation_msg, RemovedInSphinx80Warning, stacklevel=1)
+myst v4.0.1: MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions={'tasklist', 'linkify', 'fieldlist', 'html_admonition', 'dollarmath', 'deflist', 'substitution', 'colon_fence'}, disable_syntax=[], all_links_external=False, links_external_new_tab=False, url_schemes=('http', 'https', 'mailto', 'ftp'), ref_domains=None, fence_as_directive=set(), number_code_blocks=[], title_to_header=False, heading_anchors=3, heading_slug_func=None, html_meta={}, footnote_sort=True, footnote_transition=True, words_per_minute=200, substitutions={}, linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area', enable_checkboxes=False, suppress_warnings=[], highlight_code_blocks=True)
+loading intersphinx inventory 'starter-pack' from https://canonical-example-product-documentation.readthedocs-hosted.com/en/latest/objects.inv...
+loading intersphinx inventory 'sphinxcontrib-mermaid' from https://sphinxcontrib-mermaid-demo.readthedocs.io/en/latest/objects.inv...
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [linkcheck]: targets for 241 source files that are out of date
+updating environment: [new config] 241 added, 0 changed, 0 removed
+reading sources... [  4%] contributing/contrib-types .. explanation/active-directory/security-identifiers-sids
+reading sources... [  8%] explanation/active-directory/the-autorid-idmap-backend .. explanation/crypto/openssl
+reading sources... [ 12%] explanation/crypto/troubleshooting-tls-ssl .. explanation/intro-to/cloud-init
+reading sources... [ 16%] explanation/intro-to/crypto-libraries .. explanation/intro-to/sssd
+reading sources... [ 20%] explanation/intro-to/virtualisation .. explanation/networking/about-dpdk
+reading sources... [ 24%] explanation/networking/about-netplan .. explanation/performance/perf-tune-tuned
+reading sources... [ 28%] explanation/security .. explanation/software/third-party-repository-usage
+reading sources... [ 32%] explanation/storage .. explanation/virtualisation/vm-tools-in-the-ubuntu-space
+reading sources... [ 36%] explanation/web-services .. how-to/backups/back-up-using-shell-scripts
+reading sources... [ 40%] how-to/backups/install-bacula .. how-to/databases
+reading sources... [ 44%] how-to/databases/install-mysql .. how-to/high-availability
+reading sources... [ 48%] how-to/high-availability/install-drbd .. how-to/installation/netboot-the-server-installer-via-uefi-pxe-on-arm-aarch64-arm64-and-x86-64-amd64
+reading sources... [ 52%] how-to/installation/non-interactive-ibm-z-lpar-autoinstall-s390x .. how-to/mail-services
+reading sources... [ 56%] how-to/mail-services/install-dovecot .. how-to/networking/install-dns
+reading sources... [ 60%] how-to/networking/install-dnssec .. how-to/observability/install-nagios
+reading sources... [ 64%] how-to/observability/set-up-your-lma-stack .. how-to/openldap/replication
+reading sources... [ 68%] how-to/openldap/users-and-groups .. how-to/samba/provision-samba-ad-controller
+reading sources... [ 72%] how-to/samba/share-access-controls .. how-to/security/smart-card-authentication-with-ssh
+reading sources... [ 76%] how-to/security/two-factor-authentication-with-totp-or-hotp .. how-to/software/upgrade-your-release
+reading sources... [ 80%] how-to/sssd .. how-to/virtualisation/cloud-image-vms-with-uvtool
+reading sources... [ 84%] how-to/virtualisation/enable-nested-virtualisation .. how-to/web-services/configure-apache2-settings
+reading sources... [ 88%] how-to/web-services/configure-nginx .. how-to/wireguard-vpn/common-tasks
+reading sources... [ 92%] how-to/wireguard-vpn/on-an-internal-system .. reference/high-availability
+reading sources... [ 96%] reference/high-availability/migrate-from-crmsh-to-pcs .. tutorial/index
+reading sources... [100%] tutorial/managing-software
+
+getting Git timestamps for source files... [  2%] explanation
+getting Git timestamps for source files... [  5%] explanation/web-services
+getting Git timestamps for source files... [  7%] how-to
+getting Git timestamps for source files... [  9%] how-to/active-directory
+getting Git timestamps for source files... [ 11%] how-to/backups
+getting Git timestamps for source files... [ 14%] explanation/security
+getting Git timestamps for source files... [ 16%] explanation/software
+getting Git timestamps for source files... [ 18%] explanation/intro-to
+getting Git timestamps for source files... [ 20%] explanation/multipath
+getting Git timestamps for source files... [ 23%] explanation/networking
+getting Git timestamps for source files... [ 25%] explanation/storage
+getting Git timestamps for source files... [ 27%] explanation/virtualisation
+getting Git timestamps for source files... [ 30%] how-to/installation
+getting Git timestamps for source files... [ 32%] how-to/kerberos
+getting Git timestamps for source files... [ 34%] how-to/databases
+getting Git timestamps for source files... [ 36%] how-to/debugging
+getting Git timestamps for source files... [ 39%] how-to/graphics
+getting Git timestamps for source files... [ 41%] how-to/openldap
+getting Git timestamps for source files... [ 43%] how-to/samba
+getting Git timestamps for source files... [ 45%] how-to/networking
+getting Git timestamps for source files... [ 48%] how-to/observability
+getting Git timestamps for source files... [ 50%] how-to/containers
+getting Git timestamps for source files... [ 52%] contributing
+getting Git timestamps for source files... [ 55%] explanation/active-directory
+getting Git timestamps for source files... [ 57%] explanation/clouds
+getting Git timestamps for source files... [ 59%] explanation/crypto
+getting Git timestamps for source files... [ 61%] explanation/dnssec
+getting Git timestamps for source files... [ 64%] explanation/high-availability
+getting Git timestamps for source files... [ 66%] explanation/performance
+getting Git timestamps for source files... [ 68%] how-to/high-availability
+getting Git timestamps for source files... [ 70%] how-to/mail-services
+getting Git timestamps for source files... [ 73%] how-to/security
+getting Git timestamps for source files... [ 75%] how-to/sssd
+getting Git timestamps for source files... [ 77%] how-to/storage
+getting Git timestamps for source files... [ 80%] how-to/virtualisation
+getting Git timestamps for source files... [ 82%] how-to/web-services
+getting Git timestamps for source files... [ 84%] how-to/wireguard-vpn
+getting Git timestamps for source files... [ 86%] reference/high-availability
+getting Git timestamps for source files... [ 89%] reference
+getting Git timestamps for source files... [ 91%] reference/installation
+getting Git timestamps for source files... [ 93%] reference/other-tools
+getting Git timestamps for source files... [ 95%] tutorial
+getting Git timestamps for source files... [ 98%] how-to/software
+getting Git timestamps for source files... [100%] .
+
+getting Git timestamps for dependencies... [ 33%] explanation/images
+getting Git timestamps for dependencies... [ 67%] how-to/images
+getting Git timestamps for dependencies... [100%] how-to/virtualisation/notices
+
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/glossary.md:14: WARNING: glossary term must be preceded by empty line
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/glossary.md:66: WARNING: glossary term must be preceded by empty line
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/glossary.md:37: WARNING: glossary term must be preceded by empty line
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/glossary.md:46: WARNING: glossary term must be preceded by empty line
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/glossary.md:15: WARNING: glossary term must be preceded by empty line
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/glossary.md:34: WARNING: glossary term must be preceded by empty line
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/web-services.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/web-services/about-squid-proxy-servers.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/web-services/about-web-servers.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/active-directory.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/active-directory/join-a-domain-with-winbind-preparation.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/active-directory/join-a-forest-with-the-autorid-backend.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/active-directory/join-a-forest-with-the-rid-backend.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/active-directory/join-a-simple-domain-with-the-rid-backend.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/backups.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/backups/back-up-using-shell-scripts.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/security.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/security/certificates.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/security/openvpn-client-implementations.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/security/security_suggestions.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/software.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/software/about-apt-upgrade-and-phased-updates.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/software/advance-testing-of-updates-in-best-practice-server-deployments.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/software/changing-package-files.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/software/config-managers.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/software/third-party-repository-usage.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/virtualisation.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/web-servers.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/wireguard-vpn.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/multipath.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/multipath/common-multipath-tasks-and-procedures.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/multipath/configuring-multipath.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/multipath/multipath-configuration-examples.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/networking.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/networking/about-dhcp.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/networking/about-dpdk.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/storage.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/storage/about-lvm.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/virtualisation.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/virtualisation/about-openstack.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/virtualisation/about-rock-images.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/virtualisation/container-tools-in-the-ubuntu-space.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/virtualisation/docker-storage-networking-and-logging.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/virtualisation/qemu-microvm.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/virtualisation/upgrading-the-machine-type-of-your-vm.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/virtualisation/vm-tools-in-the-ubuntu-space.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/installation/non-interactive-ibm-z-lpar-autoinstall-s390x.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/installation/non-interactive-ibm-z-vm-autoinstall-s390x.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/kerberos.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/kerberos/basic-workstation-authentication.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/kerberos/configure-service-principals.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/kerberos/install-a-kerberos-server.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/kerberos/kerberos-encryption-types.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/kerberos/kerberos-with-openldap-backend.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/kerberos/set-up-secondary-kdc.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/mail-services.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/databases/install-mysql.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/databases/install-postgresql.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/debugging.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/debugging/about-debuginfod.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/debugging/debug-symbol-packages.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/debugging/ebpf.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/graphics.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/graphics/gpu-virtualization-with-qemu-kvm.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/graphics/install-nvidia-drivers.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/high-availability.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/openldap/users-and-groups.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/samba.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/samba/apparmor-profile.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/samba/file-server.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/samba/member-server-in-an-ad-domain.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/samba/mount-cifs-shares-permanently.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/samba/nt4-domain-controller-legacy.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/samba/openldap-backend-legacy.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/samba/print-server.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/samba/provision-samba-ad-controller.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/install-dnssec.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/install-isc-dhcp-server.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/install-isc-kea.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/install-nfs.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/serve-ntp-with-chrony.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/timedatectl-and-timesyncd.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/observability.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/observability/install-logwatch.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/observability/install-munin.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/observability/install-nagios.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/backups/install-bacula.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/backups/install-etckeeper.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/backups/install-gitolite.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/backups/install-rsnapshot.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/containers.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/containers/docker-for-system-admins.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/containers/lxd-containers.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/containers/run-rocks-on-your-server.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/data-and-storage.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/databases.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/contributing/contrib-types.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/contributing/contributors.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/contributing/get-help.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/contributing/index.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/contributing/local-development.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/contributing/writing-guidance.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/active-directory.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/active-directory/choosing-an-integration-method.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/active-directory/identity-mapping-idmap-backends.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/active-directory/security-identifiers-sids.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/active-directory/the-autorid-idmap-backend.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/active-directory/the-rid-idmap-backend.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/clouds.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/clouds/find-cloud-images.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/crypto/bind-9-dnssec-cryptography-selection.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/crypto/gnutls.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/crypto/java-cryptography-configuration.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/crypto/network-security-services-nss.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/crypto/openssh-crypto-configuration.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/crypto/openssl.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/crypto/troubleshooting-tls-ssl.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/cryptography.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/data-and-storage.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/dnssec/dnssec.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/high-availability.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/high-availability/pacemaker-fence-agents.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/high-availability/pacemaker-resource-agents.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/index.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/AD-integration.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/cloud-init.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/crypto-libraries.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/databases.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/high-availability.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/kerberos.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/multipath.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/networking.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/openldap.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/samba.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/security.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/intro-to/sssd.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/networking/about-netplan.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/networking/about-time-synchronisation.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/networking/configuring-networks.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/networking/networking-key-concepts.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/performance.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/performance/perf-p-states.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/performance/perf-pgo.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/performance/perf-tune-cpupower.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/performance/perf-tune-hwloc.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/explanation/performance/perf-tune-tuned.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/high-availability/install-drbd.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/index.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/installation.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/installation/choosing-between-the-arm64-and-arm64-largemem-installer-options.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/installation/how-to-netboot-the-server-installer-on-amd64.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/installation/how-to-start-a-live-server-installation-on-ibm-power-ppc64el-with-a-virtual-cd-rom-and-petitboot.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/installation/interactive-live-server-installation-on-ibm-z-lpar-s390x.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/installation/interactive-live-server-installation-on-ibm-z-vm-s390x.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/installation/netboot-the-live-server-installer-on-ibm-power-ppc64el-with-petitboot.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/installation/netboot-the-server-installer-via-uefi-pxe-on-arm-aarch64-arm64-and-x86-64-amd64.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/mail-services/install-dovecot.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/mail-services/install-exim4.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/mail-services/install-postfix.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/chrony-client.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/cups-print-server.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/dnssec-troubleshooting.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/dpdk-with-open-vswitch.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/ftp.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/networking/install-dns.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/observability/set-up-your-lma-stack.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/observability/use-nagios-with-munin.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/openldap.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/openldap/access-control.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/openldap/backup-and-restore.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/openldap/install-openldap.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/openldap/ldap-and-tls.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/openldap/ldap-saslauthd-authentication-intro.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/openldap/ldap-saslauthd-kerberos.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/openldap/replication.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/samba/share-access-controls.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security/apparmor.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security/console-security.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security/firewalls.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security/install-a-root-ca-certificate-in-the-trust-store.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security/install-openvpn.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security/openssh-server.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security/smart-card-authentication.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security/smart-card-authentication-with-ssh.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/sssd.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/sssd/troubleshooting.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/sssd/with-active-directory.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/sssd/with-ldap.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/sssd/with-ldap-and-kerberos.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/storage.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/storage/iscsi-initiator-or-client.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/storage/manage-logical-volumes.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/virtualisation.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/virtualisation/cloud-image-vms-with-uvtool.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/web-services/configure-nginx.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/web-services/install-a-squid-server.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/web-services/install-apache2.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/web-services/install-nginx.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/web-services/install-php.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/web-services/install-ruby-on-rails.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/web-services/use-apache2-modules.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/web-services/use-nginx-modules.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/wireguard-vpn.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/wireguard-vpn/common-tasks.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/virtualisation/enable-nested-virtualisation.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/virtualisation/intel-tdx.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/virtualisation/libvirt.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/virtualisation/multipass.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/virtualisation/qemu.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/virtualisation/sev-snp.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/virtualisation/ubuntu-on-hyper-v.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/virtualisation/virtual-machine-manager.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/web-services.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/web-services/configure-apache2-settings.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/high-availability/migrate-from-crmsh-to-pcs.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/index.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/installation/system-requirements.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/other-tools.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/other-tools/pam-motd.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/other-tools/sudo-rs.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/other-tools/terminal-multiplexers.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/tutorial/attach-your-ubuntu-pro-subscription.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/tutorial/basic-installation.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/tutorial/index.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/tutorial/managing-software.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security/two-factor-authentication-with-totp-or-hotp.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security/two-factor-authentication-with-u2f-or-fido.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/security/user-management.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/software.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/software/automatic-updates.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/software/kernel-crash-dump.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/software/package-management.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/software/report-a-bug.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/software/snapshot-service.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/software/upgrade-your-release.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/wireguard-vpn/on-an-internal-system.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/wireguard-vpn/peer-to-site.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/wireguard-vpn/peer-to-site-on-router.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/wireguard-vpn/security-tips.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/wireguard-vpn/site-to-site.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/wireguard-vpn/troubleshooting.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/how-to/wireguard-vpn/vpn-as-the-default-gateway.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/index.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/glossary.md: WARNING: Git clone too shallow
+/home/artem.konev@canonical.com/Documents/lychee-test-ubuntu-server-documentation/docs/reference/high-availability.md: WARNING: Git clone too shallow
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying assets: done
+writing output... [  4%] contributing/contributors .. explanation/active-directory/the-autorid-idmap-backend
+writing output... [  8%] explanation/active-directory/the-rid-idmap-backend .. explanation/crypto/troubleshooting-tls-ssl
+writing output... [ 12%] explanation/cryptography .. explanation/intro-to/crypto-libraries
+writing output... [ 17%] explanation/intro-to/databases .. explanation/intro-to/virtualisation
+writing output... [ 21%] explanation/intro-to/web-servers .. explanation/networking/about-netplan
+writing output... [ 25%] explanation/networking/about-time-synchronisation .. explanation/security
+writing output... [ 29%] explanation/security/certificates .. explanation/storage
+writing output... [ 33%] explanation/storage/about-lvm .. explanation/web-services
+writing output... [ 38%] explanation/web-services/about-squid-proxy-servers .. how-to/backups/install-bacula
+writing output... [ 42%] how-to/backups/install-etckeeper .. how-to/databases/install-mysql
+writing output... [ 46%] how-to/databases/install-postgresql .. how-to/high-availability/install-drbd
+writing output... [ 50%] how-to/index .. how-to/installation/non-interactive-ibm-z-lpar-autoinstall-s390x
+writing output... [ 54%] how-to/installation/non-interactive-ibm-z-vm-autoinstall-s390x .. how-to/mail-services/install-dovecot
+writing output... [ 58%] how-to/mail-services/install-exim4 .. how-to/networking/install-dnssec
+writing output... [ 62%] how-to/networking/install-isc-dhcp-server .. how-to/observability/set-up-your-lma-stack
+writing output... [ 67%] how-to/observability/use-nagios-with-munin .. how-to/openldap/users-and-groups
+writing output... [ 71%] how-to/samba .. how-to/samba/share-access-controls
+writing output... [ 75%] how-to/security .. how-to/security/two-factor-authentication-with-totp-or-hotp
+writing output... [ 79%] how-to/security/two-factor-authentication-with-u2f-or-fido .. how-to/sssd
+writing output... [ 83%] how-to/sssd/troubleshooting .. how-to/virtualisation/enable-nested-virtualisation
+writing output... [ 88%] how-to/virtualisation/intel-tdx .. how-to/web-services/configure-nginx
+writing output... [ 92%] how-to/web-services/install-a-squid-server .. how-to/wireguard-vpn/on-an-internal-system
+writing output... [ 96%] how-to/wireguard-vpn/peer-to-site .. reference/high-availability/migrate-from-crmsh-to-pcs
+writing output... [100%] reference/index .. tutorial/managing-software
+
+
+(how-to/containers/lxc-containers: line   -1) -ignored- https://linuxcontainers.org/lxc/documentation/
+(contributing/contrib-types: line   10) -ignored- https://github.com/canonical/ubuntu-server-documentation/issues
+(contributing/contrib-types: line   27) -ignored- https://github.com/canonical/ubuntu-server-documentation/issues?q=is%3Aissue+is%3Aopen+label%3A%22code%3A+technical%22+no%3Aassignee
+(contributing/contrib-types: line   38) -ignored- https://github.com/canonical/ubuntu-server-documentation/issues?q=is%3Aissue+is%3Aopen+label%3A%22code%3A+coding%22+no%3Aassignee
+(contributing/contrib-types: line   53) -ignored- https://github.com/canonical/ubuntu-server-documentation/issues?q=is%3Aissue+is%3Aopen+label%3A%22code%3A+low-code%22+no%3Aassignee
+(contributing/contrib-types: line   86) -ignored- https://github.com/canonical/ubuntu-server-documentation/issues?q=is%3Aissue+is%3Aopen+label%3A%22code%3A+non-code%22+no%3Aassignee
+(contributing/contributors: line   29) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/202
+(contributing/contributors: line   33) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/200
+(contributing/contributors: line   37) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/192
+(contributing/contributors: line   41) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/190
+(contributing/contributors: line   45) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/181
+(contributing/contributors: line   49) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/130
+(contributing/contributors: line   53) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/119
+(contributing/contributors: line   57) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/115
+(contributing/contributors: line   65) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/54
+(contributing/contributors: line   79) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/184
+(contributing/contributors: line   83) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/183
+(contributing/contributors: line   87) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/167
+(contributing/contributors: line   91) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/155
+(contributing/contributors: line   95) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/149
+(contributing/contributors: line   99) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/148
+(contributing/contributors: line  103) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/147
+(contributing/contributors: line  109) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/146
+(contributing/contributors: line  113) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/141
+(contributing/contributors: line  117) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/132
+(contributing/contributors: line  121) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/131
+(contributing/contributors: line  125) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/123
+(contributing/contributors: line  129) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/122
+(contributing/contributors: line  133) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/120
+(contributing/contributors: line  137) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/83
+(contributing/contributors: line  141) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/81
+(contributing/contributors: line  145) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/67
+(contributing/contributors: line  159) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/97
+(contributing/contributors: line  163) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/66
+(contributing/contributors: line  167) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/52
+(contributing/contributors: line  171) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/48
+(contributing/contributors: line  185) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/193
+(contributing/contributors: line  189) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/116
+(contributing/contributors: line  193) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/112
+(contributing/contributors: line  207) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/194
+(contributing/contributors: line  211) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/187
+(contributing/contributors: line  215) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/186
+(contributing/contributors: line  219) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/185
+(contributing/contributors: line  223) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/182
+(contributing/contributors: line  227) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/174
+(contributing/contributors: line  231) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/162
+(contributing/contributors: line  235) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/161
+(contributing/contributors: line  239) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/160
+(contributing/contributors: line  243) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/159
+(contributing/contributors: line  247) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/158
+(contributing/contributors: line  251) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/156
+(contributing/contributors: line  255) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/152
+(contributing/contributors: line  259) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/134
+(contributing/contributors: line  263) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/124
+(contributing/contributors: line  277) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/10
+(contributing/contributors: line  281) -ignored- https://github.com/canonical/ubuntu-server-documentation/pull/9
+(contributing/get-help: line   48) -ignored- https://matrix.to/#/#server:ubuntu.com
+(contributing/get-help: line   49) -ignored- https://matrix.to/#/#documentation:ubuntu.com
+(contributing/index: line   13) -ignored- https://github.com/canonical/ubuntu-server-documentation
+(contributing/index: line   25) -ignored- https://github.com/canonical/open-documentation-academy
+(contributing/local-development: line   20) -ignored- https://github.com/
+(contributing/local-development: line   38) -ignored- https://github.com/canonical/ubuntu-server-documentation/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee
+(contributing/local-development: line  155) -ignored- http://127.0.0.1:8000/
+(contributing/writing-guidance: line   23) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/dpkg.1.html
+(explanation/active-directory/identity-mapping-idmap-backends: line   13) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/idmap_ad.8.html
+(explanation/active-directory/identity-mapping-idmap-backends: line   14) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/idmap_rid.8.html
+(explanation/active-directory/identity-mapping-idmap-backends: line   15) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/idmap_autorid.8.html
+(explanation/active-directory/identity-mapping-idmap-backends: line   19) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/idmap_tdb.8.html
+(explanation/crypto/gnutls: line   81) -ignored- https://git.launchpad.net/ubuntu/+source/gnutls28/tree/debian/rules?h=ubuntu/jammy-devel#n38
+(explanation/crypto/java-cryptography-configuration: line   40) -ignored- https://git.launchpad.net/ubuntu/+source/openjdk-lts/tree/src/java.base/share/conf/security/java.security/#n520
+(explanation/crypto/java-cryptography-configuration: line  258) -ignored- https://www.java.com/en/configure_crypto.html
+(explanation/crypto/java-cryptography-configuration: line  261) -ignored- https://git.launchpad.net/ubuntu/+source/openjdk-lts/tree/src/java.base/share/conf/security/java.security?h=applied/ubuntu/jammy-devel#n520
+(explanation/crypto/network-security-services-nss: line  150) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/certutil.1.html
+(explanation/crypto/network-security-services-nss: line  277) -ignored- https://git.launchpad.net/ubuntu/+source/nss/tree/nss/lib/pk11wrap/pk11pars.c#n144
+(explanation/crypto/network-security-services-nss: line  278) -ignored- https://git.launchpad.net/ubuntu/+source/nss/tree/nss/tests/policy
+(explanation/crypto/network-security-services-nss: line  279) -ignored- https://git.launchpad.net/ubuntu/+source/nss/tree/nss/tests/ssl/sslpolicy.txt
+(explanation/crypto/openssh-crypto-configuration: line   55) -ignored- https://git.launchpad.net/ubuntu/+source/openssh/tree/debian/patches/gssapi.patch
+(explanation/crypto/openssh-crypto-configuration: line   39) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/sshd_config.5.html
+(explanation/crypto/openssh-crypto-configuration: line   39) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/ssh_config.5.html
+(explanation/crypto/openssl: line   16) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5ssl/config.5ssl.html
+(explanation/crypto/openssl: line   51) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man3/SSL_CTX_set_security_level.3.html
+(explanation/crypto/openssl: line   54) -ignored- https://git.launchpad.net/ubuntu/+source/openssl/tree/debian/patches/tls1.2-min-seclevel2.patch?h=ubuntu/jammy-devel
+(explanation/crypto/openssl: line   57) -ignored- https://git.launchpad.net/ubuntu/+source/openssl/tree/debian/rules?h=ubuntu/jammy-devel#n15
+(explanation/crypto/openssl: line   70) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man3/SSL_CONF_cmd.3.html
+(explanation/crypto/troubleshooting-tls-ssl: line   77) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/sslscan.1.html
+(explanation/crypto/troubleshooting-tls-ssl: line   81) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/openssl-s_server.1.html
+(explanation/crypto/troubleshooting-tls-ssl: line   82) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/openssl-s_client.1.html
+(explanation/dnssec/dnssec: line  192) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/resolv.conf.5.html
+(explanation/dnssec/dnssec: line  306) -ignored- https://www.icann.org/resources/pages/dnssec-what-is-it-why-important-2019-03-05-en
+(explanation/dnssec/dnssec: line  308) -ignored- https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities
+(explanation/high-availability/pacemaker-fence-agents: line   37) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/fence_ipmilan.8.html
+(explanation/high-availability/pacemaker-fence-agents: line   37) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/fence_mpath.8.html
+(explanation/high-availability/pacemaker-fence-agents: line   37) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/fence_sbd.8.html
+(explanation/high-availability/pacemaker-fence-agents: line   37) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/fence_scsi.8.html
+(explanation/high-availability/pacemaker-fence-agents: line   37) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/fence_virsh.8.html
+(explanation/high-availability/pacemaker-fence-agents: line  206) -ignored- https://github.com/ClusterLabs/fence-agents/blob/master/doc/FenceAgentAPI.md
+(explanation/high-availability/pacemaker-resource-agents: line   32) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man7/ocf_heartbeat_IPaddr2.7.html
+(explanation/high-availability/pacemaker-resource-agents: line   32) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man7/ocf_heartbeat_iscsi.7.html
+(explanation/high-availability/pacemaker-resource-agents: line   32) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man7/ocf_heartbeat_iSCSILogicalUnit.7.html
+(explanation/high-availability/pacemaker-resource-agents: line   32) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man7/ocf_heartbeat_iSCSITarget.7.html
+(explanation/high-availability/pacemaker-resource-agents: line   32) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man7/ocf_heartbeat_LVM-activate.7.html
+(explanation/high-availability/pacemaker-resource-agents: line  187) -ignored- https://github.com/ClusterLabs/resource-agents/blob/master/doc/dev-guides/ra-dev-guide.asc
+(explanation/intro-to/AD-integration: line   38) -ignored- https://wiki.samba.org/index.php/Setting_up_Samba_as_a_Domain_Member#Choosing_an_idmap_backend
+(explanation/intro-to/AD-integration: line   39) -ignored- https://wiki.samba.org/index.php/Idmap_config_rid
+(explanation/intro-to/AD-integration: line   40) -ignored- https://wiki.samba.org/index.php/Idmap_config_autorid
+(explanation/intro-to/AD-integration: line   45) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/wbinfo.1.html
+(explanation/intro-to/crypto-libraries: line  179) -ignored- https://git.launchpad.net/ubuntu/+source/rclone/tree/debian/control?h=ubuntu/jammy-devel#n7
+(explanation/intro-to/databases: line   10) -ignored- https://www.mysql.com/
+(explanation/intro-to/high-availability: line   11) -ignored- https://en.wikipedia.org/wiki/High-availability_cluster
+(explanation/intro-to/high-availability: line   15) -ignored- https://en.wikipedia.org/wiki/Computer
+(explanation/intro-to/high-availability: line   15) -ignored- https://en.wikipedia.org/wiki/Server_(computing)
+(explanation/intro-to/high-availability: line   15) -ignored- https://en.wikipedia.org/wiki/Application_software
+(explanation/intro-to/high-availability: line   15) -ignored- https://en.wikipedia.org/wiki/High_availability
+(explanation/intro-to/high-availability: line   15) -ignored- https://en.wikipedia.org/wiki/High_availability_software
+(explanation/intro-to/high-availability: line   15) -ignored- https://en.wikipedia.org/wiki/Redundancy_(engineering)
+(explanation/intro-to/high-availability: line   15) -ignored- https://en.wikipedia.org/wiki/Computer_cluster
+(explanation/intro-to/high-availability: line   15) -ignored- https://en.wikipedia.org/wiki/Failover
+(explanation/intro-to/high-availability: line   17) -ignored- https://en.wikipedia.org/wiki/Database_management_system
+(explanation/intro-to/high-availability: line   17) -ignored- https://en.wikipedia.org/wiki/Electronic_commerce
+(explanation/intro-to/high-availability: line   17) -ignored- https://en.wikipedia.org/wiki/Websites
+(explanation/intro-to/high-availability: line   21) -ignored- https://en.wikipedia.org/wiki/Storage_area_network
+(explanation/intro-to/high-availability: line   23) -ignored- https://en.wikipedia.org/wiki/Heartbeat_(computing)
+(explanation/intro-to/high-availability: line   23) -ignored- https://en.wikipedia.org/wiki/Split-brain_(computing)
+(explanation/intro-to/high-availability: line   27) -ignored- https://en.wikipedia.org/wiki/Quorum_(distributed_computing)
+(explanation/intro-to/high-availability: line   60) -ignored- https://github.com/ClusterLabs/resource-agents
+(explanation/intro-to/high-availability: line   61) -ignored- https://github.com/ClusterLabs/fence-agents
+(explanation/intro-to/high-availability: line   62) -ignored- https://github.com/ClusterLabs/crmsh
+(explanation/intro-to/high-availability: line   63) -ignored- https://github.com/ClusterLabs/pcs/
+(explanation/intro-to/high-availability: line   64) -ignored- https://github.com/ClusterLabs/cluster-glue
+(explanation/intro-to/high-availability: line   89) -ignored- https://en.wikipedia.org/wiki/Distributed_Replicated_Block_Device
+(explanation/intro-to/high-availability: line  103) -ignored- https://github.com/ClusterLabs/pcs
+(explanation/intro-to/high-availability: line  104) -ignored- https://github.com/LINBIT/csync2
+(explanation/intro-to/high-availability: line  105) -ignored- https://github.com/corosync/corosync-qdevice
+(explanation/intro-to/high-availability: line  106) -ignored- https://github.com/ClusterLabs/fence-virt
+(explanation/intro-to/high-availability: line  107) -ignored- https://github.com/ClusterLabs/sbd
+(explanation/intro-to/high-availability: line  108) -ignored- https://github.com/ClusterLabs/booth
+(explanation/intro-to/high-availability: line  124) -ignored- https://github.com/markfasheh/ocfs2-tools
+(explanation/intro-to/high-availability: line  132) -ignored- https://github.com/opensvc/multipath-tools
+(explanation/intro-to/high-availability: line  133) -ignored- https://github.com/open-iscsi/open-iscsi
+(explanation/intro-to/high-availability: line  135) -ignored- https://github.com/fujita/tgt
+(explanation/intro-to/high-availability: line  114) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/lvmlockd.8.html
+(explanation/intro-to/samba: line   12) -ignored- https://www.samba.org/
+(explanation/intro-to/wireguard-vpn: line   12) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/ip-route.8.html
+(explanation/intro-to/wireguard-vpn: line   12) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/ip-address.8.html
+(explanation/intro-to/wireguard-vpn: line   22) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/wg.8.html
+(explanation/intro-to/wireguard-vpn: line   22) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/wg-quick.8.html
+(explanation/multipath/configuring-multipath: line   59) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/multipath.conf.5.html
+(explanation/networking/about-dhcp: line   71) -ignored- https://help.ubuntu.com/community/isc-dhcp-server
+(explanation/networking/about-dhcp: line   62) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/dhcpd.conf.5.html
+(explanation/networking/about-dpdk: line  195) -ignored- https://github.com/openvswitch/ovs/blob/master/acinclude.m4#L283
+(explanation/networking/about-dpdk: line  237) -ignored- https://github.com/openvswitch/ovs/blob/branch-2.5/INSTALL.DPDK.md
+(explanation/networking/about-dpdk: line  239) -ignored- https://en.wikipedia.org/wiki/Data_Plane_Development_Kit
+(explanation/networking/about-time-synchronisation: line   20) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/timedatectl.1.html
+(explanation/networking/about-time-synchronisation: line   20) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/systemd-timesyncd.service.8.html
+(explanation/networking/about-time-synchronisation: line   49) -ignored- https://help.ubuntu.com/community/UbuntuTime
+(explanation/networking/configuring-networks: line  334) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/networkd-dispatcher.8.html
+(explanation/networking/configuring-networks: line  408) -ignored- https://help.ubuntu.com/community/Network
+(explanation/networking/configuring-networks: line  396) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/netplan.5.html
+(explanation/networking/configuring-networks: line  396) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/systemd-resolved.8.html
+(explanation/networking/networking-key-concepts: line   42) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man7/tcp.7.html
+(explanation/networking/networking-key-concepts: line   42) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man7/ip.7.html
+(explanation/performance/perf-pgo: line   11) -ignored- https://en.wikipedia.org/wiki/Profile-guided_optimization
+(explanation/performance/perf-pgo: line   27) -ignored- https://github.com/google/autofdo
+(explanation/performance/perf-pgo: line  210) -ignored- https://ubuntu.com/blog/profile-guided-optimization-a-case-study
+(explanation/performance/perf-tune-hwloc: line   10) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/hwloc-info.1.html
+(explanation/performance/perf-tune-hwloc: line   10) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/lstopo.1.html
+(explanation/performance/perf-tune-hwloc: line   10) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man7/hwloc.7.html
+(explanation/performance/perf-tune-hwloc: line   10) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/hwloc-diff.1.html
+(explanation/performance/perf-tune-tuned: line   10) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/tuned.conf.5.html
+(explanation/performance/perf-tune-tuned: line  196) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/tuned-adm.8.html
+(explanation/performance/perf-tune-tuned: line  196) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man7/tuned-profiles.7.html
+(explanation/performance/perf-tune-tuned: line  196) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/tuned.8.html
+(explanation/security/certificates: line  178) -ignored- https://en.wikipedia.org/wiki/HTTPS
+(explanation/security/openvpn-client-implementations: line   31) -ignored- https://openvpn.net/vpn-server-resources/connecting-to-access-server-with-macos/
+(explanation/security/openvpn-client-implementations: line   31) -ignored- https://openvpn.net/as-docs/tutorials/tutorial--connect-with-macos.html
+(explanation/security/openvpn-client-implementations: line   41) -ignored- https://openvpn.net/community/
+(explanation/security/openvpn-client-implementations: line   47) -ignored- https://community.openvpn.net/openvpn/wiki/Easy_Windows_Guide
+(explanation/security/openvpn-client-implementations: line   51) -ignored- https://openvpn.net/
+(explanation/security/openvpn-client-implementations: line   53) -ignored- https://openvpn.net/community-docs/hardening-openvpn-security-178571.html
+(explanation/security/security_suggestions: line   37) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/unattended-upgrades.8.html
+(explanation/security/security_suggestions: line   73) -ignored- https://en.wikipedia.org/wiki/Principle_of_least_privilege
+(explanation/software/about-apt-upgrade-and-phased-updates: line   41) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/apt_preferences.5.html
+(explanation/software/advance-testing-of-updates-in-best-practice-server-deployments: line   55) -ignored- https://help.ubuntu.com/community/ReportingBugs
+(explanation/software/changing-package-files: line  100) -ignored- https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html
+(explanation/software/config-managers: line   43) -ignored- https://en.wikipedia.org/wiki/Comparison_of_open-source_configuration_management_software
+(explanation/storage/about-lvm: line   10) -ignored- https://en.wikipedia.org/wiki/Logical_volume_management
+(explanation/virtualisation/about-openstack: line   36) -ignored- https://www.openstack.org/software/project-navigator/openstack-components#openstack-services
+(explanation/virtualisation/container-tools-in-the-ubuntu-space: line   16) -ignored- https://linuxcontainers.org/
+(explanation/virtualisation/container-tools-in-the-ubuntu-space: line   18) -ignored- https://linuxcontainers.org/lxc/introduction/
+(explanation/virtualisation/container-tools-in-the-ubuntu-space: line   18) -ignored- https://linuxcontainers.org/lxc/getting-started/
+(explanation/virtualisation/qemu-microvm: line   30) -ignored- https://github.com/bonzini/qboot
+(explanation/virtualisation/qemu-microvm: line   49) -ignored- https://github.com/SecureVirtualization/busybox
+(explanation/virtualisation/qemu-microvm: line   68) -ignored- https://github.com/ottomatica/slim
+(explanation/virtualisation/qemu-microvm: line   69) -ignored- https://github.com/containers/krunvm
+(explanation/virtualisation/qemu-microvm: line   84) -ignored- https://github.com/opencontainers/image-spec/blob/main/spec.md
+(explanation/virtualisation/qemu-microvm: line  153) -ignored- https://github.com/tianocore/edk2
+(explanation/virtualisation/qemu-microvm: line  163) -ignored- https://github.com/qemu/qemu/blob/master/docs/system/i386/microvm.rst
+(explanation/virtualisation/qemu-microvm: line  170) -ignored- https://github.com/qemu/qemu/blob/master/docs/system/i386/microvm.rst#running-a-microvm-based-vm
+(explanation/web-services/about-squid-proxy-servers: line   36) -ignored- https://help.ubuntu.com/community/Squid
+(how-to/backups/back-up-using-shell-scripts: line  324) -ignored- https://help.ubuntu.com/community/CronHowto
+(how-to/backups/back-up-using-shell-scripts: line  326) -ignored- http://www.gnu.org/software/tar/manual/index.html
+(how-to/backups/back-up-using-shell-scripts: line  332) -ignored- http://www.gnu.org/software/cpio/
+(how-to/backups/back-up-using-shell-scripts: line  334) -ignored- http://www.gnu.org/software/coreutils/
+(how-to/backups/back-up-using-shell-scripts: line  309) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/rsync.1.html
+(how-to/backups/install-gitolite: line  175) -ignored- https://github.com/sitaramc/gitolite
+(how-to/backups/install-rsnapshot: line   73) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/rsnapshot.1.html
+(how-to/containers/lxd-containers: line   20) -ignored- https://www.youtube.com/c/LXDvideos
+(how-to/containers/lxd-containers: line  241) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/subuid.5.html
+(how-to/containers/lxd-containers: line  263) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/lxc.container.conf.5.html
+(how-to/containers/run-rocks-on-your-server: line  146) -ignored- http://localhost:3000
+(how-to/containers/run-rocks-on-your-server: line  154) -ignored- http://prometheus:9090
+(how-to/databases/install-mysql: line   91) -ignored- https://dev.mysql.com/doc/mysql-secure-deployment-guide/8.0/en/secure-deployment-configure-authentication.html
+(how-to/databases/install-mysql: line  109) -ignored- https://dev.mysql.com/doc/mysql-secure-deployment-guide/8.0/en/secure-deployment-user-accounts.html
+(how-to/databases/install-mysql: line  135) -ignored- https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html
+(how-to/databases/install-mysql: line  135) -ignored- https://dev.mysql.com/doc/refman/8.0/en/myisam-storage-engine.html
+(how-to/databases/install-mysql: line  145) -ignored- https://en.wikipedia.org/wiki/ACID
+(how-to/databases/install-mysql: line  170) -ignored- https://dev.mysql.com/doc/refman/8.4/en/glossary.html#glos_logical_backup
+(how-to/databases/install-mysql: line  190) -ignored- https://dev.mysql.com/doc/refman/8.4/en/mysqldump.html
+(how-to/databases/install-mysql: line  220) -ignored- https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-utilities-load-dump.html
+(how-to/databases/install-mysql: line  230) -ignored- https://dev.mysql.com/doc/mysql-shell/8.4/en/mysql-shell-utilities-dump-instance-schema.html
+(how-to/databases/install-mysql: line  235) -ignored- https://dev.mysql.com/doc/refman/8.4/en/glossary.html#glos_physical_backup
+(how-to/databases/install-mysql: line  235) -ignored- https://www.mysql.com/products/enterprise/backup.html
+(how-to/databases/install-mysql: line  320) -ignored- https://github.com/major/MySQLTuner-perl
+(how-to/databases/install-mysql: line  328) -ignored- https://dev.mysql.com/doc/
+(how-to/debugging/debug-symbol-packages: line   29) -ignored- https://help.ubuntu.com/community/Repositories/Ubuntu#Authentication_Tab
+(how-to/debugging/debug-symbol-packages: line   48) -ignored- https://help.ubuntu.com/community/Repositories/Ubuntu
+(how-to/debugging/debug-symbol-packages: line   48) -ignored- https://help.ubuntu.com/community/Repositories/Ubuntu#Adding_Other_Repositories
+(how-to/debugging/ebpf: line  315) -ignored- https://github.com/iovisor/bcc/issues/1033
+(how-to/debugging/ebpf: line  336) -ignored- https://www.youtube.com/live/byPpJW5l6pg?t=30314s
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line   40) -ignored- https://github.com/intel/gvt-linux/wiki/GVTg_Setup_Guide
+(how-to/high-availability/install-drbd: line   60) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/drbd.conf.5.html
+(how-to/high-availability/install-drbd: line   60) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/drbdadm.8.html
+(how-to/installation/how-to-netboot-the-server-installer-on-amd64: line   24) -ignored- https://wiki.syslinux.org/wiki/index.php?title=PXELINUX
+(how-to/installation/netboot-the-server-installer-via-uefi-pxe-on-arm-aarch64-arm64-and-x86-64-amd64: line   33) -ignored- https://github.com/dannf/ubuntu-server-netboot
+(how-to/kerberos/install-a-kerberos-server: line   54) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/kadm5.acl.5.html
+(how-to/kerberos/kerberos-encryption-types: line  118) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/kdc.conf.5.html
+(how-to/kerberos/kerberos-encryption-types: line  118) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/krb5.conf.5.html
+(how-to/kerberos/kerberos-with-openldap-backend: line   24) -ignored- https://krbdev.mit.edu/rt/Ticket/Display.html?id=7754#
+(how-to/mail-services: line   44) -ignored- https://en.wikipedia.org/wiki/Mbox
+(how-to/mail-services: line   44) -ignored- https://en.wikipedia.org/wiki/Maildir
+(how-to/mail-services/install-dovecot: line   92) -ignored- https://help.ubuntu.com/community/Dovecot
+(how-to/mail-services/install-exim4: line  249) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/cyrus-smtptest.1.html
+(how-to/mail-services/install-exim4: line  401) -ignored- https://help.ubuntu.com/community/Exim4
+(how-to/mail-services/install-postfix: line  368) -ignored- https://help.ubuntu.com/community/Postfix
+(how-to/networking/chrony-client: line   87) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/chrony.conf.5.html
+(how-to/networking/chrony-client: line   87) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/chronyc.1.html
+(how-to/networking/chrony-client: line   87) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/chronyd.8.html
+(how-to/networking/dnssec-troubleshooting: line   16) -ignored- http://dnssec-failed.org
+(how-to/networking/dnssec-troubleshooting: line  304) -ignored- https://www.cyberciti.biz/faq/unix-linux-test-and-validate-dnssec-using-dig-command-line/
+(how-to/networking/dnssec-troubleshooting: line  232) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/delv.1.html
+(how-to/networking/dnssec-troubleshooting: line  232) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/dig.1.html
+(how-to/networking/install-nfs: line   20) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/exports.5.html
+(how-to/networking/install-nfs: line   84) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/nfs.5.html
+(how-to/networking/install-nfs: line   83) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/nfs.conf.5.html
+(how-to/networking/install-nfs: line   83) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/nfsconf.8.html
+(how-to/networking/install-nfs: line   83) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man7/nfs.systemd.7.html
+(how-to/networking/install-nfs: line   83) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/rpc.gssd.8.html
+(how-to/networking/serve-ntp-with-chrony: line  278) -ignored- https://web.archive.org/web/20241130024605/http://networktimesecurity.org/
+(how-to/networking/serve-ntp-with-chrony: line  344) -ignored- https://www.freedesktop.org/software/systemd/man/latest/timedatectl.html
+(how-to/networking/serve-ntp-with-chrony: line  346) -ignored- https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.service.html
+(how-to/observability/install-logwatch: line   11) -ignored- https://sourceforge.net/projects/logwatch/
+(how-to/observability/install-logwatch: line  148) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/logwatch.8.html
+(how-to/observability/install-nagios: line  224) -ignored- https://help.ubuntu.com/community/Nagios3
+(how-to/openldap/access-control: line   40) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/slapd.access.5.html
+(how-to/openldap/install-openldap: line  452) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/slapd-config.5.html
+(how-to/openldap/ldap-saslauthd-kerberos: line   75) -ignored- https://en.wikipedia.org/wiki/Fully_qualified_domain_name
+(how-to/openldap/replication: line  131) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/slapo-syncprov.5.html
+(how-to/openldap/replication: line  272) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/slapo-accesslog.5.html
+(how-to/samba/file-server: line   35) -ignored- https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html
+(how-to/samba/file-server: line   35) -ignored- https://www.samba.org/samba/docs/old/Samba3-HOWTO/
+(how-to/samba/file-server: line  114) -ignored- https://help.ubuntu.com/community/Samba
+(how-to/samba/member-server-in-an-ad-domain: line   15) -ignored- https://wiki.samba.org/index.php/Setting_up_Samba_as_a_Domain_Member
+(how-to/samba/member-server-in-an-ad-domain: line   95) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/smb.conf.5.html
+(how-to/samba/member-server-in-an-ad-domain: line  248) -ignored- https://wiki.samba.org
+(how-to/samba/mount-cifs-shares-permanently: line  174) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/mount.cifs.8.html
+(how-to/samba/nt4-domain-controller-legacy: line  207) -ignored- https://www.samba.org/samba/docs/old/Samba3-HOWTO/samba-pdc.html
+(how-to/samba/nt4-domain-controller-legacy: line  209) -ignored- https://www.samba.org/samba/docs/old/Samba3-HOWTO/samba-bdc.html
+(how-to/samba/openldap-backend-legacy: line  279) -ignored- https://www.samba.org/samba/docs/
+(how-to/samba/openldap-backend-legacy: line  281) -ignored- https://wiki.samba.org/index.php/Main_Page
+(how-to/samba/provision-samba-ad-controller: line   12) -ignored- https://wiki.samba.org/index.php/Setting_up_Samba_as_an_Active_Directory_Domain_Controller#Using_the_Domain_Controller_as_a_File_Server_(Optional)
+(how-to/samba/provision-samba-ad-controller: line  232) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/samba-tool.8.html
+(how-to/samba/share-access-controls: line  107) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/acl.5.html
+(how-to/samba/share-access-controls: line  107) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/setfacl.1.html
+(how-to/samba/share-access-controls: line  121) -ignored- https://www.samba.org/samba/docs/old/Samba3-HOWTO/securing-samba.html
+(how-to/samba/share-access-controls: line  123) -ignored- https://www.samba.org/samba/docs/old/Samba3-HOWTO/AccessControls.html
+(how-to/security/apparmor: line  278) -ignored- https://help.ubuntu.com/community/AppArmor
+(how-to/security/apparmor: line  128) -ignored- https://matrix.to/#/#security:ubuntu.com
+(how-to/security/firewalls: line   18) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/ufw.8.html
+(how-to/security/firewalls: line  153) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/conntrack.8.html
+(how-to/security/firewalls: line  339) -ignored- https://help.ubuntu.com/community/IptablesHowTo
+(how-to/security/install-openvpn: line   92) -ignored- https://git.launchpad.net/ubuntu/+source/openvpn/tree/sample/sample-config-files/client.conf
+(how-to/security/install-openvpn: line   93) -ignored- https://git.launchpad.net/ubuntu/+source/openvpn/tree/sample/sample-config-files/server.conf
+(how-to/security/install-openvpn: line  149) -ignored- https://www.freedesktop.org/software/systemd/man/latest/systemd.unit.html
+(how-to/security/install-openvpn: line  426) -ignored- https://openvpn.net/community-docs/security.html
+(how-to/security/install-openvpn: line  561) -ignored- https://github.com/OpenVPN/easy-rsa/blob/master/README.quickstart.md
+(how-to/security/install-openvpn: line  562) -ignored- https://openvpn.net/as-docs/getting-started.html
+(how-to/security/openssh-server: line   89) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/ssh-agent.1.html
+(how-to/security/openssh-server: line  183) -ignored- https://help.ubuntu.com/community/SSH
+(how-to/security/smart-card-authentication: line   13) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/sssd.conf.5.html
+(how-to/security/smart-card-authentication: line   13) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/sss-certmap.5.html
+(how-to/security/smart-card-authentication: line   13) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/pam.conf.5.html
+(how-to/security/smart-card-authentication: line   13) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/pam_sss.8.html
+(how-to/security/two-factor-authentication-with-totp-or-hotp: line   16) -ignored- https://en.wikipedia.org/wiki/HMAC-based_one-time_password
+(how-to/security/two-factor-authentication-with-totp-or-hotp: line   16) -ignored- https://en.wikipedia.org/wiki/Time-based_one-time_password
+(how-to/security/user-management: line   72) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/sudo.8.html
+(how-to/security/user-management: line   93) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/passwd.5.html
+(how-to/security/user-management: line  101) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/adduser.conf.5.html
+(how-to/security/user-management: line  125) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/nss.5.html
+(how-to/security/user-management: line  125) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/nsswitch.conf.5.html
+(how-to/software/automatic-updates: line   20) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/systemd.timer.5.html
+(how-to/software/automatic-updates: line  218) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/ssmtp.8.html
+(how-to/software/automatic-updates: line  217) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/shutdown.8.html
+(how-to/software/automatic-updates: line  373) -ignored- https://www.freedesktop.org/software/polkit/docs/latest/polkit.8.html
+(how-to/software/automatic-updates: line  304) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/unattended-upgrade.8.html
+(how-to/software/package-management: line   61) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man8/aptitude-curses.8.html
+(how-to/software/package-management: line  267) -ignored- https://help.ubuntu.com/community/InstallingSoftware
+(how-to/software/package-management: line  239) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/systemd.1.html
+(how-to/software/report-a-bug: line   18) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/update-alternatives.1.html
+(how-to/software/snapshot-service: line  318) -ignored- https://ubuntu.com/blog/securing-multiple-ubuntu-instances-while-maximising-uptime
+(how-to/software/snapshot-service: line  319) -ignored- https://ubuntu.com/blog/integrating-the-ubuntu-snapshot-service-into-systems-management-and-update-tools
+(how-to/sssd/with-active-directory: line  306) -ignored- https://github.com/SSSD/sssd
+(how-to/storage/iscsi-initiator-or-client: line   11) -ignored- https://en.wikipedia.org/wiki/ISCSI
+(how-to/storage/iscsi-initiator-or-client: line   13) -ignored- https://en.wikipedia.org/wiki/Internet_Protocol
+(how-to/storage/iscsi-initiator-or-client: line   13) -ignored- https://en.wikipedia.org/wiki/Block-level_storage
+(how-to/storage/iscsi-initiator-or-client: line   13) -ignored- https://en.wikipedia.org/wiki/Computer_data_storage
+(how-to/storage/iscsi-initiator-or-client: line   13) -ignored- https://en.wikipedia.org/wiki/SCSI
+(how-to/storage/iscsi-initiator-or-client: line   13) -ignored- https://en.wikipedia.org/wiki/TCP/IP
+(how-to/storage/iscsi-initiator-or-client: line   15) -ignored- https://en.wikipedia.org/wiki/Intranet
+(how-to/storage/iscsi-initiator-or-client: line   15) -ignored- https://en.wikipedia.org/wiki/Local_area_network
+(how-to/storage/iscsi-initiator-or-client: line   15) -ignored- https://en.wikipedia.org/wiki/Wide_area_network
+(how-to/storage/iscsi-initiator-or-client: line   15) -ignored- https://en.wikipedia.org/wiki/Internet
+(how-to/storage/iscsi-initiator-or-client: line   17) -ignored- https://en.wikipedia.org/wiki/Protocol_(computing)
+(how-to/storage/iscsi-initiator-or-client: line   17) -ignored- https://en.wikipedia.org/wiki/SCSI_CDB
+(how-to/storage/iscsi-initiator-or-client: line   17) -ignored- https://en.wikipedia.org/wiki/Storage_array
+(how-to/storage/iscsi-initiator-or-client: line   19) -ignored- https://en.wikipedia.org/wiki/Fibre_Channel
+(how-to/storage/iscsi-initiator-or-client: line  467) -ignored- https://linux.die.net/man/8/iscsid
+(how-to/storage/iscsi-initiator-or-client: line  468) -ignored- https://linux.die.net/man/5/iscsi.conf
+(how-to/storage/iscsi-initiator-or-client: line  469) -ignored- https://github.com/open-iscsi/open-iscsi/blob/master/etc/iscsid.conf
+(how-to/storage/iscsi-initiator-or-client: line  470) -ignored- https://github.com/open-iscsi/open-iscsi/blob/master/etc/systemd/iscsi.service.template
+(how-to/storage/iscsi-initiator-or-client: line  471) -ignored- https://github.com/open-iscsi/open-iscsi/blob/master/etc/systemd/iscsid.service.template
+(how-to/virtualisation/cloud-image-vms-with-uvtool: line  151) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/uvt-kvm.1.html
+(how-to/virtualisation/libvirt: line   28) -ignored- https://en.wikipedia.org/wiki/Slirp
+(how-to/virtualisation/libvirt: line  296) -ignored- https://en.wikibooks.org/wiki/QEMU/Monitor
+(how-to/virtualisation/libvirt: line  320) -ignored- https://en.wikipedia.org/wiki/64-bit_computing
+(how-to/virtualisation/libvirt: line  320) -ignored- https://en.wikipedia.org/wiki/32-bit_computing
+(how-to/virtualisation/libvirt: line  320) -ignored- https://en.wikipedia.org/wiki/X86-64
+(how-to/virtualisation/libvirt: line  323) -ignored- https://en.wikipedia.org/wiki/Memory_address
+(how-to/virtualisation/libvirt: line  325) -ignored- https://en.wikipedia.org/wiki/Memory_management_unit
+(how-to/virtualisation/libvirt: line  390) -ignored- https://linux.die.net/man/8/hugeadm
+(how-to/virtualisation/libvirt: line  470) -ignored- https://gitlab.com/apparmor/apparmor/-/wikis/Libvirt#implementation-overview
+(how-to/virtualisation/libvirt: line  482) -ignored- https://gitlab.com/apparmor/apparmor/-/wikis/FAQ#what-is-default-deny-allow-listing
+(how-to/virtualisation/libvirt: line  540) -ignored- https://help.ubuntu.com/community/KVM
+(how-to/virtualisation/libvirt: line  544) -ignored- https://www.youtube.com/watch?v=7aONIVSXiJ8
+(how-to/virtualisation/qemu: line   48) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/qemu-system.1.html
+(how-to/virtualisation/qemu: line   48) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/qemu-img.1.html
+(how-to/virtualisation/sev-snp: line   60) -ignored- https://en.wikipedia.org/wiki/TianoCore_EDK_II
+(how-to/virtualisation/sev-snp: line   81) -ignored- https://github.com/virtee/snpguest
+(how-to/virtualisation/ubuntu-on-hyper-v: line   10) -ignored- https://en.wikipedia.org/wiki/Hypervisor#Classification
+(how-to/virtualisation/virtual-machine-manager: line   32) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/virt-install.1.html
+(how-to/web-services/configure-apache2-settings: line  126) -ignored- https://help.ubuntu.com/community/ServerSideIncludes
+(how-to/web-services/install-php: line   91) -ignored- https://help.ubuntu.com/community/ApacheMySQLPHP
+(how-to/wireguard-vpn/troubleshooting: line   52) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man7/kernel_lockdown.7.html
+(reference/glossary: line  522) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/deb822.5.html
+(reference/glossary: line  871) -ignored- https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology
+(reference/glossary: line  936) -ignored- https://dev.mysql.com/doc/refman/8.4/en/fulltext-search.html
+(reference/glossary: line 1361) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/journald.conf.5.html
+(reference/other-tools/pam-motd: line  126) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man5/update-motd.5.html
+(reference/other-tools/sudo-rs: line   23) -ignored- https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo
+(reference/other-tools/sudo-rs: line   24) -ignored- https://github.com/trifectatechfoundation/sudo-rs?tab=readme-ov-file#aim-of-the-project
+(reference/other-tools/sudo-rs: line   34) -ignored- https://github.com/trifectatechfoundation/sudo-rs/issues/1242
+(reference/other-tools/sudo-rs: line   38) -ignored- https://github.com/trifectatechfoundation/sudo-rs/issues/445
+(reference/other-tools/sudo-rs: line   40) -ignored- https://github.com/trifectatechfoundation/sudo-rs/issues/129
+(reference/other-tools/terminal-multiplexers: line   23) -ignored- https://manpages.ubuntu.com/manpages/resolute/en/man1/tmux.1.html
+(tutorial/basic-installation: line   61) -ignored- https://help.ubuntu.com/community/BootFromCD
+(tutorial/managing-software: line  138) -ignored- https://manpages.ubuntu.com/
+(tutorial/managing-software: line  206) -ignored- https://manpages.ubuntu.com
+(explanation/intro-to/high-availability: line   56) ok        http://clusterlabs.github.io/libqb/
+(explanation/intro-to/high-availability: line   58) ok        http://corosync.github.io/corosync/
+(explanation/crypto/openssl: line   59) ok        https://docs.openssl.org/3.0/man1/openssl-ciphers/
+(how-to/installation/netboot-the-server-installer-via-uefi-pxe-on-arm-aarch64-arm64-and-x86-64-amd64: line   80) ok        http://cdimage.ubuntu.com/ubuntu/releases/20.04.5/release/ubuntu-20.04.5-live-server-arm64.iso
+(how-to/installation/netboot-the-server-installer-via-uefi-pxe-on-arm-aarch64-arm64-and-x86-64-amd64: line   61) ok        http://archive.ubuntu.com/ubuntu/dists/focal/main/uefi/grub2-amd64/current/grubnetx64.efi.signed
+(how-to/installation/interactive-live-server-installation-on-ibm-z-lpar-s390x: line   16) ok        http://cdimage.ubuntu.com/ubuntu/releases/20.04.5/release/ubuntu-20.04.5-live-server-s390x.iso
+(explanation/active-directory/the-rid-idmap-backend: line   38) ok        https://assets.ubuntu.com/v1/87c43d5d-simple-rid-ranges.png
+(explanation/networking/about-dpdk: line  227) ok        http://core.dpdk.org/doc/
+(explanation/networking/about-dpdk: line   21) ok        http://core.dpdk.org/supported/
+(explanation/crypto/bind-9-dnssec-cryptography-selection: line  218) ok        https://bind9.readthedocs.io/en/v9.18.14/dnssec-guide.html
+(explanation/clouds/find-cloud-images: line   23) ok        https://canonical-ibm.readthedocs-hosted.com/ibm-how-to/find-ubuntu-images/
+(contributing/local-development: line  298) ok        https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+(contributing/local-development: line   74) ok        https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files
+(how-to/networking/dpdk-with-open-vswitch: line  265) redirect  http://dpdk.org/doc - permanently to http://core.dpdk.org/doc/
+(explanation/clouds/find-cloud-images: line   11) ok        https://cloud-images.ubuntu.com
+(explanation/clouds/find-cloud-images: line   31) ok        https://cloud-images.ubuntu.com/docs/aws/eks/
+(contributing/writing-guidance: line   14) ok        https://diataxis.fr/
+(how-to/networking/dpdk-with-open-vswitch: line  269) redirect  http://dpdk.org/doc/guides/linux_gsg/index.html - permanently to http://doc.dpdk.org/guides/linux_gsg/index.html
+(how-to/networking/dpdk-with-open-vswitch: line  273) redirect  http://dpdk.org/doc/api/ - permanently to http://doc.dpdk.org/api/
+(how-to/networking/dpdk-with-open-vswitch: line  267) redirect  http://dpdk.org/doc/guides/rel_notes/release_2_2.html - permanently to http://doc.dpdk.org/guides/rel_notes/release_2_2.html
+(how-to/debugging/debug-symbol-packages: line  105) ok        http://ddebs.ubuntu.com
+(how-to/networking/dpdk-with-open-vswitch: line  271) redirect  http://dpdk.org/doc/guides/testpmd_app_ug/run_app.html - permanently to http://doc.dpdk.org/guides/testpmd_app_ug/run_app.html
+(explanation/crypto/bind-9-dnssec-cryptography-selection: line  219) ok        https://bind9.readthedocs.io/en/v9.18.14/dnssec-guide.html#basic-dnssec-troubleshooting
+(how-to/networking/ftp: line  174) ok        http://vsftpd.beasts.org/vsftpd_conf.html
+(explanation/intro-to/high-availability: line  134) ok        http://sg.danny.cz/sg/sg3_utils.html
+(how-to/backups/back-up-using-shell-scripts: line  328) redirect  http://en.wikipedia.org/wiki/Backup_rotation_scheme - permanently to https://en.wikipedia.org/wiki/Backup_rotation_scheme
+(explanation/intro-to/kerberos: line   39) ok        http://web.mit.edu/Kerberos/
+(how-to/samba/print-server: line   55) redirect  http://www.amazon.com/exec/obidos/tg/detail/-/0131882228 - permanently to https://www.amazon.com/exec/obidos/tg/detail/-/0131882228
+(how-to/networking/cups-print-server: line  107) ok        http://www.cups.org/
+(how-to/storage/iscsi-initiator-or-client: line  472) ok        http://www.open-iscsi.com/
+(reference/backups/basic-backup-shell-script: line   -1) ok        https://discourse.ubuntu.com/t/basic-backup-shell-script/36419
+(contributing/local-development: line  323) ok        https://conventionalcomments.org/
+(how-to/mail-services/install-postfix: line  366) ok        http://www.postfix.org/documentation.html
+(explanation/clouds/find-cloud-images: line   32) ok        https://docs.cloud.google.com/kubernetes-engine/docs/release-schedule#schedule-for-release-channels
+(explanation/intro-to/high-availability: line   95) ok        http://www.linux-vs.org/
+(how-to/networking/dpdk-with-open-vswitch: line   96) ok        http://www.openvswitch.org/mlists/
+(explanation/active-directory/the-autorid-idmap-backend: line   35) ok        https://assets.ubuntu.com/v1/346983ee-domain-slots-2.png
+(explanation/networking/about-time-synchronisation: line   43) ok        http://www.ntp.org/
+(contributing/get-help: line   37) ok        https://discourse.ubuntu.com/c/project/server/17
+(how-to/security/apparmor: line  277) ok        http://www.novell.com/documentation/apparmor/apparmor201_sp10_admin/?page=/documentation/apparmor/apparmor201_sp10_admin/data/book_apparmor_admin.html
+(contributing/get-help: line   41) ok        https://discourse.ubuntu.com/c/community/open-documentation-academy/166
+(how-to/security/openssh-server: line  184) ok        http://www.openssh.org/
+(explanation/web-services/about-squid-proxy-servers: line   10) ok        http://www.squid-cache.org/
+(explanation/software/about-apt-upgrade-and-phased-updates: line  109) ok        https://askubuntu.com/questions/1431940/what-are-phased-updates-and-why-does-ubuntu-use-them
+(how-to/software/snapshot-service: line  186) redirect  http://docker.io - with Found to https://www.docker.com/
+(how-to/active-directory/join-a-forest-with-the-rid-backend: line   89) ok        https://assets.ubuntu.com/v1/42506c6d-forest-rid-ranges.png
+(explanation/intro-to/kerberos: line   43) ok        http://techpubs.spinlocksolutions.com/dklar/kerberos.html
+(how-to/security/apparmor: line   10) ok        https://apparmor.net/
+(how-to/observability/set-up-your-lma-stack: line  362) ok        https://assets.ubuntu.com/v1/2441c52c-grafana_9.png
+(how-to/sssd/with-active-directory: line  287) ok        https://assets.ubuntu.com/v1/6940e589-login.png
+(how-to/observability/install-nagios: line  220) ok        https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/3/en/toc.html
+(how-to/observability/set-up-your-lma-stack: line  354) ok        https://assets.ubuntu.com/v1/0830c195-grafana_5.png
+(how-to/networking/dnssec-troubleshooting: line   19) redirect  http://isc.org - permanently to https://www.isc.org/
+(           index: line   87) ok        https://assets.ubuntu.com/v1/8f8ea0cf-18-04-serverguide.pdf
+(how-to/containers/run-rocks-on-your-server: line  156) ok        https://assets.ubuntu.com/v1/2a252ada-prometheus-data-source.png
+(how-to/sssd/with-active-directory: line  294) ok        https://assets.ubuntu.com/v1/9c174441-local_user.png
+(explanation/intro-to/high-availability: line   31) ok        https://assets.ubuntu.com/v1/14896401-HA_intro.png
+(how-to/observability/set-up-your-lma-stack: line  358) ok        https://assets.ubuntu.com/v1/3dfc6d9d-grafana_7.png
+(how-to/virtualisation/virtual-machine-manager: line   60) ok        https://assets.ubuntu.com/v1/34e3503f-virt-manager-gui-xml.png
+(how-to/virtualisation/virtual-machine-manager: line   42) ok        https://assets.ubuntu.com/v1/07edc140-virt-manager-gui-start.png
+(how-to/sssd/with-active-directory: line  281) ok        https://assets.ubuntu.com/v1/291d9ae9-not_listed.png
+(tutorial/basic-installation: line   66) ok        https://assets.ubuntu.com/v1/92bda8a0-basic_installation_1.png
+(how-to/containers/run-rocks-on-your-server: line  152) ok        https://assets.ubuntu.com/v1/2e14e3f3-login-to-grafana.png
+(how-to/observability/set-up-your-lma-stack: line  366) ok        https://assets.ubuntu.com/v1/55658d4d-grafana_X.png
+(how-to/observability/set-up-your-lma-stack: line  226) ok        https://assets.ubuntu.com/v1/54610cab-promotheus_0.png
+(how-to/observability/set-up-your-lma-stack: line  350) ok        https://assets.ubuntu.com/v1/5bf5a238-grafana_1.png
+(how-to/observability/set-up-your-lma-stack: line  354) ok        https://assets.ubuntu.com/v1/50532a03-grafana_4.png
+(how-to/web-services/use-apache2-modules: line   95) redirect  http://shop.oreilly.com/product/9780596529949.do - permanently to https://www.oreilly.com/library/view/apache-cookbook-2nd/9780596529949/
+(how-to/installation/netboot-the-server-installer-via-uefi-pxe-on-arm-aarch64-arm64-and-x86-64-amd64: line  141) ok        https://assets.ubuntu.com/v1/fbdff13b-downloading_image.png
+(how-to/networking/install-dns: line  492) ok        https://bind9.readthedocs.io/en/latest/
+(how-to/installation/netboot-the-server-installer-via-uefi-pxe-on-arm-aarch64-arm64-and-x86-64-amd64: line  145) ok        https://assets.ubuntu.com/v1/ef037190-subiquity_welcome_page.png
+(how-to/virtualisation/virtual-machine-manager: line   54) ok        https://assets.ubuntu.com/v1/7422b267-virt-manager-gui-edit.png
+(how-to/networking/install-dnssec: line  196) ok        https://bind9.readthedocs.io/en/latest/dnssec-guide.html#working-with-the-parent-zone
+(how-to/virtualisation/virtual-machine-manager: line   84) ok        https://assets.ubuntu.com/v1/a38dc56a-virt-viewer-gui-show-output.png
+(how-to/networking/dnssec-troubleshooting: line  303) ok        https://bind9.readthedocs.io/en/latest/dnssec-guide.html#basic-dnssec-troubleshooting
+(explanation/dnssec/dnssec: line   38) ok        https://bind9.readthedocs.io/en/latest/dnssec-guide.html#the-12-step-dnssec-validation-process-simplified
+(how-to/networking/install-dnssec: line  194) ok        https://bind9.readthedocs.io/en/stable/chapter5.html
+(how-to/containers/run-rocks-on-your-server: line   45) ok        https://assets.ubuntu.com/v1/a6b735b3-welcome-to-grafana.png
+(explanation/virtualisation/docker-storage-networking-and-logging: line  124) ok        https://aws.amazon.com/cloudwatch/features/
+(how-to/networking/install-dnssec: line  191) ok        https://bind9.readthedocs.io/en/stable/dnssec-guide.html
+(how-to/containers/run-rocks-on-your-server: line  162) ok        https://assets.ubuntu.com/v1/bd93d9c1-prometheus-metrics.png
+(how-to/observability/set-up-your-lma-stack: line  341) ok        https://assets.ubuntu.com/v1/bb8a72f8-grafana_0.png
+(how-to/observability/set-up-your-lma-stack: line  230) ok        https://assets.ubuntu.com/v1/d56f0ceb-promotheus_1.png
+(how-to/observability/set-up-your-lma-stack: line  358) ok        https://assets.ubuntu.com/v1/cfaca920-grafana_6.png
+(how-to/networking/install-dnssec: line  192) ok        https://bind9.readthedocs.io/en/stable/dnssec-guide.html#signing
+(how-to/networking/install-dnssec: line  193) ok        https://bind9.readthedocs.io/en/stable/dnssec-guide.html#signing-custom-policy
+(how-to/observability/set-up-your-lma-stack: line  350) ok        https://assets.ubuntu.com/v1/72f14261-grafana_2.png
+(how-to/virtualisation/virtual-machine-manager: line   46) ok        https://assets.ubuntu.com/v1/dda60637-virt-manager-gui-show-output.png
+(how-to/observability/set-up-your-lma-stack: line  230) ok        https://assets.ubuntu.com/v1/d46d3705-promotheus_2.png
+(how-to/observability/set-up-your-lma-stack: line  354) ok        https://assets.ubuntu.com/v1/bf7c1660-grafana_3.png
+(how-to/virtualisation/libvirt: line  167) ok        https://blog.wikichoon.com/2016/01/qemusystem-vs-qemusession.html
+(explanation/crypto/troubleshooting-tls-ssl: line   84) ok        https://badssl.com/
+(how-to/installation: line   18) ok        https://canonical-subiquity.readthedocs-hosted.com/en/latest/howto/autoinstall-quickstart-s390x.html
+(how-to/installation: line   17) ok        https://canonical-subiquity.readthedocs-hosted.com/en/latest/howto/autoinstall-quickstart.html
+(  tutorial/index: line   30) ok        https://canonical-subiquity.readthedocs-hosted.com/en/latest/howto/report-bugs.html
+(  tutorial/index: line   29) ok        https://canonical-subiquity.readthedocs-hosted.com/en/latest/howto/configure-storage.html
+(how-to/installation/non-interactive-ibm-z-lpar-autoinstall-s390x: line  210) ok        https://canonical-subiquity.readthedocs-hosted.com/en/latest/reference/autoinstall-reference.html
+(how-to/installation/how-to-start-a-live-server-installation-on-ibm-power-ppc64el-with-a-virtual-cd-rom-and-petitboot: line  363) ok        https://canonical-subiquity.readthedocs-hosted.com/en/latest/index.html
+(tutorial/basic-installation: line   10) ok        https://canonical-subiquity.readthedocs-hosted.com/en/latest/tutorial/screen-by-screen.html
+(tutorial/basic-installation: line   10) ok        https://canonical-subiquity.readthedocs-hosted.com/en/latest/tutorial/operate-server-installer.html
+(how-to/installation/non-interactive-ibm-z-lpar-autoinstall-s390x: line  210) ok        https://canonical-subiquity.readthedocs-hosted.com/en/latest/reference/autoinstall-schema.html
+(how-to/installation: line   16) ok        https://canonical-subiquity.readthedocs-hosted.com/en/latest/intro-to-autoinstall.html
+(explanation/virtualisation/container-tools-in-the-ubuntu-space: line   24) ok        https://canonical.com/lxd
+(how-to/containers/lxd-containers: line   14) ok        https://canonical.com/microcloud
+(how-to/containers/run-rocks-on-your-server: line  166) ok        https://canonical.com/microk8s/docs
+(explanation/virtualisation/vm-tools-in-the-ubuntu-space: line   46) ok        https://canonical.com/multipass
+(how-to/installation/choosing-between-the-arm64-and-arm64-largemem-installer-options: line   14) ok        https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.5-live-server-arm64.iso
+(how-to/installation/netboot-the-server-installer-via-uefi-pxe-on-arm-aarch64-arm64-and-x86-64-amd64: line   52) ok        https://cdimage.ubuntu.com/ubuntu/releases/20.04.5/release/ubuntu-20.04.5-live-server-arm64.iso
+(    how-to/index: line  160) ok        https://charmhub.io/topics/canonical-observability-stack
+(how-to/samba/print-server: line   57) redirect  http://www.oreilly.com/catalog/9780596007690/ - permanently to https://www.oreilly.com/library/view/using-samba-3rd/0596007698/
+(how-to/virtualisation/qemu: line  178) ok        https://cloud-images.ubuntu.com/
+(how-to/virtualisation/sev-snp: line   78) ok        https://cloud-images.ubuntu.com/releases/noble/release/ubuntu-24.04-server-cloudimg-amd64.img
+(how-to/virtualisation/sev-snp: line   79) ok        https://cloud-images.ubuntu.com/releases/noble/release/unpacked/
+(how-to/installation/choosing-between-the-arm64-and-arm64-largemem-installer-options: line   15) ok        https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.5-live-server-arm64+largemem.iso
+(explanation/dnssec/dnssec: line   76) redirect  https://bugs.launchpad.net/bugs/2121483 - with See Other to https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2121483
+(explanation/high-availability/pacemaker-fence-agents: line  205) ok        https://clusterlabs.org/
+(explanation/intro-to/high-availability: line   59) ok        https://clusterlabs.org/projects/pacemaker/
+(explanation/intro-to/high-availability: line  160) ok        https://clusterlabs.org/projects/pacemaker/doc/3.0/Clusters_from_Scratch/html/
+(how-to/observability/set-up-your-lma-stack: line   13) ok        https://charmhub.io/topics/canonical-observability-stack/
+(explanation/intro-to/high-availability: line  162) ok        https://clusterlabs.org/projects/pacemaker/doc/3.0/Pacemaker_Explained/html/
+(explanation/virtualisation/about-openstack: line   40) ok        https://canonical-openstack.readthedocs-hosted.com/en/latest/tutorial/get-started-with-openstack/
+(explanation/software/about-apt-upgrade-and-phased-updates: line  109) ok        https://creativecommons.org/licenses/by-sa/4.0/
+(explanation/intro-to/high-availability: line  161) ok        https://clusterlabs.org/projects/pacemaker/doc/3.0/Pacemaker_Administration/html/
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line   24) ok        https://cpaelzer.github.io/blogs/006-mediated-device-to-pass-parts-of-your-gpu-to-a-guest/
+(explanation/networking/about-time-synchronisation: line   47) ok        https://chrony-project.org/faq.html
+(explanation/crypto/network-security-services-nss: line   16) redirect  https://bugs.launchpad.net/bugs/2016303 - with See Other to https://bugs.launchpad.net/ubuntu/+source/nss/+bug/2016303
+(reference/glossary: line  591) ok        https://datatracker.ietf.org/doc/html/rfc822
+(explanation/intro-to/openldap: line   64) ok        https://datatracker.ietf.org/doc/html/rfc2849
+(reference/glossary: line  723) ok        https://datatracker.ietf.org/doc/html/rfc8484
+(explanation/dnssec/dnssec: line   76) ok        https://datatracker.ietf.org/doc/html/rfc3225
+(explanation/dnssec/dnssec: line  309) ok        https://datatracker.ietf.org/doc/html/rfc4255
+(how-to/openldap/replication: line  131) ok        https://bugs.openldap.org/show_bug.cgi?id=8125
+(explanation/virtualisation/docker-storage-networking-and-logging: line  128) ok        https://dev.splunk.com/enterprise/docs/devtools/httpeventcollector/
+(how-to/security/two-factor-authentication-with-u2f-or-fido: line  109) ok        https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html
+(reference/glossary: line  712) ok        https://datatracker.ietf.org/doc/html/rfc7858
+(how-to/networking/install-nfs: line  297) redirect  https://bugs.launchpad.net/ubuntu/+source/nfs-utils/+filebug - with See Other to https://bugs.launchpad.net/ubuntu/+source/nfs-utils/+filebug/+login
+(explanation/intro-to/openldap: line   17) ok        https://datatracker.ietf.org/doc/html/rfc4510
+(reference/other-tools/pam-motd: line  141) ok        https://debaday.debian.net/2007/10/04/weather-check-weather-conditions-and-forecasts-on-the-command-line/
+(explanation/software/about-apt-upgrade-and-phased-updates: line   70) ok        https://discourse.ubuntu.com/t/phased-updates-in-apt-in-21-04/20345
+(how-to/observability/set-up-your-lma-stack: line   13) ok        https://charmhub.io/topics/canonical-observability-stack/editions/lite
+(how-to/security/user-management: line   43) ok        https://discourse.ubuntu.com/t/adopting-sudo-rs-by-default-in-ubuntu-25-10/60583
+(explanation/intro-to/high-availability: line   73) ok        https://discourse.ubuntu.com/t/corosync-and-redundant-rings/11627
+(explanation/intro-to/high-availability: line   95) ok        https://datatracker.ietf.org/wg/vrrp/documents/
+(how-to/debugging/ebpf: line   53) ok        https://discourse.ubuntu.com/t/spec-include-performance-tooling-in-ubuntu/43134
+(how-to/samba/member-server-in-an-ad-domain: line   95) redirect  https://bugs.launchpad.net/bugs/1980246 - with See Other to https://bugs.launchpad.net/ubuntu/+source/samba/+bug/1980246
+(how-to/graphics/install-nvidia-drivers: line  233) ok        https://developer.nvidia.com/system-management-interface
+(explanation/intro-to/high-availability: line  164) ok        https://discourse.ubuntu.com/t/ubuntu-high-availability-corosync-pacemaker-shared-disk-environments/14874
+(how-to/mail-services/install-dovecot: line   91) ok        https://doc.dovecot.org/latest/
+(explanation/networking/about-dpdk: line  235) ok        https://doc.dpdk.org/api/
+(explanation/networking/about-dpdk: line  231) ok        https://doc.dpdk.org/guides/linux_gsg/index.html
+(how-to/mail-services/install-dovecot: line   30) ok        https://doc.dovecot.org/main/
+(how-to/containers/lxd-containers: line   20) redirect  https://discourse.ubuntu.com/c/lxd/126 - permanently to https://discourse.ubuntu.com/c/project/lxd/126
+(explanation/networking/about-dpdk: line  229) ok        https://doc.dpdk.org/guides/rel_notes/release_2_2.html
+(explanation/networking/about-dpdk: line  233) ok        https://doc.dpdk.org/guides/testpmd_app_ug/run_app.html
+(contributing/writing-guidance: line   23) redirect  https://bugs.launchpad.net/bugs/1852389 - with See Other to https://bugs.launchpad.net/git-ubuntu/+bug/1852389
+(reference/glossary: line  359) ok        https://docs.aws.amazon.com/
+(reference/glossary: line  160) ok        https://docs.ansible.com/
+(explanation/intro-to/cloud-init: line   39) ok        https://docs.cloud-init.io/en/latest/reference/datasources.html
+(how-to/networking/dnssec-troubleshooting: line  298) ok        https://dnsviz.net
+(explanation/intro-to/cloud-init: line   11) ok        https://docs.cloud-init.io/en/latest/
+(how-to/installation/netboot-the-server-installer-via-uefi-pxe-on-arm-aarch64-arm64-and-x86-64-amd64: line   13) ok        https://discourse.ubuntu.com/t/netbooting-the-live-server-installer/14510
+(explanation/intro-to/cloud-init: line   52) ok        https://docs.cloud-init.io/en/latest/tutorial/index.html
+(how-to/networking/dnssec-troubleshooting: line  299) ok        https://dnssec-debugger.verisignlabs.com
+(explanation/dnssec/dnssec: line  307) ok        https://dnsviz.net/
+(how-to/backups/install-bacula: line  384) ok        https://docs.baculasystems.com/BEPlanningAndPreparation/BackupPolicy/NamingResources/index.html
+(how-to/virtualisation/sev-snp: line   24) ok        https://docs.amd.com/v/u/en-US/58207-using-sev-with-amd-epyc-processors
+(how-to/containers/docker-for-system-admins: line  572) ok        https://docs.docker.com/engine/logging/configure/
+(how-to/observability/set-up-your-lma-stack: line   22) ok        https://docs.influxdata.com/telegraf/v1/
+(explanation/performance/perf-tune-cpupower: line  140) ok        https://docs.kernel.org/admin-guide/pm/cpuidle.html
+(explanation/performance/perf-p-states: line   17) ok        https://docs.kernel.org/admin-guide/pm/working-state.html
+(explanation/performance/perf-tune-cpupower: line  292) ok        https://docs.kernel.org/admin-guide/pm/intel_uncore_frequency_scaling.html
+(how-to/debugging/ebpf: line  341) ok        https://docs.kernel.org/bpf/
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line  287) ok        https://docs.kernel.org/arch/s390/vfio-ccw.html
+(how-to/networking/install-isc-kea: line   30) redirect  https://bugs.launchpad.net/bugs/2007312 - with See Other to https://bugs.launchpad.net/ubuntu/+source/isc-kea/+bug/2007312
+(how-to/graphics/install-nvidia-drivers: line   18) ok        https://docs.nvidia.com/datacenter/tesla/index.html
+(how-to/graphics/install-nvidia-drivers: line  227) ok        https://docs.nvidia.com/datacenter/tesla/drivers/index.html
+(reference/glossary: line 1384) ok        https://docs.docker.com/engine/logging/drivers/journald/
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line   40) ok        https://docs.nvidia.com/vgpu/latest/grid-vgpu-user-guide/index.html
+(how-to/mail-services/install-postfix: line  370) ok        https://docs.mailman3.org/projects/mailman/en/latest/src/mailman/docs/mta.html
+(how-to/mail-services/install-exim4: line  403) ok        https://docs.mailman3.org/projects/mailman/en/latest/src/mailman/docs/mta.html#exim
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line  173) ok        https://docs.nvidia.com/license-system/latest/nvidia-license-system-quick-start-guide/index.html
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line  151) ok        https://docs.nvidia.com/vgpu/latest/product-support-matrix/index.html#abstract__ubuntu
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line  171) ok        https://docs.nvidia.com/vgpu/latest/grid-vgpu-user-guide/index.html#install-vgpu-package-ubuntu
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line  171) ok        https://docs.nvidia.com/vgpu/ls/latest/grid-license-server-user-guide/index.html
+(explanation/virtualisation/qemu-microvm: line  198) redirect  https://bugs.launchpad.net/bugs/2074073 - with See Other to https://bugs.launchpad.net/ubuntu/+source/qemu/+bug/2074073
+(explanation/performance/perf-tune-cpupower: line  294) ok        https://docs.kernel.org/admin-guide/pm/intel_idle.html
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line  153) ok        https://docs.nvidia.com/vgpu/latest/grid-vgpu-user-guide/index.html#ubuntu-install-configure-vgpu
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line  173) ok        https://docs.nvidia.com/vgpu/news/vgpu-software-license-server-eol-notice/index.html
+(explanation/virtualisation/docker-storage-networking-and-logging: line   99) ok        https://docs.docker.com/engine/storage/drivers/
+(how-to/containers/run-rocks-on-your-server: line   21) ok        https://docs.docker.com/reference/cli/docker/container/run/
+(explanation/crypto/openssl: line  317) ok        https://docs.openssl.org/3.0/man3/SSL_CTX_set_security_level/
+(explanation/crypto/java-cryptography-configuration: line  190) ok        https://docs.oracle.com/en/java/javase/11/docs/specs/security/standard-names.html
+(explanation/crypto/java-cryptography-configuration: line  260) ok        https://docs.oracle.com/en/java/javase/11/tools/keytool.html
+(how-to/networking/dpdk-with-open-vswitch: line   32) ok        https://docs.openvswitch.org/en/latest/intro/install/dpdk/#setup-ovs
+(explanation/crypto/java-cryptography-configuration: line  259) ok        https://docs.oracle.com/en/java/javase/12/docs/specs/security/standard-names.html
+(how-to/databases/install-mysql: line  260) ok        https://docs.percona.com/percona-xtrabackup/8.0/
+(how-to/software/automatic-updates: line  174) ok        https://docs.python.org/3/howto/regex.html
+(how-to/security/apparmor: line  156) redirect  https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug - with See Other to https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug/+login
+(contributing/writing-guidance: line   71) ok        https://docs.ubuntu.com/styleguide/en
+(reference/glossary: line  309) ok        https://docs.python.org/3/library/sqlite3.html#transaction-control
+(explanation/virtualisation/docker-storage-networking-and-logging: line  127) ok        https://docs.cloud.google.com/logging/docs
+(           index: line   86) ok        https://documentation.ubuntu.com/_/downloads/server/en/latest/pdf/
+(contributing/local-development: line   97) ok        https://documentation.academy/docs/howto/get-started/using_git/
+(explanation/virtualisation/docker-storage-networking-and-logging: line   84) ok        https://docs.docker.com/engine/storage/tmpfs/#options-for---tmpfs
+(explanation/virtualisation/docker-storage-networking-and-logging: line   89) ok        https://docs.docker.com/engine/storage/drivers/#images-and-layers
+(explanation/security/security_suggestions: line  129) ok        https://documentation.ubuntu.com/adsys/latest/
+(explanation/clouds: line   32) ok        https://documentation.ubuntu.com/azure/azure-how-to/instances/find-ubuntu-images/
+(how-to/sssd/with-active-directory: line   16) ok        https://documentation.ubuntu.com/adsys/stable/
+(how-to/samba/mount-cifs-shares-permanently: line  125) ok        https://documentation.ubuntu.com/authd/edge-docs/howto/use-with-samba/#steps-for-the-client
+(how-to/containers/lxd-containers: line   14) ok        https://documentation.ubuntu.com/lxd/latest/explanation/clusters/
+(how-to/containers/lxd-containers: line  171) ok        https://documentation.ubuntu.com/lxd/latest/explanation/storage/
+(how-to/samba/file-server: line   17) ok        https://documentation.ubuntu.com/authd/edge-docs/howto/use-with-samba/#steps-for-the-server
+(explanation/virtualisation/about-openstack: line   50) ok        https://docs.openstack.org/devstack/latest/
+(explanation/virtualisation/about-openstack: line   48) ok        https://docs.openstack.org/install-guide/
+(explanation/virtualisation/container-tools-in-the-ubuntu-space: line   28) ok        https://documentation.ubuntu.com/lxd/latest/howto/instances_create/#create-a-virtual-machine
+(how-to/containers/lxd-containers: line   54) ok        https://documentation.ubuntu.com/lxd/latest/howto/initialize/
+(explanation/clouds: line   32) ok        https://documentation.ubuntu.com/aws/aws-how-to/instances/find-ubuntu-images/
+(explanation/virtualisation/about-openstack: line   46) ok        https://docs.openstack.org/project-deploy-guide/openstack-ansible/latest/
+(explanation/clouds: line   32) ok        https://documentation.ubuntu.com/gcp/google-how-to/gce/find-ubuntu-images/
+(explanation/virtualisation/about-openstack: line   44) ok        https://docs.openstack.org/project-deploy-guide/charm-deployment-guide/latest/
+(tutorial/basic-installation: line   51) ok        https://documentation.ubuntu.com/desktop/en/latest/how-to/create-a-bootable-usb-stick/
+(how-to/containers/lxd-containers: line   12) ok        https://documentation.ubuntu.com/lxd/latest/howto/access_ui/
+(how-to/software/automatic-updates: line  113) ok        https://documentation.ubuntu.com/launchpad/user/Packaging/PPA/
+(how-to/virtualisation/multipass: line  166) ok        https://documentation.ubuntu.com/multipass/latest/how-to-guides/customise-multipass/set-up-a-graphical-interface/
+(how-to/virtualisation/multipass: line  191) ok        https://documentation.ubuntu.com/multipass/latest/how-to-guides/customise-multipass/set-up-the-driver/
+(how-to/observability: line   12) ok        https://documentation.ubuntu.com/observability/track-2/how-to/migrate-lma-to-cos-lite/
+(how-to/observability: line   10) ok        https://documentation.ubuntu.com/observability/track-2/
+(how-to/containers/lxd-containers: line  235) ok        https://documentation.ubuntu.com/lxd/latest/reference/instance_options/
+(explanation/intro-to/security: line   45) ok        https://documentation.ubuntu.com/pro-client/en/latest/
+(explanation/clouds/find-cloud-images: line   25) ok        https://documentation.ubuntu.com/oracle/oracle-how-to/find-ubuntu-images/
+(explanation/performance/perf-tune-tuned: line  256) ok        https://documentation.ubuntu.com/pro-client/en/latest/explanations/about_esm/#what-are-main-and-universe
+(reference/other-tools/pam-motd: line   50) ok        https://documentation.ubuntu.com/pro-client/en/latest/explanations/motd_messages/
+(how-to/containers/lxd-containers: line   12) ok        https://documentation.ubuntu.com/lxd/latest/restapi_landing/
+(tutorial/managing-software: line  957) ok        https://documentation.ubuntu.com/project/
+(tutorial/attach-your-ubuntu-pro-subscription: line   82) ok        https://documentation.ubuntu.com/pro-client/en/latest/tutorials/basic_commands/
+(how-to/software/upgrade-your-release: line  136) ok        https://documentation.ubuntu.com/project/release-team/list-of-releases/
+(how-to/debugging: line   28) ok        https://documentation.ubuntu.com/project/contributors/debugging/
+(explanation/intro-to/security: line   51) ok        https://documentation.ubuntu.com/project/how-ubuntu-is-made/concepts/package-archive/#components
+(explanation/virtualisation/container-tools-in-the-ubuntu-space: line   26) ok        https://documentation.ubuntu.com/lxd/latest/tutorial/
+(how-to/virtualisation/multipass: line  203) ok        https://documentation.ubuntu.com/multipass/latest/
+(explanation/clouds: line   28) ok        https://documentation.ubuntu.com/public-cloud/
+(how-to/observability: line   13) ok        https://documentation.ubuntu.com/observability/track-2/how-to/integrating-cos-lite-with-uncharmed-applications/
+(tutorial/managing-software: line   36) ok        https://documentation.ubuntu.com/multipass/stable/how-to-guides/install-multipass/
+(explanation/virtualisation/about-rock-images: line   12) ok        https://documentation.ubuntu.com/rockcraft/latest/explanation/chisel/
+(explanation/virtualisation/about-rock-images: line   14) ok        https://documentation.ubuntu.com/rockcraft/latest/
+(explanation/virtualisation/about-rock-images: line   12) ok        https://documentation.ubuntu.com/rockcraft/latest/explanation/rockcraft/
+(explanation/virtualisation/about-rock-images: line   10) ok        https://documentation.ubuntu.com/rockcraft/latest/explanation/rocks/
+(explanation/intro-to/security: line   70) ok        https://documentation.ubuntu.com/security/compliance/fips/
+(contributing/index: line   13) ok        https://documentation.ubuntu.com/server/
+(explanation/intro-to/security: line   70) ok        https://documentation.ubuntu.com/security/
+(how-to/software/automatic-updates: line   71) ok        https://documentation.ubuntu.com/project/how-ubuntu-is-made/concepts/package-archive/#pockets
+(explanation/intro-to/security: line   70) ok        https://documentation.ubuntu.com/security/compliance/usg/
+(how-to/wireguard-vpn/troubleshooting: line   82) ok        https://documentation.ubuntu.com/security/security-features/kernel-protections/#kernel-lockdown
+(explanation/dnssec/dnssec: line   76) redirect  https://bugs.launchpad.net/bugs/2119652 - with See Other to https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2119652
+(explanation/virtualisation/qemu-microvm: line   81) ok        https://documentation.ubuntu.com/rockcraft/stable/tutorial/chisel/
+(how-to/sssd/with-active-directory: line  240) redirect  https://bugs.launchpad.net/bugs/1934997 - with See Other to https://bugs.launchpad.net/ubuntu/+source/sssd/+bug/1934997
+(how-to/virtualisation/libvirt: line  342) redirect  https://bugs.launchpad.net/bugs/1776189 - with See Other to https://bugs.launchpad.net/ubuntu/+source/qemu/+bug/1776189
+(how-to/backups/install-etckeeper: line  114) ok        https://git-scm.com/
+(how-to/mail-services: line   44) ok        https://dovecot.org/
+(explanation/virtualisation/qemu-microvm: line   60) ok        https://firecracker-microvm.github.io/
+(how-to/backups/install-gitolite: line   14) ok        https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefbarerepositoryabarerepository
+(explanation/networking/about-dpdk: line   19) ok        https://git.dpdk.org/dpdk/commit/?id=f27769f796a0639368117ce22fb124b6030dbf73
+(how-to/containers/lxd-containers: line   20) redirect  https://documentation.ubuntu.com/lxd/ - with Found to https://documentation.ubuntu.com/lxd/stable-5.21/
+(how-to/backups/install-etckeeper: line   10) ok        https://etckeeper.branchable.com/
+(explanation/crypto/gnutls: line  281) ok        https://gnutls.org/manual/html_node/Priority-Strings.html
+(how-to/backups/install-gitolite: line  152) ok        https://gitolite.com/gitolite/conf-2.html
+(how-to/backups/install-gitolite: line  176) ok        https://gitolite.com/gitolite/
+(how-to/networking/install-nfs: line   23) ok        https://documentation.ubuntu.com/authd/stable-docs/howto/use-with-nfs/
+(how-to/backups/install-gitolite: line  152) ok        https://gitolite.com/gitolite/conf.html
+(explanation/crypto/gnutls: line   87) ok        https://gnutls.org/manual/html_node/Priority-Strings.html#tab_003aprio_002dkeywords
+(explanation/crypto/gnutls: line  162) ok        https://gnutls.org/manual/html_node/Selecting-cryptographic-key-sizes.html#tab_003akey_002dsizes
+(tutorial/attach-your-ubuntu-pro-subscription: line   39) ok        https://documentation.ubuntu.com/pro-client/en/latest/howtoguides/how_to_attach_with_config_file/
+(how-to/security/apparmor: line  279) ok        https://en.opensuse.org/SDB:AppArmor_geeks
+(explanation/performance/perf-pgo: line   27) ok        https://gcc.gnu.org
+(how-to/observability/set-up-your-lma-stack: line   24) ok        https://grafana.com/docs/
+(explanation/crypto/gnutls: line  287) ok        https://gnutls.org/manual/html_node/gnutls_002dcli-Invocation.html
+(how-to/web-services/configure-apache2-settings: line  171) ok        https://httpd.apache.org/docs/2.4/
+(how-to/web-services/install-apache2: line   10) ok        https://httpd.apache.org/
+(how-to/security/openssh-server: line  108) ok        https://ed25519.cr.yp.to/
+(how-to/debugging/ebpf: line  343) ok        https://ebpf.io/applications/
+(contributing/local-development: line   80) ok        https://documentation.ubuntu.com/server
+(how-to/debugging/ebpf: line   10) ok        https://ebpf.io/
+(how-to/web-services/configure-apache2-settings: line  139) ok        https://httpd.apache.org/docs/2.4/mod/mod_negotiation.html#multiviews
+(how-to/debugging/ebpf: line  339) ok        https://ebpf.io/what-is-ebpf/
+(explanation/virtualisation/docker-storage-networking-and-logging: line  123) ok        https://graylog.org/
+(explanation/dnssec/dnssec: line   84) ok        https://internet.nl/test-connection/
+(how-to/software/report-a-bug: line   10) ok        https://launchpad.net/
+(explanation/virtualisation/qemu-microvm: line   59) ok        https://katacontainers.io/
+(how-to/containers/run-rocks-on-your-server: line   21) ok        https://hub.docker.com/r/ubuntu/grafana
+(explanation/intro-to/high-availability: line   57) ok        https://kronosnet.org/
+(how-to/containers/run-rocks-on-your-server: line   75) ok        https://hub.docker.com/r/ubuntu/prometheus
+(how-to/networking/serve-ntp-with-chrony: line  122) ok        https://gpsd.gitlab.io/gpsd/hardware.html
+(explanation/networking/about-time-synchronisation: line   48) ok        https://gpsd.gitlab.io/gpsd/gpsd-time-service-howto.html#_feeding_chrony_from_gpsd
+(explanation/networking/about-dhcp: line   77) ok        https://kb.isc.org/docs/kea-administrator-reference-manual
+(how-to/software/snapshot-service: line  168) ok        https://launchpad.net/ubuntu/+source/docker.io-app/+publishinghistory
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/gfs2-utils
+(explanation/intro-to/high-availability: line  108) ok        https://launchpad.net/ubuntu/+source/booth
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/corosync
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/cluster-glue
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/dlm
+(how-to/openldap/ldap-saslauthd-kerberos: line   23) ok        https://datatracker.ietf.org/wg/tls/documents/
+(explanation/intro-to/high-availability: line  104) ok        https://launchpad.net/ubuntu/+source/csync2
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/fence-agents
+(explanation/intro-to/high-availability: line  106) ok        https://launchpad.net/ubuntu/+source/fence-virt
+(how-to/networking/dpdk-with-open-vswitch: line   83) ok        https://launchpad.net/ubuntu/+source/dpdk
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/crmsh
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/keepalived
+(explanation/intro-to/high-availability: line  136) ok        https://launchpad.net/ubuntu/+source/lvm2
+(explanation/intro-to/high-availability: line  105) ok        https://launchpad.net/ubuntu/+source/corosync-qdevice
+(explanation/intro-to/openldap: line   10) ok        https://ldap.com/
+(explanation/intro-to/AD-integration: line   36) ok        https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/drbd-utils
+(contributing/writing-guidance: line   23) ok        https://launchpad.net/ubuntu/+source/bash
+(how-to/sssd/with-active-directory: line  308) ok        https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc759550(v=ws.10)?redirectedfrom=MSDN
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/kronosnet
+(explanation/intro-to/kerberos: line   41) ok        https://libera.chat/
+(explanation/active-directory/security-identifiers-sids: line   13) ok        https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-identifiers
+(how-to/virtualisation/ubuntu-on-hyper-v: line   20) redirect  https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/system-requirements-for-hyper-v-on-windows - permanently to https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/host-hardware-requirements
+(explanation/virtualisation/vm-tools-in-the-ubuntu-space: line   46) ok        https://launchpad.net/uvtool
+(how-to/virtualisation/ubuntu-on-hyper-v: line   16) redirect  https://learn.microsoft.com/windows/wsl/about - with Found to https://learn.microsoft.com/en-us/windows/wsl/about
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/pcs
+(explanation/virtualisation/vm-tools-in-the-ubuntu-space: line   36) ok        https://libvirt.org/
+(how-to/virtualisation/multipass: line  176) ok        https://libvirt.org/daemons.html
+(how-to/virtualisation/libvirt: line  134) ok        https://libvirt.org/formatdomain.html
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/libqb
+(how-to/virtualisation/libvirt: line  234) ok        https://libvirt.org/formatcaps.html#host-cpu-model-and-features
+(how-to/virtualisation/libvirt: line  538) ok        https://libvirt.org/formatstorage.html
+(how-to/observability/install-nagios: line  220) redirect  https://library.nagios.com/products/nagios-core/documentation/ - permanently to https://library.nagios.com/docs/nagios-core/getting-started/Nagios-Core-Advice-for-Beginners
+(how-to/virtualisation/libvirt: line  416) ok        https://libvirt.org/formatdomain.html#memory-backing
+(how-to/virtualisation/libvirt: line  174) ok        https://libvirt.org/migration.html#offline-migration
+(explanation/performance/perf-pgo: line   35) ok        https://launchpad.net/~sergiodj/+archive/ubuntu/autofdo
+(how-to/virtualisation/libvirt: line  529) ok        https://libvirt.org/kbase/virtiofs.html
+(how-to/virtualisation/libvirt: line  446) ok        https://libvirt.org/formatdomain.html#cpu-model-and-topology
+(how-to/virtualisation/libvirt: line  176) ok        https://libvirt.org/migration.html
+(explanation/intro-to/high-availability: line   65) ok        https://linbit.com/drbd/
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/resource-agents
+(how-to/virtualisation/libvirt: line  139) ok        https://libvirt.org/uri.html
+(how-to/high-availability/install-drbd: line  145) ok        https://linbit.com/linbit-software-download-page-for-linstor-and-drbd-linux-driver/
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line  281) ok        https://libvirt.org/formatdomain.html#usb-pci-scsi-devices
+(explanation/intro-to/high-availability: line  124) ok        https://launchpad.net/ubuntu/+source/ocfs2-tools
+(how-to/virtualisation/cloud-image-vms-with-uvtool: line  181) ok        https://lists.ubuntu.com/mailman/listinfo/ubuntu-server
+(contributing/contrib-types: line   35) ok        https://mermaid.live/
+(how-to/virtualisation/libvirt: line  526) ok        https://libvirt.org/formatdomain.html#filesystems
+(how-to/observability/install-munin: line   10) ok        https://munin-monitoring.org/
+(how-to/observability/install-munin: line   99) ok        https://munin.readthedocs.io/en/latest/
+(contributing/writing-guidance: line   14) ok        https://myst-parser.readthedocs.io/en/latest/intro.html
+(contributing/writing-guidance: line  147) ok        https://myst-parser.readthedocs.io/en/latest/syntax/roles-and-directives.html
+(how-to/security/firewalls: line   10) ok        https://netfilter.org/
+(explanation/intro-to/networking: line   20) ok        https://netplan.io/
+(explanation/networking/configuring-networks: line  410) ok        https://netplan.io
+(explanation/intro-to/high-availability: line  132) ok        https://launchpad.net/ubuntu/+source/multipath-tools
+(explanation/dnssec/dnssec: line   76) ok        https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/message/P63RI3VBQ7NGL3AKMTR7PCVHVSCPYCLF/
+(explanation/dnssec/dnssec: line   76) ok        https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/message/AFHNUEHKC5KJVGBGSJBH2BMESUAGDF4H/
+(how-to/virtualisation/libvirt: line  534) ok        https://linux-kvm.org/page/Main_Page
+(explanation/intro-to/high-availability: line   54) ok        https://launchpad.net/ubuntu/+source/pacemaker
+(how-to/virtualisation/libvirt: line   32) ok        https://netplan.readthedocs.io/en/latest/netplan-yaml/#properties-for-device-type-bridges
+(how-to/virtualisation/libvirt: line   32) ok        https://netplan.readthedocs.io/en/latest/
+(explanation/networking/configuring-networks: line   12) ok        https://netplan.readthedocs.io/en/stable/
+(explanation/networking/configuring-networks: line  410) ok        https://netplan.readthedocs.io/en/stable/examples/
+(explanation/networking/about-netplan: line   18) ok        https://netplan.readthedocs.io/en/stable/howto/
+(explanation/networking/about-netplan: line   16) ok        https://netplan.readthedocs.io/en/stable/structure-id/
+(explanation/intro-to/networking: line   20) ok        https://netplan.readthedocs.io/en/stable/netplan-yaml/
+(explanation/networking/configuring-networks: line  416) ok        https://netplan.readthedocs.io/en/stable/netplan-yaml/#properties-for-device-type-bridges
+(how-to/web-services/install-nginx: line   97) ok        https://nginx.org/en/docs/
+(explanation/virtualisation/about-rock-images: line   10) ok        https://opencontainers.org/
+(how-to/installation/netboot-the-server-installer-via-uefi-pxe-on-arm-aarch64-arm64-and-x86-64-amd64: line   60) ok        https://old-releases.ubuntu.com/releases/20.04.5/ubuntu-20.04.5-live-server-amd64.iso
+(how-to/web-services/configure-nginx: line  146) ok        https://nginx.org/en/docs/beginners_guide.html
+(explanation/networking/configuring-networks: line  397) ok        https://networkmanager.dev/docs/api/latest/
+(how-to/web-services/configure-nginx: line  147) ok        https://nginx.org/en/docs/http/configuring_https_servers.html
+(how-to/graphics/install-nvidia-drivers: line  256) ok        https://nouveau.freedesktop.org/
+(how-to/storage/iscsi-initiator-or-client: line   29) ok        https://netplan.readthedocs.io/en/latest/examples/
+(contributing/writing-guidance: line   53) ok        https://mystmd.org/guide/dropdowns-cards-and-tabs#tabs
+(how-to/networking/cups-print-server: line   10) ok        https://openprinting.github.io/cups/doc/overview.html
+(how-to/security/smart-card-authentication: line   39) ok        https://p11-glue.github.io/p11-glue/p11-kit.html
+(how-to/security/smart-card-authentication: line   41) ok        https://p11-glue.github.io/p11-glue/p11-kit/manual/config.html
+(explanation/intro-to/high-availability: line  134) ok        https://launchpad.net/ubuntu/+source/sg3-utils
+(how-to/observability/set-up-your-lma-stack: line   24) ok        https://prometheus.io/docs/alerting/latest/alertmanager/
+(how-to/observability/set-up-your-lma-stack: line   22) ok        https://prometheus.io/docs/introduction/overview/
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line  284) ok        https://launchpad.net/~canonical-server/+archive/ubuntu/server-backports
+(explanation/intro-to/openldap: line   81) ok        https://openldap.org/doc/admin25/
+(explanation/intro-to/high-availability: line   66) ok        https://pagure.io/dlm
+(explanation/intro-to/high-availability: line   67) ok        https://pagure.io/gfs2-utils
+(how-to/installation/netboot-the-server-installer-via-uefi-pxe-on-arm-aarch64-arm64-and-x86-64-amd64: line   53) ok        https://ports.ubuntu.com/ubuntu-ports/dists/focal/main/uefi/grub2-arm64/current/grubnetaa64.efi.signed
+(how-to/web-services/install-ruby-on-rails: line   10) ok        https://rubyonrails.org/
+(  how-to/backups: line   26) ok        https://rsnapshot.org/
+(explanation/networking/about-dpdk: line  188) ok        https://people.freedesktop.org/~dbn/pkg-config-guide.html
+(how-to/web-services/install-ruby-on-rails: line  104) ok        https://pragprog.com/titles/rails7/agile-web-development-with-rails-7/
+(how-to/security/firewalls: line  327) ok        https://shorewall.org/
+(how-to/debugging/about-debuginfod: line   20) ok        https://releases.ubuntu.com/
+(explanation/virtualisation/vm-tools-in-the-ubuntu-space: line   28) ok        https://qemu-project.gitlab.io/qemu/system/invocation.html
+(explanation/intro-to/high-availability: line  133) ok        https://launchpad.net/ubuntu/+source/open-iscsi
+(how-to/containers/lxd-containers: line   40) ok        https://openzfs.org/wiki/Main_Page
+(explanation/virtualisation/vm-tools-in-the-ubuntu-space: line   28) ok        https://qemu-project.gitlab.io/qemu/system/monitor.html
+(explanation/software/third-party-repository-usage: line   51) ok        https://snapcraft.io/store
+(how-to/openldap/access-control: line  124) ok        https://openldap.org/doc/admin25/guide.html#Access%20Control
+(how-to/software/snapshot-service: line  317) ok        https://snapshot.ubuntu.com/
+(explanation/software/third-party-repository-usage: line   45) ok        https://snapcraft.io/docs/get-started
+(how-to/containers/run-rocks-on-your-server: line   41) ok        https://snapcraft.io/docs/channels
+(tutorial/managing-software: line  986) ok        https://snapcraft.io/docs/managing-updates
+(contributing/local-development: line  242) ok        https://sphinxext-rediraffe.readthedocs.io/en/latest/
+(how-to/security/smart-card-authentication: line  286) ok        https://sssd.io/design-pages/certmaps_for_LDAP_AD_file.html
+(explanation/intro-to/sssd: line   10) ok        https://sssd.io/
+(how-to/security/smart-card-authentication: line  286) ok        https://sssd.io/design-pages/matching_and_mapping_certificates.html
+(explanation/networking/configuring-networks: line  400) ok        https://netplan.io/faq/
+(how-to/security/smart-card-authentication: line  212) ok        https://sssd.io/docs/introduction.html
+(how-to/openldap/replication: line  376) ok        https://openldap.org/doc/admin24/guide.html#Configuring%20the%20different%20replication%20types
+(how-to/openldap/replication: line   12) ok        https://openldap.org/doc/admin24/guide.html#LDAP%20Sync%20Replication
+(how-to/virtualisation/ubuntu-on-hyper-v: line   31) ok        https://support.microsoft.com/en-us/windows/upgrade-windows-home-to-windows-pro-ef34d520-e73f-3198-c525-d1a218cc2818
+(explanation/software/changing-package-files: line   48) ok        https://systemd.io/
+(how-to/debugging/about-debuginfod: line   10) ok        https://sourceware.org/elfutils/Debuginfod.html
+(explanation/networking/about-dhcp: line   59) ok        https://thekelleys.org.uk/dnsmasq/doc.html
+(explanation/intro-to/high-availability: line  136) ok        https://sourceware.org/lvm2/
+(how-to/backups/back-up-using-shell-scripts: line   21) ok        https://tldp.org/LDP/abs/html/
+(explanation/software/about-apt-upgrade-and-phased-updates: line  105) ok        https://ubuntu-archive-team.ubuntu.com/phased-updates.html
+(explanation/performance/perf-tune-tuned: line   20) ok        https://tuned-project.org/
+(explanation/software/advance-testing-of-updates-in-best-practice-server-deployments: line   20) ok        https://ubuntu-archive-team.ubuntu.com/pending-sru.html
+(explanation/web-services/about-web-servers: line   16) ok        https://ubuntu.com/
+(explanation/clouds/find-cloud-images: line   46) ok        https://ubuntu.com/about/release-cycle
+(tutorial/attach-your-ubuntu-pro-subscription: line   10) ok        https://ubuntu.com/aws/pro
+(how-to/software/automatic-updates: line  349) ok        https://ubuntu.com/landscape
+(how-to/virtualisation/libvirt: line   72) ok        https://ubuntu.com/openstack
+(explanation/intro-to/security: line   33) ok        https://ubuntu.com/security
+(tutorial/attach-your-ubuntu-pro-subscription: line   10) ok        https://ubuntu.com/azure/pro
+(explanation/intro-to/security: line   79) ok        https://ubuntu.com/security/disclosure-policy
+(reference/installation/system-requirements: line   25) ok        https://ubuntu.com/certified/servers
+(explanation/intro-to/security: line   51) ok        https://ubuntu.com/security/cves/about
+(explanation/intro-to/security: line   62) ok        https://ubuntu.com/security/livepatch
+(explanation/security/security_suggestions: line  186) ok        https://ubuntu.com/security/security-standards
+(explanation/web-services/about-web-servers: line   22) ok        https://ubuntu.com/community
+(how-to/mail-services: line   23) ok        https://snapcraft.io/install/thunderbird/ubuntu
+(contributing/local-development: line   17) ok        https://ubuntu.com/community/docs/ethos/code-of-conduct
+(how-to/virtualisation/ubuntu-on-hyper-v: line  100) ok        https://ubuntu.com/download/server
+(tutorial/attach-your-ubuntu-pro-subscription: line   10) ok        https://ubuntu.com/cloud/public-cloud
+(           index: line   80) ok        https://ubuntu.com/server
+(explanation/intro-to/security: line   51) ok        https://ubuntu.com/security/esm
+(explanation/intro-to/security: line   38) ok        https://ubuntu.com/pro
+(how-to/containers/docker-for-system-admins: line   22) ok        https://snapcraft.io/docker
+(tutorial/attach-your-ubuntu-pro-subscription: line   10) ok        https://ubuntu.com/gcp/pro
+(explanation/intro-to/high-availability: line  107) ok        https://launchpad.net/ubuntu/+source/sbd
+(           index: line   83) ok        https://ubuntu.com/server/contact-us?product=server
+(explanation/security/openvpn-client-implementations: line   29) ok        https://tunnelblick.net
+(           index: line   77) ok        https://ubuntu.com/support/community-support
+(explanation/virtualisation/vm-tools-in-the-ubuntu-space: line   56) ok        https://virt-manager.org/
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line   26) ok        https://virgil3d.github.io/
+(how-to/security/install-openvpn: line  563) ok        https://snapcraft.io/easy-openvpn-server
+(tutorial/basic-installation: line   51) ok        https://ubuntu.com/search?q=%22create+a+bootable+USB+stick%22
+(explanation/dnssec/dnssec: line   85) ok        https://wander.science/projects/dns/dnssec-resolver-test/
+(how-to/observability: line   14) ok        https://snapcraft.io/opentelemetry-collector
+(how-to/openldap/ldap-saslauthd-kerberos: line  331) ok        https://web.mit.edu/kerberos/krb5-1.12/doc/admin/princ_dns.html
+(tutorial/managing-software: line   34) ok        https://snapcraft.io/multipass
+(how-to/kerberos/kerberos-encryption-types: line   24) ok        https://web.mit.edu/kerberos/krb5-latest/doc/admin/conf_files/kdc_conf.html#encryption-types
+(how-to/kerberos/kerberos-encryption-types: line   24) ok        https://web.mit.edu/kerberos/krb5-latest/doc/admin/conf_files/kdc_conf.html#keysalt-lists
+(how-to/kerberos/kerberos-encryption-types: line  119) ok        https://web.mit.edu/kerberos/krb5-latest/doc/admin/conf_files/krb5_conf.html#libdefaults
+(explanation/intro-to/high-availability: line  135) ok        https://launchpad.net/ubuntu/+source/tgt
+(how-to/kerberos/kerberos-with-openldap-backend: line   10) ok        https://web.mit.edu/kerberos/krb5-latest/doc/admin/dbtypes.html
+(how-to/kerberos/kerberos-with-openldap-backend: line  345) ok        https://web.mit.edu/kerberos/krb5-latest/doc/admin/conf_ldap.html#conf-ldap
+(how-to/kerberos/kerberos-encryption-types: line   81) ok        https://web.mit.edu/kerberos/krb5-latest/doc/admin/database.html
+(how-to/kerberos/kerberos-encryption-types: line  172) ok        https://web.mit.edu/kerberos/krb5-latest/doc/admin/enctypes.html
+(how-to/kerberos/kerberos-encryption-types: line  177) ok        https://web.mit.edu/kerberos/krb5-latest/doc/basic/index.html
+(how-to/kerberos/kerberos-with-openldap-backend: line   20) ok        https://web.mit.edu/kerberos/krb5-latest/doc/admin/dbtypes.html#ldap-module-kldap
+(how-to/kerberos/kerberos-encryption-types: line  173) ok        https://web.mit.edu/kerberos/krb5-latest/doc/admin/enctypes.html#configuration-variables
+(how-to/kerberos/kerberos-encryption-types: line  168) ok        https://web.mit.edu/kerberos/krb5-latest/doc/admin/enctypes.html#migrating-away-from-older-encryption-types
+(how-to/samba/apparmor-profile: line   10) ok        https://ubuntu.com/server/docs/security-apparmor
+(how-to/web-services/install-a-squid-server: line  109) ok        https://wiki.squid-cache.org/Features/HTTPS
+(explanation/software/changing-package-files: line  161) redirect  https://ubuntu.com/tutorials/beginning-apparmor-profile-development - permanently to https://documentation.ubuntu.com/security/security-features/privilege-restriction/apparmor/
+(how-to/security/apparmor: line  280) ok        https://wiki.debian.org/AppArmor
+(how-to/samba/apparmor-profile: line   52) ok        https://wiki.debian.org/AppArmor/HowToUse
+(how-to/security/openssh-server: line  185) ok        https://wiki.ubuntu.com/AdvancedOpenSSH
+(how-to/software/report-a-bug: line  160) ok        https://wiki.ubuntu.com/Apport
+(how-to/debugging/debug-symbol-packages: line   12) ok        https://wiki.ubuntu.com/Backtrace
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line  284) ok        https://wiki.ubuntu.com/OpenStack/CloudArchive
+(explanation/software/about-apt-upgrade-and-phased-updates: line  113) ok        https://wiki.ubuntu.com/ErrorTracker/PhasedUpdates
+(how-to/security/install-openvpn: line  564) ok        https://wiki.debian.org/OpenVPN
+(how-to/virtualisation/libvirt: line  178) ok        https://wiki.qemu.org/Features/PostCopyLiveMigration
+(explanation/software/about-apt-upgrade-and-phased-updates: line   78) ok        https://wiki.ubuntu.com/PhasedUpdates
+(how-to/virtualisation/qemu: line   16) ok        https://wiki.qemu.org/Main_Page
+(how-to/software/upgrade-your-release: line   25) ok        https://wiki.ubuntu.com/Releases
+(how-to/storage/iscsi-initiator-or-client: line  473) ok        https://wiki.debian.org/SAN/iSCSI/open-iscsi
+(tutorial/attach-your-ubuntu-pro-subscription: line   13) ok        https://wiki.ubuntu.com/Membership
+(how-to/networking/cups-print-server: line  109) ok        https://wiki.debian.org/Printing
+(how-to/virtualisation/libvirt: line  167) ok        https://wiki.libvirt.org/FAQ.html#what-is-the-difference-between-qemu-system-and-qemu-session-which-one-should-i-use
+(how-to/virtualisation/libvirt: line  274) ok        https://wiki.debian.org/ppc64el
+(explanation/virtualisation/upgrading-the-machine-type-of-your-vm: line   92) ok        https://wiki.ubuntu.com/QemuKVMMigration#Upgrade_machine_type
+(how-to/debugging/debug-symbol-packages: line   12) ok        https://wiki.ubuntu.com/Valgrind
+(how-to/mail-services/install-postfix: line  369) ok        https://wiki.debian.org/Postfix
+(explanation/software/advance-testing-of-updates-in-best-practice-server-deployments: line   28) ok        https://wiki.ubuntu.com/Testing/EnableProposed
+(tutorial/managing-software: line   70) ok        https://wiki.debian.org/AptCLI
+(how-to/samba/file-server: line  110) ok        https://www.amazon.com/exec/obidos/tg/detail/-/0131882228
+(how-to/mail-services: line   27) ok        https://www.authsmtp.com/sendmail/index.html
+(  how-to/backups: line   26) ok        https://www.bacula.org/
+(how-to/backups/install-bacula: line  455) ok        https://www.bacula.org/15.0.x-manuals/en/main/Client_File_daemon_Configur.html
+(how-to/virtualisation/libvirt: line  186) ok        https://wiki.ubuntu.com/QemuKVMMigration
+(how-to/backups/install-bacula: line  461) ok        https://www.bacula.org/15.0.x-manuals/en/main/Console_Configuration.html
+(how-to/backups/install-bacula: line  919) ok        https://www.bacula.org/documentation/documentation/
+(how-to/security/smart-card-authentication: line   14) ok        https://ubuntu.com/tutorials/how-to-use-smart-card-authentication-in-ubuntu-desktop#2-overview
+(how-to/backups/install-bacula: line  427) ok        https://www.bacula.org/15.0.x-manuals/en/main/Storage_Daemon_Configuratio.html
+(how-to/security/firewalls: line  331) ok        https://wiki.ubuntu.com/UncomplicatedFirewall
+(how-to/backups/install-bacula: line  583) ok        https://www.bacula.org/15.0.x-manuals/en/main/Job_status_Error_codes.html#blb:director:job:status
+(how-to/mail-services/install-postfix: line  369) ok        https://wiki.debian.org/Postfix/Tutorials
+(how-to/openldap/ldap-saslauthd-kerberos: line  330) ok        https://www.cyrusimap.org/sasl/sasl/faqs/openldap-sasl-gssapi.html
+(how-to/backups/install-bacula: line  117) ok        https://www.bacula.org/15.0.x-manuals/en/main/Configuring_Director.html#SECTION0023200000000000000000
+(how-to/backups/install-bacula: line  154) ok        https://www.bacula.org/15.0.x-manuals/en/main/Configuring_Director.html#SECTION0023700000000000000000
+(how-to/backups/install-bacula: line  224) ok        https://www.bacula.org/15.0.x-manuals/en/main/Configuring_Director.html#SECTION00231600000000000000000
+(how-to/openldap/ldap-saslauthd-kerberos: line  329) ok        https://www.cyrusimap.org/sasl/sasl/components.html#password-verification-services
+(how-to/backups/install-bacula: line  414) ok        https://www.bacula.org/15.0.x-manuals/en/main/Configuring_Director.html#blb:JobResource
+(tutorial/managing-software: line  502) ok        https://www.debian.org/doc/debian-policy/ap-pkg-conffiles.html#automatic-handling-of-configuration-files-by-dpkg
+(explanation/software/third-party-repository-usage: line   74) ok        https://wiki.debian.org/DebianRepository/UseThirdParty
+(how-to/backups/install-bacula: line  191) ok        https://www.bacula.org/15.0.x-manuals/en/main/Configuring_Director.html#SECTION00231300000000000000000
+(how-to/software/package-management: line   78) ok        https://www.debian.org/doc/user-manuals#apt-guide
+(tutorial/managing-software: line  267) ok        https://www.debian.org/doc/debian-policy/ch-relationships.html#binary-dependencies-depends-recommends-suggests-enhances-pre-depends
+(explanation/intro-to/networking: line   44) ok        https://www.dpdk.org/
+(how-to/networking/dpdk-with-open-vswitch: line   95) ok        https://www.dpdk.org/contribute/
+(how-to/backups/install-bacula: line  261) ok        https://www.bacula.org/15.0.x-manuals/en/main/Configuring_Director.html#blb:StorageResource
+(explanation/active-directory/identity-mapping-idmap-backends: line   21) ok        https://www.debian.org/doc/debian-policy/ch-opersys.html#uid-and-gid-classes
+(explanation/crypto/gnutls: line  279) ok        https://www.gnutls.org/manual/html_node/System_002dwide-configuration-of-the-library.html
+(explanation/virtualisation/docker-storage-networking-and-logging: line  123) ok        https://www.elastic.co/logstash
+(explanation/virtualisation/docker-storage-networking-and-logging: line  123) ok        https://www.fluentd.org
+(explanation/crypto/gnutls: line   75) ok        https://www.gnutls.org/manual/html_node/Disabling-algorithms-and-protocols.html
+(how-to/software/package-management: line  270) ok        https://www.debian.org/doc/user-manuals#aptitude
+(how-to/mail-services: line   31) ok        https://www.exim.org/
+(explanation/networking/about-dhcp: line   54) ok        https://www.isc.org/kea/
+(how-to/mail-services/install-postfix: line  175) ok        https://www.ietf.org/rfc/rfc2222.txt
+(explanation/networking/about-dhcp: line   75) ok        https://www.isc.org/dhcp/
+(how-to/mail-services/install-postfix: line  175) ok        https://www.ietf.org/rfc/rfc2554.txt
+(how-to/virtualisation/intel-tdx: line   10) ok        https://www.intel.com/content/www/us/en/developer/tools/trust-domain-extensions/overview.html
+(how-to/wireguard-vpn/site-to-site: line   54) ok        https://www.ietf.org/rfc/rfc3021.txt
+(how-to/software/kernel-crash-dump: line  521) ok        https://www.kernel.org/doc/Documentation/kdump/kdump.txt
+(explanation/software/third-party-repository-usage: line  129) ok        https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_tweaking_candidate_version
+(how-to/software/kernel-crash-dump: line  523) ok        https://www.dedoimedo.com/computers/crash-analyze.html
+(explanation/intro-to/high-availability: line   68) ok        https://www.keepalived.org/
+(how-to/virtualisation/libvirt: line  386) ok        https://www.kernel.org/doc/Documentation/vm/hugetlbpage.txt
+(explanation/crypto/openssl: line  318) ok        https://www.feistyduck.com/library/openssl-cookbook/online/openssl-command-line/understanding-security-levels.html
+(explanation/performance/perf-p-states: line   46) ok        https://www.kernel.org/doc/Documentation/cpu-freq/governors.txt
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line   26) ok        https://www.kernel.org/doc/Documentation/vfio-mediated-device.txt
+(explanation/crypto/bind-9-dnssec-cryptography-selection: line  145) ok        https://www.iana.org/assignments/dns-sec-alg-numbers/dns-sec-alg-numbers.xhtml
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line   48) ok        https://www.kernel.org/doc/html/latest/arch/x86/iommu.html
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line  217) ok        https://www.kernel.org/doc/html/latest/driver-api/vfio-mediated-device.html
+(how-to/virtualisation/libvirt: line  364) ok        https://www.kernel.org/doc/html/v5.4/admin-guide/kernel-parameters.html
+(how-to/virtualisation/libvirt: line  384) ok        https://www.kernel.org/doc/html/v5.4/vm/numa.html
+(how-to/virtualisation/libvirt: line  336) ok        https://www.kernel.org/doc/html/next/admin-guide/mm/transhuge.html
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line   48) ok        https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html?highlight=iommu
+(how-to/virtualisation/libvirt: line  271) ok        https://www.kernel.org/doc/Documentation/vfio.txt
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line   26) ok        https://www.kraxel.org/blog/2016/09/using-virtio-gpu-with-libvirt-and-spice/
+(how-to/graphics/gpu-virtualization-with-qemu-kvm: line   40) ok        https://www.kraxel.org/blog/2018/04/vgpu-display-support-finally-merged-upstream/
+(how-to/security/firewalls: line  337) ok        https://www.netfilter.org/documentation/HOWTO/NAT-HOWTO.html
+(how-to/graphics/install-nvidia-drivers: line   16) ok        https://www.nvidia.com/en-us/drivers/unix/
+(how-to/security/firewalls: line  335) ok        https://www.netfilter.org/documentation/HOWTO/packet-filtering-HOWTO.html
+(explanation/networking/about-time-synchronisation: line   44) ok        https://www.ntppool.org/en/
+(explanation/crypto/openssl: line  314) ok        https://www.openssl.org
+(explanation/virtualisation/vm-tools-in-the-ubuntu-space: line   16) ok        https://www.linux-kvm.org/page/Main_Page
+(reference/glossary: line 1397) ok        https://www.json.org/json-en.html
+(how-to/web-services/configure-apache2-settings: line  173) ok        https://www.oreilly.com/library/view/apache-cookbook-2nd/9780596529949/
+(how-to/openldap/ldap-saslauthd-authentication-intro: line   44) ok        https://www.openldap.org/doc/admin26/sasl.html
+(how-to/openldap/ldap-saslauthd-kerberos: line   23) ok        https://www.openldap.org/doc/admin26/security.html#%22simple%22%20method
+(how-to/networking/install-dns: line  494) ok        https://www.oreilly.com/library/view/dns-and-bind/0596100574/
+(how-to/observability/install-nagios: line  218) ok        https://www.nagios.org/
+(how-to/observability/install-nagios: line  222) ok        https://www.nagios.org/about/propaganda/books-2/
+(how-to/observability/use-nagios-with-munin: line  276) ok        https://www.nagios.org/documentation/
+(explanation/security/certificates: line  180) ok        https://www.openssl.org/
+(how-to/databases/install-mysql: line  352) ok        https://www.oreilly.com/library/view/getting-started-with/9781491938607/
+(how-to/networking/install-dns: line  494) ok        https://www.oreilly.com/library/view/dns-and-bind/9781449308025/
+(how-to/openldap/ldap-saslauthd-kerberos: line  328) ok        https://www.openldap.org/doc/admin26/security.html#Pass-Through%20authentication
+(how-to/databases/install-mysql: line  352) ok        https://www.oreilly.com/library/view/sql-in-a/9780596155322/
+(how-to/virtualisation/libvirt: line  542) ok        https://www.linux-kvm.org/page/How_to_assign_devices_with_VT-d_in_KVM#Assigning_the_device
+(explanation/intro-to/openldap: line   85) ok        https://www.oreilly.com/library/view/ldap-system-administration/1565924916/
+(how-to/openldap/install-openldap: line  445) ok        https://www.openldap.org/doc/admin26/tuning.html#Indexes
+(how-to/mail-services/install-postfix: line  367) ok        https://www.oreilly.com/library/view/postfix-the-definitive/0596002122/
+(how-to/openldap/install-openldap: line   12) ok        https://www.openldap.org/software/man.cgi?query=slapd
+(how-to/samba/file-server: line  112) ok        https://www.oreilly.com/library/view/using-samba-3rd/0596007698/
+(how-to/openldap/ldap-saslauthd-authentication-intro: line   12) ok        https://www.openldap.org/doc/admin26/sasl.html#GSSAPI
+(how-to/databases/install-mysql: line  155) ok        https://www.percona.com/blog/using-myisam-in-production/
+(how-to/web-services/install-php: line   10) ok        https://www.php.net/
+(how-to/web-services/install-php: line   87) ok        https://www.php.net/docs.php
+(how-to/security/two-factor-authentication-with-u2f-or-fido: line   10) ok        https://www.openssh.org/txt/release-8.2
+(explanation/crypto/openssh-crypto-configuration: line  170) ok        https://www.openssh.org/manual.html
+(contributing/contrib-types: line   49) redirect  https://www.mermaidchart.com/app/dashboard - with Found to https://mermaid.ai/app/login?redirect=%2Fapp%2Fdashboard
+(how-to/mail-services: line   27) ok        https://www.postfix.org/
+(explanation/software/config-managers: line   32) ok        https://www.puppet.com/
+(how-to/databases/install-postgresql: line  156) ok        https://www.postgresql.org/docs/current/high-availability.html
+(explanation/security/openvpn-client-implementations: line   55) ok        https://www.packtpub.com/en-us/product/openvpn-building-and-integrating-virtual-private-networks-9781847190680
+(how-to/databases/install-postgresql: line  156) ok        https://www.postgresql.org/docs/current/runtime-config-replication.html
+(explanation/intro-to/openldap: line   86) ok        https://www.packtpub.com/en-us/product/mastering-openldap-configuring-securing-and-integrating-directory-services-9781847191038
+(how-to/backups/install-gitolite: line  177) ok        https://www.packtpub.com/en-us/product/gitolite-essentials-9781783282388
+(explanation/intro-to/openldap: line   82) ok        https://www.rfc-editor.org/rfc/rfc4515.txt
+(explanation/networking/networking-key-concepts: line   68) ok        https://www.rfc-editor.org/rfc/rfc792
+(how-to/databases/install-postgresql: line   24) ok        https://www.postgresql.org/docs/current/admin.html
+(how-to/databases/install-postgresql: line   42) ok        https://www.postgresql.org/docs/
+(how-to/databases/install-postgresql: line  169) ok        https://www.postgresql.org/docs/current/backup.html
+(how-to/openldap/replication: line   12) ok        https://www.rfc-editor.org/rfc/rfc4533.txt
+(explanation/intro-to/databases: line   10) ok        https://www.postgresql.org/
+(how-to/databases/install-postgresql: line   85) ok        https://www.postgresql.org/docs/current/wal.html
+(explanation/web-services/about-web-servers: line   42) ok        https://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.1.1
+(explanation/intro-to/wireguard-vpn: line  177) ok        https://www.wireguard.com
+(explanation/intro-to/wireguard-vpn: line  178) ok        https://www.wireguard.com/quickstart/
+(explanation/virtualisation/qemu-microvm: line  153) ok        https://www.seabios.org
+(how-to/wireguard-vpn/common-tasks: line  162) ok        https://www.wireguard.com/install/
+(explanation/intro-to/wireguard-vpn: line   34) ok        https://www.wireguard.com/protocol/
+(how-to/samba/file-server: line   63) ok        https://www.pathname.com/fhs/pub/fhs-2.3.html#SRVDATAFORSERVICESPROVIDEDBYSYSTEM
+(how-to/mail-services: line   21) redirect  https://www.thunderbird.net/ - with Found to https://www.thunderbird.net/en-US/
+(explanation/intro-to/openldap: line   83) ok        https://www.zytrax.com/books/ldap/
+(explanation/virtualisation/vm-tools-in-the-ubuntu-space: line   24) ok        https://www.qemu.org/
+(how-to/debugging/about-debuginfod: line   22) ok        https://www.sourceware.org/gdb/
+(how-to/web-services/install-a-squid-server: line  115) ok        https://www.squid-cache.org/Doc/config/
+(explanation/virtualisation/qemu-microvm: line   29) ok        https://www.qemu.org/docs/master/system/i386/microvm.html
+(explanation/networking/networking-key-concepts: line   78) ok        https://www.redbooks.ibm.com/abstracts/gg243376.html
+(how-to/virtualisation/sev-snp: line   71) ok        https://www.qemu.org/docs/master/system/i386/amd-memory-encryption.html
+(how-to/virtualisation/sev-snp: line   73) ok        https://www.qemu.org/docs/master/system/invocation.html
+(how-to/virtualisation/qemu: line   70) ok        https://www.qemu.org/documentation/
+(how-to/virtualisation/intel-tdx: line  184) ok        https://www.qemu.org/docs/master/system/i386/tdx.html
+(explanation/virtualisation/docker-storage-networking-and-logging: line  122) ok        https://www.rapid7.com/products/siem/
+(how-to/virtualisation/sev-snp: line   73) ok        https://www.qemu.org/docs/master/system/i386/amd-memory-encryption.html#sevapi
+(how-to/virtualisation/enable-nested-virtualisation: line  117) ok        https://wiki.openstack.org/wiki/LibvirtXMLCPUModel
+(how-to/virtualisation/intel-tdx: line  355) broken    https://cc-enabling.trustedservices.intel.com/intel-tdx-enabling-guide/04/hardware_setup/#deploy-specific-intel-tdx-module-version - HTTPSConnectionPool(host='cc-enabling.trustedservices.intel.com', port=443): Max retries exceeded with url: /intel-tdx-enabling-guide/04/hardware_setup/ (Caused by NameResolutionError("HTTPSConnection(host='cc-enabling.trustedservices.intel.com', port=443): Failed to resolve 'cc-enabling.trustedservices.intel.com' ([Errno -3] Temporary failure in name resolution)"))
+(how-to/wireguard-vpn/vpn-as-the-default-gateway: line  186) broken    https://dnsleaktest.com - HTTPSConnectionPool(host='dnsleaktest.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='dnsleaktest.com', port=443): Failed to resolve 'dnsleaktest.com' ([Errno -3] Temporary failure in name resolution)"))
+sphinx-sitemap: No pages generated for sitemap.xml
+rediraffe: Redirect generation skipped for linkcheck builders.
+build finished with problems, 247 warnings.
+how-to/virtualisation/intel-tdx.md:355: [broken] https://cc-enabling.trustedservices.intel.com/intel-tdx-enabling-guide/04/hardware_setup/#deploy-specific-intel-tdx-module-version: HTTPSConnectionPool(host='cc-enabling.trustedservices.intel.com', port=443): Max retries exceeded with url: /intel-tdx-enabling-guide/04/hardware_setup/ (Caused by NameResolutionError("HTTPSConnection(host='cc-enabling.trustedservices.intel.com', port=443): Failed to resolve 'cc-enabling.trustedservices.intel.com' ([Errno -3] Temporary failure in name resolution)"))
+how-to/wireguard-vpn/vpn-as-the-default-gateway.md:186: [broken] https://dnsleaktest.com: HTTPSConnectionPool(host='dnsleaktest.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='dnsleaktest.com', port=443): Failed to resolve 'dnsleaktest.com' ([Errno -3] Temporary failure in name resolution)"))
+make: *** [Makefile:106: linkcheck] Error 1

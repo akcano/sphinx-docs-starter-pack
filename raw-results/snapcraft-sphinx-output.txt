@@ -1,0 +1,16 @@
+. .sphinx/venv/bin/activate ; .sphinx/venv/bin/sphinx-build -b linkcheck "." "_build" -c . -d .sphinx/.doctrees -j auto || { grep --color -F "[broken]" "_build/output.txt"; exit 1; }
+Running Sphinx v7.4.7
+
+Configuration error:
+There is a programmable error in your configuration file:
+
+Traceback (most recent call last):
+  File "/home/artem.konev@canonical.com/Documents/lychee-test-snapcraft/docs/.sphinx/venv/lib/python3.12/site-packages/sphinx/config.py", line 529, in eval_config_file
+    exec(code, namespace)  # NoQA: S102
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/artem.konev@canonical.com/Documents/lychee-test-snapcraft/docs/conf.py", line 6, in <module>
+    import craft_application_docs
+ModuleNotFoundError: No module named 'craft_application_docs'
+
+grep: _build/output.txt: No such file or directory
+make: *** [Makefile:104: linkcheck] Error 1

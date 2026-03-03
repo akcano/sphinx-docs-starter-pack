@@ -1,0 +1,58 @@
+{
+  "total": 153,
+  "successful": 80,
+  "unknown": 0,
+  "unsupported": 2,
+  "timeouts": 0,
+  "redirects": 8,
+  "excludes": 58,
+  "errors": 5,
+  "cached": 15,
+  "success_map": {},
+  "error_map": {
+    "/home/artem.konev@canonical.com/Documents/starter-pack-akcano/docs/reference/rst-syntax-reference.rst": [
+      {
+        "url": "https://manpages.ubuntu.com/manpages/noble/en/man%7Bsection%7D/%7Bpage%7D.%7Bsection%7D.html",
+        "status": {
+          "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+          "code": 404
+        }
+      }
+    ],
+    "/home/artem.konev@canonical.com/Documents/starter-pack-akcano/docs/how-to/set-up-sitemaps.rst": [
+      {
+        "url": "https://canonical-starter-pack.readthedocs-hosted.com/1.0/sitemap.xml",
+        "status": {
+          "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+          "code": 404
+        }
+      },
+      {
+        "url": "https://canonical-starter-pack.readthedocs-hosted.com/stable/sitemapindex.xml",
+        "status": {
+          "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+          "code": 404
+        }
+      },
+      {
+        "url": "https://canonical-starter-pack.readthedocs-hosted.com/3.0/sitemap.xml",
+        "status": {
+          "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+          "code": 404
+        }
+      },
+      {
+        "url": "https://canonical-starter-pack.readthedocs-hosted.com/2.0/sitemap.xml",
+        "status": {
+          "text": "Rejected status code: 404 Not Found (configurable with \"accept\" option)",
+          "code": 404
+        }
+      }
+    ]
+  },
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {},
+  "duration_secs": 2,
+  "detailed_stats": false
+}

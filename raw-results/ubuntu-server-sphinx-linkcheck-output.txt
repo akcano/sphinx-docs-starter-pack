@@ -1,0 +1,32 @@
+how-to/networking/dpdk-with-open-vswitch.md:265: [redirected permanently] http://dpdk.org/doc to http://core.dpdk.org/doc/
+how-to/networking/dpdk-with-open-vswitch.md:269: [redirected permanently] http://dpdk.org/doc/guides/linux_gsg/index.html to http://doc.dpdk.org/guides/linux_gsg/index.html
+how-to/networking/dpdk-with-open-vswitch.md:273: [redirected permanently] http://dpdk.org/doc/api/ to http://doc.dpdk.org/api/
+how-to/networking/dpdk-with-open-vswitch.md:267: [redirected permanently] http://dpdk.org/doc/guides/rel_notes/release_2_2.html to http://doc.dpdk.org/guides/rel_notes/release_2_2.html
+how-to/networking/dpdk-with-open-vswitch.md:271: [redirected permanently] http://dpdk.org/doc/guides/testpmd_app_ug/run_app.html to http://doc.dpdk.org/guides/testpmd_app_ug/run_app.html
+how-to/backups/back-up-using-shell-scripts.md:328: [redirected permanently] http://en.wikipedia.org/wiki/Backup_rotation_scheme to https://en.wikipedia.org/wiki/Backup_rotation_scheme
+how-to/samba/print-server.md:55: [redirected permanently] http://www.amazon.com/exec/obidos/tg/detail/-/0131882228 to https://www.amazon.com/exec/obidos/tg/detail/-/0131882228
+how-to/software/snapshot-service.md:186: [redirected with Found] http://docker.io to https://www.docker.com/
+how-to/networking/dnssec-troubleshooting.md:19: [redirected permanently] http://isc.org to https://www.isc.org/
+how-to/web-services/use-apache2-modules.md:95: [redirected permanently] http://shop.oreilly.com/product/9780596529949.do to https://www.oreilly.com/library/view/apache-cookbook-2nd/9780596529949/
+how-to/samba/print-server.md:57: [redirected permanently] http://www.oreilly.com/catalog/9780596007690/ to https://www.oreilly.com/library/view/using-samba-3rd/0596007698/
+explanation/dnssec/dnssec.md:76: [redirected with See Other] https://bugs.launchpad.net/bugs/2121483 to https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2121483
+explanation/crypto/network-security-services-nss.md:16: [redirected with See Other] https://bugs.launchpad.net/bugs/2016303 to https://bugs.launchpad.net/ubuntu/+source/nss/+bug/2016303
+how-to/networking/install-nfs.md:297: [redirected with See Other] https://bugs.launchpad.net/ubuntu/+source/nfs-utils/+filebug to https://bugs.launchpad.net/ubuntu/+source/nfs-utils/+filebug/+login
+how-to/samba/member-server-in-an-ad-domain.md:95: [redirected with See Other] https://bugs.launchpad.net/bugs/1980246 to https://bugs.launchpad.net/ubuntu/+source/samba/+bug/1980246
+how-to/containers/lxd-containers.md:20: [redirected permanently] https://discourse.ubuntu.com/c/lxd/126 to https://discourse.ubuntu.com/c/project/lxd/126
+contributing/writing-guidance.md:23: [redirected with See Other] https://bugs.launchpad.net/bugs/1852389 to https://bugs.launchpad.net/git-ubuntu/+bug/1852389
+how-to/networking/install-isc-kea.md:30: [redirected with See Other] https://bugs.launchpad.net/bugs/2007312 to https://bugs.launchpad.net/ubuntu/+source/isc-kea/+bug/2007312
+explanation/virtualisation/qemu-microvm.md:198: [redirected with See Other] https://bugs.launchpad.net/bugs/2074073 to https://bugs.launchpad.net/ubuntu/+source/qemu/+bug/2074073
+how-to/security/apparmor.md:156: [redirected with See Other] https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug to https://bugs.launchpad.net/ubuntu/+source/apparmor/+filebug/+login
+explanation/dnssec/dnssec.md:76: [redirected with See Other] https://bugs.launchpad.net/bugs/2119652 to https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2119652
+how-to/sssd/with-active-directory.md:240: [redirected with See Other] https://bugs.launchpad.net/bugs/1934997 to https://bugs.launchpad.net/ubuntu/+source/sssd/+bug/1934997
+how-to/virtualisation/libvirt.md:342: [redirected with See Other] https://bugs.launchpad.net/bugs/1776189 to https://bugs.launchpad.net/ubuntu/+source/qemu/+bug/1776189
+how-to/containers/lxd-containers.md:20: [redirected with Found] https://documentation.ubuntu.com/lxd/ to https://documentation.ubuntu.com/lxd/stable-5.21/
+how-to/virtualisation/ubuntu-on-hyper-v.md:20: [redirected permanently] https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/system-requirements-for-hyper-v-on-windows to https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/host-hardware-requirements
+how-to/virtualisation/ubuntu-on-hyper-v.md:16: [redirected with Found] https://learn.microsoft.com/windows/wsl/about to https://learn.microsoft.com/en-us/windows/wsl/about
+how-to/observability/install-nagios.md:220: [redirected permanently] https://library.nagios.com/products/nagios-core/documentation/ to https://library.nagios.com/docs/nagios-core/getting-started/Nagios-Core-Advice-for-Beginners
+explanation/software/changing-package-files.md:161: [redirected permanently] https://ubuntu.com/tutorials/beginning-apparmor-profile-development to https://documentation.ubuntu.com/security/security-features/privilege-restriction/apparmor/
+contributing/contrib-types.md:49: [redirected with Found] https://www.mermaidchart.com/app/dashboard to https://mermaid.ai/app/login?redirect=%2Fapp%2Fdashboard
+how-to/mail-services.md:21: [redirected with Found] https://www.thunderbird.net/ to https://www.thunderbird.net/en-US/
+how-to/virtualisation/intel-tdx.md:355: [broken] https://cc-enabling.trustedservices.intel.com/intel-tdx-enabling-guide/04/hardware_setup/#deploy-specific-intel-tdx-module-version: HTTPSConnectionPool(host='cc-enabling.trustedservices.intel.com', port=443): Max retries exceeded with url: /intel-tdx-enabling-guide/04/hardware_setup/ (Caused by NameResolutionError("HTTPSConnection(host='cc-enabling.trustedservices.intel.com', port=443): Failed to resolve 'cc-enabling.trustedservices.intel.com' ([Errno -3] Temporary failure in name resolution)"))
+how-to/wireguard-vpn/vpn-as-the-default-gateway.md:186: [broken] https://dnsleaktest.com: HTTPSConnectionPool(host='dnsleaktest.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='dnsleaktest.com', port=443): Failed to resolve 'dnsleaktest.com' ([Errno -3] Temporary failure in name resolution)"))

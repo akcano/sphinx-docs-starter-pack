@@ -1,0 +1,73 @@
+# Raw Results Data Inventory
+# Generated: 2026-03-02T23:09:33Z
+
+## starter-pack
+  lychee.json: OK (1834 bytes)
+  lychee-timing.txt: OK (241 bytes)
+  lychee-dump.txt: OK (6005 bytes)
+  sphinx-output.txt: OK (26243 bytes)
+  sphinx-timing.txt: OK (42 bytes)
+
+## multipass
+  lychee.json: OK (155495 bytes)
+  lychee-timing.txt: OK (242 bytes)
+  lychee-dump.txt: OK (30480 bytes)
+  sphinx-output.txt: OK (45893 bytes)
+  sphinx-timing.txt: OK (41 bytes)
+
+## ubuntu-server
+  lychee.json: OK (11810 bytes)
+  lychee-timing.txt: OK (328 bytes)
+  lychee-dump.txt: OK (46776 bytes)
+  sphinx-output.txt: OK (172773 bytes)
+  sphinx-timing.txt: OK (43 bytes)
+
+## snapcraft
+  lychee.json: OK (2257 bytes)
+  lychee-timing.txt: OK (352 bytes)
+  lychee-dump.txt: OK (9060 bytes)
+  sphinx-output.txt: FAILED (854 bytes — failure documentation)
+  sphinx-timing.txt: OK (21 bytes)
+
+## Key Metrics Summary
+
+### lychee Metrics
+
+  starter-pack:   total=153, successful=80, errors=5, excludes=58, redirects=8,  cached=15, time=0m2.656s
+  multipass:      total=590, successful=39, errors=449 (relative-path failures), excludes=79, redirects=23, cached=3, time=0m6.303s
+  ubuntu-server:  total=881, successful=754, errors=37, excludes=58, redirects=29, cached=105, time=1m33.262s
+  snapcraft:      total=528, successful=147, errors=6, excludes=324, redirects=50, cached=23, time=1m2.798s
+
+### Sphinx Metrics
+
+  starter-pack:   broken=27 (0 in actual docs, 27 in venv/ packages), working=101, redirected=19, ignored=66, time=10m6.284s
+  multipass:      broken=1, working=51, redirected=20, ignored=75, time=0m9.131s
+  ubuntu-server:  broken=2, working=582, redirected=30, ignored=376, time=1m30.834s
+  snapcraft:      FAILED — ModuleNotFoundError: craft_application_docs (requires snapcraft Python package installed)
+
+### Wall-Clock Timing Comparison (real time)
+
+  starter-pack:   lychee=0m2.656s,  sphinx=10m6.284s  (sphinx 228x slower — scanned venv/)
+  multipass:      lychee=0m6.303s,  sphinx=0m9.131s
+  ubuntu-server:  lychee=1m33.262s, sphinx=1m30.834s
+  snapcraft:      lychee=1m2.798s,  sphinx=N/A (setup failed)
+
+### Sphinx [broken] lines in output (total, including venv/ packages)
+
+  starter-pack: 28 [broken] lines
+  multipass: 2 [broken] lines
+  ubuntu-server: 3 [broken] lines
+  snapcraft: 1 [broken] lines
+
+### Notable Findings for Plan 03-03
+
+  1. starter-pack sphinx: All 27 broken links are in venv/ packages (a11y_pygments, mdit_py_plugins)
+     Sphinx scanned docs/venv/ (a legacy 158MB venv left from earlier work)
+     Actual doc links: 0 broken (lychee found 5 broken — some are private/auth-gated URLs)
+  2. multipass sphinx: Only 1 broken link vs lychee's 449
+     Sphinx doesn't check relative internal links (e.g. /how-to-guides/...) — they're not hyperlinks in RST/MD context
+     lychee's 449 errors are all relative path conversion failures (lychee limitation)
+  3. ubuntu-server sphinx: 2 broken vs lychee's 37
+     Major difference — lychee finds 35 more issues to classify in Plan 03-03
+  4. snapcraft sphinx: FAILED — conf.py imports craft_application_docs, craft_parts_docs, snapcraft
+     These require the full snapcraft application installed — out of scope for best-effort Sphinx run

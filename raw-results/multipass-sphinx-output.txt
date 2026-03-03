@@ -1,0 +1,376 @@
+. .sphinx/venv/bin/activate ; .sphinx/venv/bin/sphinx-build -b linkcheck "." "_build" -c . -d .sphinx/.doctrees -j auto || { grep --color -F "[broken]" "_build/output.txt"; exit 1; }
+Running Sphinx v9.1.0
+loading translations [en]... done
+sphinx_design found.
+sphinx_design is now configured.
+sphinx_tabs.tabs found.
+sphinx_tabs.tabs is now configured.
+sphinx_reredirects found.
+sphinx_reredirects is now configured.
+canonical.youtube-links found.
+canonical.youtube-links is now configured.
+canonical.related-links found.
+canonical.related-links is now configured.
+canonical.custom-rst-roles found.
+canonical.custom-rst-roles is now configured.
+canonical.terminal-output found.
+canonical.terminal-output is now configured.
+canonical.contributor-listing found.
+canonical.contributor-listing is now configured.
+sphinx_copybutton found.
+sphinx_copybutton is now configured.
+sphinxext.opengraph found.
+sphinxext.opengraph is now configured.
+sphinxcontrib.jquery found.
+sphinxcontrib.jquery is now configured.
+notfound.extension found.
+notfound.extension is now configured.
+sphinxcontrib.cairosvgconverter found.
+sphinxcontrib.cairosvgconverter is now configured.
+sphinx_last_updated_by_git found.
+sphinx_last_updated_by_git is now configured.
+matplotlib is not installed, social cards will not be generated
+making output directory... done
+myst v5.0.0: MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions={'substitution', 'linkify', 'deflist'}, disable_syntax=[], all_links_external=False, links_external_new_tab=False, url_schemes=('http', 'https', 'mailto', 'ftp'), ref_domains=None, fence_as_directive=set(), number_code_blocks=[], title_to_header=False, heading_anchors=0, heading_slug_func=None, html_meta={}, footnote_sort=True, footnote_transition=True, words_per_minute=200, substitutions={}, linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area', enable_checkboxes=False, suppress_warnings=[], highlight_code_blocks=True)
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [linkcheck]: targets for 107 source files that are out of date
+updating environment: [new config] 107 added, 0 changed, 0 removed
+reading sources... [  4%] contribute-to-multipass-docs .. explanation/alias
+reading sources... [  7%] explanation/authentication .. explanation/host
+reading sources... [ 11%] explanation/id-mapping .. explanation/instance
+reading sources... [ 15%] explanation/mount .. explanation/reference-architecture
+reading sources... [ 19%] explanation/service .. how-to-guides/customise-multipass/authenticate-users-with-the-multipass-service
+reading sources... [ 22%] how-to-guides/customise-multipass/build-multipass-images-with-packer .. how-to-guides/customise-multipass/index
+reading sources... [ 26%] how-to-guides/customise-multipass/integrate-with-windows-terminal .. how-to-guides/customise-multipass/set-up-the-driver
+reading sources... [ 30%] how-to-guides/customise-multipass/use-a-different-terminal-from-the-system-icon .. how-to-guides/manage-instances/add-a-network-to-an-existing-instance
+reading sources... [ 33%] how-to-guides/manage-instances/configure-static-ips .. how-to-guides/manage-instances/launch-customized-instances-with-multipass-and-cloud-init
+reading sources... [ 37%] how-to-guides/manage-instances/modify-an-instance .. how-to-guides/manage-instances/share-data-with-an-instance
+reading sources... [ 41%] how-to-guides/manage-instances/use-a-blueprint .. how-to-guides/manage-instances/use-the-docker-blueprint
+reading sources... [ 44%] how-to-guides/manage-instances/use-the-primary-instance .. how-to-guides/troubleshoot/mount-an-encrypted-home-folder
+reading sources... [ 48%] how-to-guides/troubleshoot/troubleshoot-launch-start-issues .. reference/command-line-interface/alias
+reading sources... [ 52%] reference/command-line-interface/aliases .. reference/command-line-interface/delete
+reading sources... [ 56%] reference/command-line-interface/exec .. reference/command-line-interface/help
+reading sources... [ 59%] reference/command-line-interface/index .. reference/command-line-interface/list
+reading sources... [ 63%] reference/command-line-interface/mount .. reference/command-line-interface/purge
+reading sources... [ 67%] reference/command-line-interface/recover .. reference/command-line-interface/set
+reading sources... [ 70%] reference/command-line-interface/shell .. reference/command-line-interface/stop
+reading sources... [ 74%] reference/command-line-interface/suspend .. reference/command-line-interface/unalias
+reading sources... [ 78%] reference/command-line-interface/version .. reference/index
+reading sources... [ 81%] reference/instance-name-format .. reference/release-notes/1.16.0
+reading sources... [ 85%] reference/release-notes/1.16.1 .. reference/settings/client-apps-windows-terminal-profiles
+reading sources... [ 89%] reference/settings/client-gui-autostart .. reference/settings/index
+reading sources... [ 93%] reference/settings/local-bridged-network .. reference/settings/local-instance-name-cpus
+reading sources... [ 96%] reference/settings/local-instance-name-disk .. reference/settings/local-instance-name-snapshot-name-name
+reading sources... [100%] reference/settings/local-passphrase .. tutorial/index
+
+getting Git timestamps for source files... [  9%] .
+getting Git timestamps for source files... [ 18%] explanation
+getting Git timestamps for source files... [ 27%] how-to-guides/customise-multipass
+getting Git timestamps for source files... [ 36%] how-to-guides/manage-instances
+getting Git timestamps for source files... [ 45%] how-to-guides/troubleshoot
+getting Git timestamps for source files... [ 55%] reference/command-line-interface
+getting Git timestamps for source files... [ 64%] reference
+getting Git timestamps for source files... [ 73%] how-to-guides
+getting Git timestamps for source files... [ 82%] reference/settings
+getting Git timestamps for source files... [ 91%] reference/release-notes
+getting Git timestamps for source files... [100%] tutorial
+
+getting Git timestamps for dependencies... [ 25%] images
+getting Git timestamps for dependencies... [ 50%] images/run-a-docker-container-in-multipass
+getting Git timestamps for dependencies... [ 75%] images/gui-client
+getting Git timestamps for dependencies... [100%] images/tutorial
+
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/contribute-to-multipass-docs.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/about-performance.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/about-security.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/alias.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/authentication.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/blueprint.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/driver.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/host.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/mount.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/multipass-exec-and-shells.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/platform.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/reference-architecture.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/service.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/settings-keys-values.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/snapshot.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/authenticate-users-with-the-multipass-service.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/build-multipass-images-with-packer.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/configure-multipass-default-logging-level.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/configure-where-multipass-stores-external-data.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/index.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/configure-static-ips.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/create-an-instance.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/index.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/launch-customized-instances-with-multipass-and-cloud-init.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/modify-an-instance.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/remove-an-instance.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/run-a-docker-container-in-multipass.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/share-data-with-an-instance.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/use-the-primary-instance.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/access-logs.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/index.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/mount-an-encrypted-home-folder.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/aliases.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/authenticate.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/clone.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/delete.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/exec.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/find.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/get.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/help.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/index.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/info.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/launch.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/list.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/recover.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/restart.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/restore.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/set.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/shell.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/snapshot.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/start.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/stop.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/use-a-blueprint.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/use-an-instance.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/use-instance-command-aliases.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/use-the-docker-blueprint.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/id-mapping.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/image.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/index.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/explanation/instance.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/mount.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/networks.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/prefer.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/purge.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/suspend.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/transfer.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/umount.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/unalias.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/version.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/wait-ready.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/gui-client.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/index.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/integrate-with-windows-terminal.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/migrate-from-hyperkit-to-qemu-on-macos.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/set-up-a-graphical-interface.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/set-up-the-driver.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/customise-multipass/use-a-different-terminal-from-the-system-icon.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/index.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/install-multipass.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/manage-instances/add-a-network-to-an-existing-instance.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/client-gui-autostart.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/client-gui-hotkey.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/client-primary-name.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/index.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-disk.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-memory.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-snapshot-name-comment.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-snapshot-name-name.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/release-notes/1.16.1.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/release-notes/index.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/release-notes/release-notes-templates.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/client-apps-windows-terminal-profiles.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-bridged-network.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-driver.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-bridged.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-instance-name-cpus.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/troubleshoot-launch-start-issues.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/how-to-guides/troubleshoot/troubleshoot-networking.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/index.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/command-line-interface/alias.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/instance-name-format.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/instance-states.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/logging-levels.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/release-notes/1.16.0.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-passphrase.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/reference/settings/local-privileged-mounts.md: WARNING: Git clone too shallow [git.too_shallow]
+/home/artem.konev@canonical.com/Documents/lychee-test-multipass/docs/tutorial/index.md: WARNING: Git clone too shallow [git.too_shallow]
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying assets: done
+writing output... [  4%] explanation/about-performance .. explanation/authentication
+writing output... [  7%] explanation/blueprint .. explanation/id-mapping
+writing output... [ 11%] explanation/image .. explanation/mount
+writing output... [ 15%] explanation/multipass-exec-and-shells .. explanation/service
+writing output... [ 19%] explanation/settings-keys-values .. how-to-guides/customise-multipass/build-multipass-images-with-packer
+writing output... [ 22%] how-to-guides/customise-multipass/configure-multipass-default-logging-level .. how-to-guides/customise-multipass/integrate-with-windows-terminal
+writing output... [ 26%] how-to-guides/customise-multipass/migrate-from-hyperkit-to-qemu-on-macos .. how-to-guides/customise-multipass/use-a-different-terminal-from-the-system-icon
+writing output... [ 30%] how-to-guides/index .. how-to-guides/manage-instances/configure-static-ips
+writing output... [ 33%] how-to-guides/manage-instances/create-an-instance .. how-to-guides/manage-instances/modify-an-instance
+writing output... [ 37%] how-to-guides/manage-instances/remove-an-instance .. how-to-guides/manage-instances/use-a-blueprint
+writing output... [ 41%] how-to-guides/manage-instances/use-an-instance .. how-to-guides/manage-instances/use-the-primary-instance
+writing output... [ 44%] how-to-guides/troubleshoot/access-logs .. how-to-guides/troubleshoot/troubleshoot-launch-start-issues
+writing output... [ 48%] how-to-guides/troubleshoot/troubleshoot-networking .. reference/command-line-interface/aliases
+writing output... [ 52%] reference/command-line-interface/authenticate .. reference/command-line-interface/exec
+writing output... [ 56%] reference/command-line-interface/find .. reference/command-line-interface/index
+writing output... [ 59%] reference/command-line-interface/info .. reference/command-line-interface/mount
+writing output... [ 63%] reference/command-line-interface/networks .. reference/command-line-interface/recover
+writing output... [ 67%] reference/command-line-interface/restart .. reference/command-line-interface/shell
+writing output... [ 70%] reference/command-line-interface/snapshot .. reference/command-line-interface/suspend
+writing output... [ 74%] reference/command-line-interface/transfer .. reference/command-line-interface/version
+writing output... [ 78%] reference/command-line-interface/wait-ready .. reference/instance-name-format
+writing output... [ 81%] reference/instance-states .. reference/release-notes/1.16.1
+writing output... [ 85%] reference/release-notes/index .. reference/settings/client-gui-autostart
+writing output... [ 89%] reference/settings/client-gui-hotkey .. reference/settings/local-bridged-network
+writing output... [ 93%] reference/settings/local-driver .. reference/settings/local-instance-name-disk
+writing output... [ 96%] reference/settings/local-instance-name-memory .. reference/settings/local-passphrase
+writing output... [100%] reference/settings/local-privileged-mounts .. tutorial/index
+
+
+(contribute-to-multipass-docs: line   53) -ignored- https://github.com/canonical/open-documentation-academy/issues?q=is%3Aissue+is%3Aopen+multipass+
+(contribute-to-multipass-docs: line   60) -ignored- https://github.com/canonical/multipass/issues/new/choose
+(contribute-to-multipass-docs: line   62) -ignored- https://app.element.io/#/room/#Multipass:matrix.org
+(explanation/blueprint: line   43) -ignored- https://github.com/canonical/multipass-blueprints
+(how-to-guides/customise-multipass/build-multipass-images-with-packer: line    8) -ignored- https://developer.hashicorp.com/packer
+(how-to-guides/customise-multipass/build-multipass-images-with-packer: line   59) -ignored- https://developer.hashicorp.com/packer/docs
+(how-to-guides/customise-multipass/set-up-a-graphical-interface: line  205) -ignored- https://sourceforge.net/projects/vcxsrv/
+(how-to-guides/customise-multipass/set-up-a-graphical-interface: line  205) -ignored- http://www.straightrunning.com/XmingNotes/
+(how-to-guides/customise-multipass/set-up-a-graphical-interface: line  205) -ignored- https://sourceforge.net/projects/xming/
+(how-to-guides/customise-multipass/set-up-the-driver: line  196) -ignored- https://localhost:8081/
+(how-to-guides/install-multipass: line  131) -ignored- https://github.com/canonical/multipass/releases/
+(how-to-guides/troubleshoot/access-logs: line   16) -ignored- https://www.freedesktop.org/software/systemd/man/systemd-journald.service.html
+(how-to-guides/troubleshoot/troubleshoot-launch-start-issues: line  162) -ignored- https://github.com/canonical/multipass/issues/2387
+(how-to-guides/troubleshoot/troubleshoot-launch-start-issues: line  246) -ignored- https://github.com/canonical/multipass/issues/1714
+(how-to-guides/troubleshoot/troubleshoot-networking: line   64) -ignored- https://github.com/canonical/multipass/issues/1169
+(how-to-guides/troubleshoot/troubleshoot-networking: line   88) -ignored- https://unix.stackexchange.com/questions/106304/route-add-no-longer-works-when-i-connected-to-vpn-via-cisco-anyconnect-client/501094#501094
+(how-to-guides/troubleshoot/troubleshoot-networking: line   96) -ignored- https://github.com/canonical/multipass/issues/495#issuecomment-448461250
+(           index: line  104) -ignored- https://github.com/canonical/multipass/issues
+(reference/release-notes/1.16.0: line   16) -ignored- https://github.com/canonical/multipass
+(reference/release-notes/1.16.0: line   35) -ignored- https://github.com/canonical/multipass/tree/main/docs
+(reference/release-notes/1.16.0: line   44) -ignored- https://github.com/canonical/multipass/pull/3978
+(reference/release-notes/1.16.0: line   44) -ignored- https://github.com/canonical/multipass/pull/4004
+(reference/release-notes/1.16.0: line   44) -ignored- https://github.com/canonical/multipass/pull/4006
+(reference/release-notes/1.16.0: line   44) -ignored- https://github.com/canonical/multipass/pull/4010
+(reference/release-notes/1.16.0: line   44) -ignored- https://github.com/canonical/multipass/pull/4016
+(reference/release-notes/1.16.0: line   45) -ignored- https://github.com/canonical/multipass/pull/3902
+(reference/release-notes/1.16.0: line   45) -ignored- https://github.com/canonical/multipass/pull/3971
+(reference/release-notes/1.16.0: line   45) -ignored- https://github.com/canonical/multipass/pull/3959
+(reference/release-notes/1.16.0: line   45) -ignored- https://github.com/canonical/multipass/pull/4007
+(reference/release-notes/1.16.0: line   51) -ignored- https://github.com/canonical/multipass/pull/4138
+(reference/release-notes/1.16.0: line   52) -ignored- https://github.com/canonical/multipass/pull/3931
+(reference/release-notes/1.16.0: line   53) -ignored- https://github.com/canonical/multipass/pull/4058
+(reference/release-notes/1.16.0: line   54) -ignored- https://github.com/canonical/multipass/pull/4051
+(reference/release-notes/1.16.0: line   55) -ignored- https://github.com/canonical/multipass/pull/3904
+(reference/release-notes/1.16.0: line   56) -ignored- https://github.com/canonical/multipass/pull/3880
+(reference/release-notes/1.16.0: line   57) -ignored- https://github.com/canonical/multipass/pull/4012
+(reference/release-notes/1.16.1: line   13) -ignored- https://github.com/canonical/multipass/pull/4218
+(reference/release-notes/1.16.1: line   14) -ignored- https://github.com/canonical/multipass/pull/4246
+(reference/release-notes/1.16.1: line   15) -ignored- https://github.com/canonical/multipass/pull/4288
+(reference/release-notes/1.16.1: line   17) -ignored- https://github.com/canonical/multipass/milestone/34?closed=1
+(reference/release-notes/1.16.1: line   17) -ignored- https://github.com/canonical/multipass/compare/v1.16.0...v1.16.1
+(reference/release-notes/index: line    6) -ignored- https://github.com/canonical/multipass/releases
+(reference/release-notes/index: line   49) -ignored- https://github.com/canonical/multipass/releases/tag/v1.15.1
+(reference/release-notes/index: line   50) -ignored- https://github.com/canonical/multipass/releases/tag/v1.15.0
+(reference/release-notes/index: line   51) -ignored- https://github.com/canonical/multipass/releases/tag/v1.14.1
+(reference/release-notes/index: line   52) -ignored- https://github.com/canonical/multipass/releases/tag/v1.14.0
+(reference/release-notes/index: line   53) -ignored- https://github.com/canonical/multipass/releases/tag/v1.13.1
+(reference/release-notes/index: line   54) -ignored- https://github.com/canonical/multipass/releases/tag/v1.13.0
+(reference/release-notes/index: line   55) -ignored- https://github.com/canonical/multipass/releases/tag/v1.12.2
+(reference/release-notes/index: line   56) -ignored- https://github.com/canonical/multipass/releases/tag/v1.12.1
+(reference/release-notes/index: line   57) -ignored- https://github.com/canonical/multipass/releases/tag/v1.12.0
+(reference/release-notes/index: line   58) -ignored- https://github.com/canonical/multipass/releases/tag/v1.11.1
+(reference/release-notes/index: line   59) -ignored- https://github.com/canonical/multipass/releases/tag/v1.11.0
+(reference/release-notes/index: line   60) -ignored- https://github.com/canonical/multipass/releases/tag/v1.10.1
+(reference/release-notes/index: line   61) -ignored- https://github.com/canonical/multipass/releases/tag/v1.10.0
+(reference/release-notes/index: line   62) -ignored- https://github.com/canonical/multipass/releases/tag/v1.9.2
+(reference/release-notes/index: line   63) -ignored- https://github.com/canonical/multipass/releases/tag/v1.9.1
+(reference/release-notes/index: line   64) -ignored- https://github.com/canonical/multipass/releases/tag/v1.9.0
+(reference/release-notes/index: line   65) -ignored- https://github.com/canonical/multipass/releases/tag/v1.8.1
+(reference/release-notes/index: line   66) -ignored- https://github.com/canonical/multipass/releases/tag/v1.8.0
+(reference/release-notes/index: line   67) -ignored- https://github.com/canonical/multipass/releases/tag/v1.7.2
+(reference/release-notes/index: line   68) -ignored- https://github.com/canonical/multipass/releases/tag/v1.7.1
+(reference/release-notes/index: line   69) -ignored- https://github.com/canonical/multipass/releases/tag/v1.7.0
+(reference/release-notes/index: line   70) -ignored- https://github.com/canonical/multipass/releases/tag/v1.6.2
+(reference/release-notes/index: line   71) -ignored- https://github.com/canonical/multipass/releases/tag/v1.6.1
+(reference/release-notes/index: line   72) -ignored- https://github.com/canonical/multipass/releases/tag/v1.6.0
+(reference/release-notes/index: line   73) -ignored- https://github.com/canonical/multipass/releases/tag/v1.5.0
+(reference/release-notes/index: line   74) -ignored- https://github.com/canonical/multipass/releases/tag/v1.4.0
+(reference/release-notes/index: line   75) -ignored- https://github.com/canonical/multipass/releases/tag/v1.3.0
+(reference/release-notes/index: line   76) -ignored- https://github.com/canonical/multipass/releases/tag/v1.2.1
+(reference/release-notes/index: line   77) -ignored- https://github.com/canonical/multipass/releases/tag/v1.2.0
+(reference/release-notes/index: line   78) -ignored- https://github.com/canonical/multipass/releases/tag/v1.1.0
+(reference/release-notes/index: line   79) -ignored- https://github.com/canonical/multipass/releases/tag/v1.0.0
+(how-to-guides/customise-multipass/migrate-from-hyperkit-to-qemu-on-macos: line   35) ok        https://asciinema.org/a/556203.svg
+(contribute-to-multipass-docs: line   14) ok        https://canonical.com/documentation
+(how-to-guides/customise-multipass/migrate-from-hyperkit-to-qemu-on-macos: line   35) ok        https://asciinema.org/a/556203
+(contribute-to-multipass-docs: line   49) ok        https://canonical.com/documentation/open-documentation-academy
+(explanation/image: line   10) ok        https://cdimages.ubuntu.com/
+(explanation/image: line    9) ok        https://cloud-images.ubuntu.com/
+(reference/command-line-interface/launch: line   25) ok        https://cloud-init.io/
+(how-to-guides/troubleshoot/troubleshoot-launch-start-issues: line  274) redirect  https://askubuntu.com/a/4404 - with Found to https://askubuntu.com/questions/4396/how-do-i-mount-a-qcow2-disk-image/4404#4404
+(how-to-guides/install-multipass: line  152) -ignored- https://canonical.com/multipass/download/windows: ignored redirect: https://github.com/canonical/multipass/releases/download/v1.16.1/multipass-1.16.1+win-win64.msi
+(how-to-guides/customise-multipass/integrate-with-windows-terminal: line    4) redirect  https://aka.ms/terminal - permanently to https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=IE
+(how-to-guides/customise-multipass/build-multipass-images-with-packer: line    8) redirect  https://cloudinit.readthedocs.io/en/latest/ - with Found to https://docs.cloud-init.io/en/latest/
+(how-to-guides/customise-multipass/build-multipass-images-with-packer: line   59) redirect  https://cloudinit.readthedocs.io/en/latest/reference/modules.html - with Found to https://docs.cloud-init.io/en/latest/reference/modules.html
+(how-to-guides/install-multipass: line  131) -ignored- https://canonical.com/multipass/download/macos: ignored redirect: https://github.com/canonical/multipass/releases/download/v1.16.1/multipass-1.16.1+mac-Darwin.pkg
+(how-to-guides/troubleshoot/troubleshoot-networking: line  270) redirect  https://cloudinit.readthedocs.io/en/latest/reference/yaml_examples/resolv_conf.html - with Found to https://docs.cloud-init.io/en/latest/reference/yaml_examples/resolv_conf.html
+(contribute-to-multipass-docs: line   10) ok        https://diataxis.fr/
+(how-to-guides/customise-multipass/set-up-a-graphical-interface: line  205) ok        https://cygwin.com/
+(how-to-guides/troubleshoot/troubleshoot-launch-start-issues: line  171) redirect  https://developer.apple.com/bug-reporting/ - permanently to https://developer.apple.com/feedback-assistant/
+(reference/command-line-interface/launch: line   25) redirect  https://cloudinit.readthedocs.io/en/latest/topics/examples.html - with Found to https://docs.cloud-init.io/en/latest/reference/examples.html
+(how-to-guides/manage-instances/create-an-instance: line  118) redirect  https://cloudinit.readthedocs.io/en/latest/topics/network-config-format-v2.html - with Found to https://docs.cloud-init.io/en/latest/reference/network-config-format-v2.html
+(how-to-guides/customise-multipass/build-multipass-images-with-packer: line   61) ok        https://discourse.ubuntu.com/c/project/multipass/21/
+(reference/release-notes/1.16.0: line   61) redirect  https://discourse.ubuntu.com/c/project/multipass - permanently to https://discourse.ubuntu.com/c/project/multipass/21
+(explanation/service: line   10) ok        https://discourse.ubuntu.com/t/how-to-use-multipass-remotely/26360
+(how-to-guides/customise-multipass/set-up-a-graphical-interface: line   18) redirect  https://discourse.ubuntu.com/t/20439 - permanently to https://discourse.ubuntu.com/t/a-simple-gui-shell-for-a-multipass-vm/20439
+(contribute-to-multipass-docs: line   55) redirect  https://discourse.ubuntu.com/t/documentation-office-hours/42771 - permanently to https://discourse.ubuntu.com/t/documentation-community-hour/42771
+(reference/release-notes/index: line    4) ok        https://discourse.ubuntu.com/c/project/multipass/21/none
+(contribute-to-multipass-docs: line   10) ok        https://docs.ubuntu.com/styleguide/en/
+(contribute-to-multipass-docs: line   60) ok        https://docs.google.com/forms/d/e/1FAIpQLSd0XZDU9sbOCiljceh3rO_rkp6vazy2ZsIWgx4gsvl_Sec4Ig/viewform
+(explanation/mount: line   25) ok        https://en.wikipedia.org/wiki/9P_(protocol)
+(how-to-guides/manage-instances/create-an-instance: line  165) ok        https://en.wikipedia.org/wiki/Longest_prefix_match
+(explanation/image: line    6) ok        https://en.wikipedia.org/wiki/System_image
+(explanation/image: line    6) ok        https://en.wikipedia.org/wiki/Disk_image
+(how-to-guides/customise-multipass/use-a-different-terminal-from-the-system-icon: line   16) ok        https://formulae.brew.sh/formula/duti
+(how-to-guides/customise-multipass/set-up-the-driver: line  142) ok        https://download.sysinternals.com/files/PSTools.zip
+(reference/release-notes/1.16.0: line   52) ok        https://github.com/didrocks
+(how-to-guides/customise-multipass/integrate-with-windows-terminal: line   21) ok        https://github.com/microsoft/terminal#installing-and-running-windows-terminal
+(how-to-guides/customise-multipass/set-up-the-driver: line  142) redirect  https://docs.microsoft.com/en-us/sysinternals/downloads/psexec - permanently to https://learn.microsoft.com/en-us/sysinternals/downloads/psexec
+(reference/release-notes/1.16.0: line   54) ok        https://github.com/network-charles
+(how-to-guides/customise-multipass/use-a-different-terminal-from-the-system-icon: line   16) ok        https://github.com/moretension/duti/
+(reference/release-notes/1.16.0: line   55) ok        https://github.com/ntorresalberto
+(reference/release-notes/1.16.0: line   57) ok        https://github.com/rshrj
+(reference/release-notes/1.16.0: line   53) ok        https://github.com/xmkg
+(reference/release-notes/1.16.0: line   56) ok        https://github.com/rico33631
+(reference/command-line-interface/find: line   28) ok        https://launchpad.net/ubuntu/+series
+(explanation/mount: line   24) ok        https://learn.microsoft.com/en-us/windows/win32/fileio/microsoft-smb-protocol-and-cifs-protocol-overview
+(how-to-guides/troubleshoot/troubleshoot-launch-start-issues: line   90) ok        https://manpages.ubuntu.com/manpages/questing/en/man8/fsck.8.html
+(how-to-guides/customise-multipass/set-up-the-driver: line   80) ok        https://manpages.ubuntu.com/manpages/questing/en/man1/virsh.1.html
+(how-to-guides/troubleshoot/troubleshoot-launch-start-issues: line  272) ok        https://manpages.ubuntu.com/manpages/questing/en/man8/qemu-nbd.8.html
+(contribute-to-multipass-docs: line   37) ok        https://markdown-it.github.io/
+(reference/release-notes/1.16.0: line   61) ok        https://matrix.to/#/#multipass:ubuntu.com
+(how-to-guides/manage-instances/run-a-docker-container-in-multipass: line  203) ok        https://hub.docker.com/search?type=image
+(how-to-guides/troubleshoot/troubleshoot-networking: line  277) redirect  https://metallb.universe.tf/ - permanently to https://metallb.io/
+(how-to-guides/manage-instances/run-a-docker-container-in-multipass: line  203) ok        https://minikube.sigs.k8s.io/docs/
+(how-to-guides/customise-multipass/set-up-the-driver: line  278) ok        https://netplan.io/
+(how-to-guides/manage-instances/run-a-docker-container-in-multipass: line  203) redirect  https://microk8s.io/ - with Found to https://canonical.com/microk8s
+(how-to-guides/manage-instances/configure-static-ips: line   56) ok        https://netplan.readthedocs.io/en/stable/netplan-yaml/#properties-for-physical-device-types
+(how-to-guides/install-multipass: line   20) ok        https://snapcraft.io/docs/
+(contribute-to-multipass-docs: line   37) redirect  https://meta.discourse.org/t/supported-formatting-in-posts-markdown-bbcode-and-html/239348 - permanently to https://meta.discourse.org/t/formatting-posts-using-markdown-bbcode-and-html/239348
+(contribute-to-multipass-docs: line   37) ok        https://spec.commonmark.org/
+(explanation/mount: line   37) ok        https://snapcraft.io/docs/snap-confinement
+(contribute-to-multipass-docs: line   14) ok        https://ubuntu.com/blog/diataxis-a-new-foundation-for-canonical-documentation
+(           index: line  101) redirect  https://ubuntu.com/community/code-of-conduct - with Found to https://ubuntu.com/community/docs/ethos/code-of-conduct
+(how-to-guides/customise-multipass/set-up-the-driver: line   78) ok        https://virt-manager.org/
+(how-to-guides/customise-multipass/configure-multipass-default-logging-level: line   54) ok        https://www.google.com/search?q=vi
+(how-to-guides/install-multipass: line   20) ok        https://snapcraft.io/multipass
+(how-to-guides/manage-instances/run-a-docker-container-in-multipass: line   30) ok        https://www.portainer.io/
+(explanation/image: line   18) redirect  https://ubuntu.com/core/docs/system-requirements - with Found to https://documentation.ubuntu.com/core/system-requirements/
+(how-to-guides/install-multipass: line   40) redirect  https://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html - permanently to https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html
+(reference/command-line-interface/find: line   27) redirect  https://launchpad.net/ubuntu/devel - with See Other to https://launchpad.net/ubuntu/resolute
+(how-to-guides/customise-multipass/set-up-a-graphical-interface: line  193) ok        https://www.xquartz.org
+(contribute-to-multipass-docs: line   55) redirect  https://www.youtube.com/@UbuntuOnAir - with Found to https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2F%40UbuntuOnAir%3Fcbrd%3D1&gl=IE&m=0&pc=yt&cm=2&hl=en-GB&src=1
+(how-to-guides/install-multipass: line   20) broken    https://docs.snapcraft.io/core/install - 404 Client Error: Not Found for url: https://snapcraft.io/docs/core/install/
+(contribute-to-multipass-docs: line   55) ok        https://www.youtube.com/watch?v=GT03aSdabJE&amp;list=PL-qBHd6_LXWYefHij0dJ7c9X-Q9QfFFFa&amp;pp=iAQB
+(how-to-guides/customise-multipass/set-up-the-driver: line  190) ok        https://www.virtualbox.org/manual/ch06.html#natforward
+(how-to-guides/customise-multipass/set-up-the-driver: line  250) ok        https://www.virtualbox.org/manual/ch06.html#network_bridged
+sphinx-sitemap: No pages generated for sitemap.xml
+build finished with problems, 107 warnings.
+how-to-guides/install-multipass.md:20: [broken] https://docs.snapcraft.io/core/install: 404 Client Error: Not Found for url: https://snapcraft.io/docs/core/install/
+make: *** [Makefile:149: linkcheck] Error 1
