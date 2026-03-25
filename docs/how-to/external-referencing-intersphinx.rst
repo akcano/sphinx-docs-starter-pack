@@ -18,6 +18,7 @@ In the ``conf.py`` file in your docs directory, add or enable ``sphinx.ext.inter
    :caption: conf.py
 
    extensions = [
+      ...
        "sphinx.ext.intersphinx",
        ]
 
