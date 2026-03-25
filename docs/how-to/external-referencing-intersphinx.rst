@@ -1,5 +1,8 @@
 .. _how-to-external-referencing-intersphinx:
 
+.. meta::
+   :description: Configure references to external Sphinx projects with the Intersphinx extension.
+
 Link to external references with Intersphinx
 ============================================
 
