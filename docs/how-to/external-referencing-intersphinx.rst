@@ -51,6 +51,27 @@ unique label. To access the file, run::
 
     python -m sphinx.ext.intersphinx https://example.com/objects.inv
 
+The output lists the different pages and their labels: 
+
+..terminal::
+
+lrd:doc
+    explanation/faq                          FAQ                                     : explanation/faq/
+    explanation/index                        Explanation                             : explanation/
+    explanation/mode-of-operation            How Chisel works                        : explanation/mode-of-operation/
+lrd:label
+    chise_faq                                FAQ                                     : explanation/faq/#chise-faq
+    chisel-releases_ref                      chisel-releases                         : reference/chisel-releases/#chisel-releases-ref
+    chisel_helloworld_tutorial               Getting started with Chisel             : tutorial/getting-started/#chisel-helloworld-tutorial
+std:doc
+    explanation/faq                          FAQ                                     : explanation/faq/
+    explanation/index                        Explanation                             : explanation/
+    explanation/mode-of-operation            How Chisel works                        : explanation/mode-of-operation/
+std:label
+    chise_faq                                FAQ                                     : explanation/faq/#chise-faq
+    chisel-releases_ref                      chisel-releases                         : reference/chisel-releases/#chisel-releases-ref
+    chisel_helloworld_tutorial               Getting started with Chisel             : tutorial/getting-started/#chisel-helloworld-tutorial
+
 The appropriate labels are under ``std:label``.
 
 Add references to the text
