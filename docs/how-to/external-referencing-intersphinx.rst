@@ -1,10 +1,10 @@
 .. meta::
    :description: Configure references to external Sphinx projects with the Intersphinx extension.
 
-.. _how-to-external-referencing-intersphinx:
+.. _how-to-link-docs-intersphinx:
 
-Link to external references with Intersphinx
-============================================
+Link to other documentation sets with Intersphinx
+=================================================
 
 This guide provides instructions on how to set up external references using the Intersphinx extension. 
 Linking to external Sphinx-based documentation sets via hyperlinks is difficult to maintain. 
