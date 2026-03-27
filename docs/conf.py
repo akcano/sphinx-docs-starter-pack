@@ -27,6 +27,14 @@ import yaml
 project = "Documentation starter pack"
 author = "Canonical Ltd."
 
+# The year in the copyright statement defaults to the current year, so
+# individual document versions show when they were built.
+# TODO: If the date must be a range, like in a software license, replace 
+# 2026 with the starting year of development and use:
+#
+# copyright = f"2026-{datetime.date.today().year}"
+
+copyright = f"{datetime.date.today().year}"
 
 # Sidebar documentation title; best kept reasonably short
 #
@@ -35,32 +43,6 @@ author = "Canonical Ltd."
 # TODO: To disable the title, set to an empty string.
 
 html_title = project + " documentation"
-
-
-# Copyright string; shown at the bottom of the page
-#
-# Now, the starter pack uses CC-BY-SA as the license
-# and the current year as the copyright year.
-#
-# TODO: If your docs need another license, specify it instead of 'CC-BY-SA'.
-#
-# TODO: If your documentation is a part of the code repository of your project,
-#       it inherits the code license instead; specify it instead of 'CC-BY-SA'.
-#
-# NOTE: For static works, it is common to provide the first publication year.
-#       Another option is to provide both the first year of publication
-#       and the current year, especially for docs that frequently change,
-#       e.g. 2022–2023 (note the en-dash).
-#
-#       A way to check a repo's creation date is to get a classic GitHub token
-#       with 'repo' permissions; see https://github.com/settings/tokens
-#       Next, use 'curl' and 'jq' to extract the date from the API's output:
-#
-#       curl -H 'Authorization: token <TOKEN>' \
-#         -H 'Accept: application/vnd.github.v3.raw' \
-#         https://api.github.com/repos/canonical/<REPO> | jq '.created_at'
-
-copyright = "%s CC-BY-SA, %s" % (datetime.date.today().year, author)
 
 
 # Documentation website URL
@@ -151,6 +133,26 @@ html_context = {
 
     # Required for feedback button    
     'github_issues': 'enabled',
+
+    # Inherit the author value
+    "author": author,
+
+    # The starter pack uses CC-BY-SA as the license
+    #
+    # TODO: If your docs need another license, specify it instead of 'CC-BY-SA'.
+    # For the name, we recommend using the standard shorthand identifier from
+    # https://spdx.org/licenses
+    #
+    # For the URL, link directly to the license statement, typically found on
+    # the product's home page or in its GitHub project.
+    #
+    # TODO: If your documentation is a part of the code repository of your project,
+    #       it inherits the code license instead; specify it instead of 'CC-BY-SA'.
+
+    "license": {
+        "name": "CC-BY-SA-3.0",
+        "url": "https://github.com/canonical/sphinx-docs-starter-pack/blob/main/LICENSE",
+    },
 }
 
 html_extra_path = []
