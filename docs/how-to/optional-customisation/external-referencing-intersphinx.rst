@@ -25,7 +25,7 @@ In the ``conf.py`` file in your docs directory, add or enable ``sphinx.ext.inter
        "sphinx.ext.intersphinx",
        ]
 
-In the ``conf.py`` file, connect to the other project in the ``intersphinx_mapping``
+Then, connect to the other project in the ``intersphinx_mapping``
 setting:
 
 .. code-block:: python
