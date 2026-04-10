@@ -9,7 +9,7 @@ Link to other documentation sets with Intersphinx
 This guide provides instructions on how to set up external references using the Intersphinx extension. 
 Linking to external Sphinx-based documentation sets via hyperlinks is difficult to maintain. 
 Intersphinx provides a more robust alternative, linking to sections of other Sphinx projects based on 
-labels mapped out in an inventory list ``objects.inv``. To effectively use Intersphinx, sections in 
+labels mapped out in an inventory list as ``objects.inv``. To effectively use Intersphinx, sections in 
 the target documentation set must have labels.
 
 Configure the extension
