@@ -9,6 +9,7 @@
 * Skip pa11y installation if it is already present
 * Update `CONTRIBUTING.md` to include versioning and breaking changes policy 
 * Remove extensions deprecated in 2.0
+* Replace remote documentation checks in CI
 
 ### Changed
 
@@ -16,9 +17,9 @@
 * `docs/Makefile` [#605](https://github.com/canonical/sphinx-stack/pull/605), [#610](https://github.com/canonical/sphinx-stack/pull/610), [#627](https://github.com/canonical/sphinx-stack/pull/627), [#628](https://github.com/canonical/sphinx-stack/pull/628)
 * `docs/requirements.txt` [#634](https://github.com/canonical/sphinx-stack/pull/634), [#646](https://github.com/canonical/sphinx-stack/pull/646)
 * `README.md` [#603](https://github.com/canonical/sphinx-stack/pull/603)
+* `.github/workflows/automatic-doc-checks.yml` [#642](https://github.com/canonical/sphinx-stack/pull/642)
 * `.github/workflows/cla-check.yml` [#606](https://github.com/canonical/sphinx-stack/pull/606)
 * `.github/workflows/check-removed-urls.yml` [#612](https://github.com/canonical/sphinx-stack/pull/#612)
-* `CONTRIBUTING.md` [#632](https://github.com/canonical/sphinx-stack/pull/632)
 
 ## 2.0
 
